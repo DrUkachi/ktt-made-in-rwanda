@@ -1,35 +1,70 @@
 #!/usr/bin/env python3
 """
 recommender.py — 'Made in Rwanda' content-based niche-first recommender.
+Embedding backend: paraphrase-multilingual-MiniLM-L12-v2 (sentence-transformers).
 
 Usage:
     python recommender.py --q 'leather boots'
     python recommender.py --q 'cadeau en cuir pour femme' --n 5
-    python recommender.py --q 'agaseke basket gift' --threshold 0.05
+    python recommender.py --q 'agaseke basket gift' --threshold 0.25
 """
 
 import argparse
+import contextlib
+import io
+import logging
+import os
 import time
-import unicodedata
+import warnings
 from pathlib import Path
 from typing import Dict, List, Optional
 
+# ---- silence HF Hub noise BEFORE importing sentence_transformers ----
+# HF_HUB_OFFLINE is read at huggingface_hub import time, so it must be set here.
+# We only go offline when the model is already in the local cache so that a
+# first-run download still works normally.
+_HF_CACHE = Path.home() / ".cache" / "huggingface" / "hub"
+_MODEL_CACHE_DIR = "models--paraphrase-multilingual-MiniLM-L12-v2"
+if (_HF_CACHE / _MODEL_CACHE_DIR).exists():
+    os.environ["HF_HUB_OFFLINE"] = "1"
+
+os.environ.setdefault("HF_HUB_DISABLE_SYMLINKS_WARNING", "1")
+os.environ.setdefault("HF_HUB_DISABLE_PROGRESS_BARS", "1")
+os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
+os.environ.setdefault("TRANSFORMERS_VERBOSITY", "error")
+
 import numpy as np
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
+with warnings.catch_warnings():
+    warnings.simplefilter("ignore")
+    from sentence_transformers import SentenceTransformer
+
+logging.getLogger("transformers").setLevel(logging.ERROR)
+logging.getLogger("sentence_transformers").setLevel(logging.ERROR)
+logging.getLogger("huggingface_hub").setLevel(logging.ERROR)
+
+
+@contextlib.contextmanager
+def _quiet():
+    """Redirect stdout+stderr to /dev/null for the duration of the block."""
+    sink = io.StringIO()
+    with contextlib.redirect_stdout(sink), contextlib.redirect_stderr(sink):
+        yield
+
 
 CATALOG_PATH = Path(__file__).parent / "catalog.csv"
 CLICK_LOG_PATH = Path(__file__).parent / "click_log.csv"
+CACHE_PATH = Path(__file__).parent / ".embedding_cache.npz"
 
-# Minimum cosine similarity for a result to count as a "good" local match.
-# Below this threshold we inject a curated fallback to guarantee local presence.
-SIMILARITY_THRESHOLD = 0.10
+# Model: multilingual MiniLM — handles EN, FR, Kinyarwanda code-switching natively.
+# ~120 MB download, cached after first run.
+MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
 
-# Fairness cap (stretch goal): no single artisan fills more than this fraction
-# of the top-10 slots for any query.
+# Sentence embeddings produce much higher cosine scores than TF-IDF sparse vectors,
+# so the fallback threshold is calibrated accordingly.
+SIMILARITY_THRESHOLD = 0.25
+
 ARTISAN_CAP_FRACTION = 0.15
-
 TOP_N_DEFAULT = 5
 
 
@@ -37,18 +72,18 @@ TOP_N_DEFAULT = 5
 # Helpers
 # ---------------------------------------------------------------------------
 
-def _build_text(df: pd.DataFrame) -> pd.Series:
-    """Concatenate text fields used for TF-IDF indexing."""
+def _build_text(df: pd.DataFrame) -> List[str]:
+    """Concatenate text fields into one string per product for embedding."""
     return (
         df["title"].fillna("") + " "
         + df["description"].fillna("") + " "
         + df["category"].fillna("") + " "
         + df["material"].fillna("")
-    )
+    ).tolist()
 
 
 def _load_popularity(click_log_path: Path, catalog: pd.DataFrame) -> np.ndarray:
-    """Return a normalised popularity score (0–1) per catalog row from click counts."""
+    """Return a normalised (0–1) popularity score per catalog row from click counts."""
     try:
         clicks = pd.read_csv(click_log_path)
         counts = clicks["clicked_sku"].value_counts()
@@ -61,7 +96,8 @@ def _load_popularity(click_log_path: Path, catalog: pd.DataFrame) -> np.ndarray:
     return pop
 
 
-# Category keyword map for fallback injection — covers EN, FR, Kinyarwanda hints
+# Category keyword map — used for fallback injection; kept broad to cover
+# EN, FR, and common Kinyarwanda terms.
 _CATEGORY_KEYWORDS: Dict[str, List[str]] = {
     "leather": [
         "leather", "cuir", "lether", "bag", "sac", "boot", "botte",
@@ -90,118 +126,6 @@ _CATEGORY_KEYWORDS: Dict[str, List[str]] = {
 }
 
 
-# ---------------------------------------------------------------------------
-# French → English query normalisation
-# ---------------------------------------------------------------------------
-
-# Domain-specific FR→EN term map covering the five product categories.
-# Keys are lowercase French tokens (accented and de-accented where they differ).
-_FR_TO_EN: Dict[str, str] = {
-    # leather & accessories
-    "cuir":          "leather",
-    "maroquinerie":  "leather",
-    "sac":           "bag",
-    "sacoche":       "bag",
-    "bottes":        "boots",
-    "botte":         "boots",
-    "chaussures":    "shoes",
-    "chaussure":     "shoes",
-    "sandales":      "sandals",
-    "sandale":       "sandals",
-    "portefeuille":  "wallet",
-    "ceinture":      "belt",
-    # apparel
-    "vetements":     "apparel",
-    "vetement":      "apparel",
-    "chemise":       "shirt",
-    "robe":          "dress",
-    "jupe":          "skirt",
-    "pantalon":      "trousers",
-    "foulard":       "scarf",
-    "echarpe":       "scarf",
-    "tissu":         "fabric",
-    "coton":         "cotton",
-    "soie":          "silk",
-    "lin":           "linen",
-    "mode":          "fashion",
-    # basketry
-    "panier":        "basket",
-    "corbeille":     "basket",
-    "vannerie":      "basketry",
-    "tresse":        "woven",
-    "raphia":        "raffia",
-    # jewellery
-    "bijou":         "jewellery",
-    "bijoux":        "jewellery",
-    "collier":       "necklace",
-    "bague":         "ring",
-    "pendentif":     "pendant",
-    "perle":         "bead",
-    "laiton":        "brass",
-    "boucle":        "earring",
-    # home-decor
-    "maison":        "home",
-    "decoration":    "decor",
-    "bol":           "bowl",
-    "saladier":      "bowl",
-    "bougie":        "candle",
-    "coussin":       "cushion",
-    "cadre":         "frame",
-    "ceramique":     "ceramic",
-    "verre":         "glass",
-    "bois":          "wood",
-    # common modifiers / descriptors
-    "cadeau":        "gift",
-    "femme":         "woman",
-    "homme":         "man",
-    "enfant":        "child",
-    "artisanal":     "artisan",
-    "artisanale":    "artisan",
-    "traditionnel":  "traditional",
-    "traditionnelle":"traditional",
-    "naturel":       "natural",
-    "naturelle":     "natural",
-    "grand":         "large",
-    "grande":        "large",
-    "petit":         "small",
-    "petite":        "small",
-    "tisse":         "woven",
-    "brode":         "embroidered",
-    "sculpte":       "carved",
-    "peint":         "painted",
-}
-
-
-def _strip_accents(s: str) -> str:
-    """Remove combining diacritical marks (é→e, â→a, etc.)."""
-    return "".join(
-        c for c in unicodedata.normalize("NFD", s)
-        if unicodedata.category(c) != "Mn"
-    )
-
-
-def _normalize_query(query: str) -> str:
-    """
-    Translate known French product tokens to their English catalog equivalents.
-
-    Strategy: replace token-by-token using _FR_TO_EN, trying the raw lowercased
-    token first and the de-accented form second.  Unknown tokens (including
-    French stopwords and Kinyarwanda terms) are kept as-is, so code-switched
-    queries like 'agaseke basket cadeau' still work without any loss.
-
-    Examples:
-        'cadeau en cuir pour femme'  →  'gift en leather pour woman'
-        'bottes sandale cuir'        →  'boots sandals leather'
-        'agaseke basket cadeau'      →  'agaseke basket gift'
-    """
-    out: List[str] = []
-    for tok in query.lower().split():
-        clean = _strip_accents(tok)
-        en = _FR_TO_EN.get(tok) or _FR_TO_EN.get(clean)
-        out.append(en if en else tok)
-    return " ".join(out)
-
-
 def _guess_category(query: str) -> Optional[str]:
     """Return the most likely catalog category for `query`, or None."""
     q = query.lower()
@@ -217,21 +141,19 @@ def _guess_category(query: str) -> Optional[str]:
 
 class MadeInRwandaRecommender:
     """
-    Content-based 'niche-first' recommender for Made-in-Rwanda products.
+    Content-based 'niche-first' recommender using multilingual sentence embeddings.
 
     Algorithm
     ---------
-    1. TF-IDF (unigram + bigram, sublinear TF, unicode accent stripping)
-       built over: title + description + category + material.
-    2. Cosine similarity gives the base relevance score per query.
-    3. A 10% popularity blend (from click_log) breaks ties between
-       equally-matched products.
-    4. Local-boost: if the highest similarity score is below
-       `similarity_threshold`, no catalog product is a strong semantic match.
-       We inject the most-clicked product in the best-guess category at
-       position 1 to guarantee a local product always appears at the top.
-    5. Fairness cap (stretch goal): no single artisan occupies more than 15%
-       of the top-K returned slots.
+    1. At init, encode all catalog texts with paraphrase-multilingual-MiniLM-L12-v2
+       and cache the resulting matrix to disk (.embedding_cache.npz).
+       Subsequent runs load the cache and skip re-encoding (~2s → <0.1s).
+    2. At query time, encode the query string (single forward pass, ~20–80 ms CPU).
+    3. Cosine similarity between the query embedding and all catalog embeddings.
+    4. Blend with a 10% click-log popularity signal to break ties.
+    5. Local-boost: if top similarity < threshold, inject the most-clicked product
+       in the best-guess category as rank 1.
+    6. Fairness cap: no artisan occupies > 15% of the top-K returned slots.
     """
 
     def __init__(
@@ -239,28 +161,43 @@ class MadeInRwandaRecommender:
         catalog_path: Path = CATALOG_PATH,
         click_log_path: Path = CLICK_LOG_PATH,
         similarity_threshold: float = SIMILARITY_THRESHOLD,
+        cache_path: Path = CACHE_PATH,
     ):
         self.similarity_threshold = similarity_threshold
         self.catalog = pd.read_csv(catalog_path)
         self._popularity = _load_popularity(click_log_path, self.catalog)
-        self._build_tfidf_index()
+        with _quiet(), warnings.catch_warnings():
+            warnings.simplefilter("ignore")
+            self._model = SentenceTransformer(MODEL_NAME)
+        self._catalog_embeddings = self._load_or_build_embeddings(cache_path)
         self._curated: Dict[str, int] = self._build_curated_fallbacks()
 
     # ------------------------------------------------------------------
-    # Index construction
+    # Embedding index
     # ------------------------------------------------------------------
 
-    def _build_tfidf_index(self) -> None:
+    def _load_or_build_embeddings(self, cache_path: Path) -> np.ndarray:
         texts = _build_text(self.catalog)
-        self.vectorizer = TfidfVectorizer(
-            analyzer="word",
-            ngram_range=(1, 2),
-            min_df=1,
-            sublinear_tf=True,        # log(1+tf) dampens very frequent terms
-            strip_accents="unicode",  # normalise accented chars (French queries)
-            token_pattern=r"(?u)\b\w+\b",
+
+        if cache_path.exists():
+            data = np.load(cache_path)
+            # Invalidate cache if catalog size changed
+            if data["embeddings"].shape[0] == len(texts):
+                return data["embeddings"]
+
+        print(f"Building embedding index for {len(texts)} products… ", end="", flush=True)
+        t0 = time.perf_counter()
+        embeddings = self._model.encode(
+            texts,
+            batch_size=64,
+            show_progress_bar=False,
+            convert_to_numpy=True,
+            normalize_embeddings=True,   # unit vectors → dot product == cosine sim
         )
-        self.tfidf_matrix = self.vectorizer.fit_transform(texts)
+        elapsed = time.perf_counter() - t0
+        np.savez(cache_path, embeddings=embeddings)
+        print(f"done ({elapsed:.1f}s). Cached to {cache_path.name}")
+        return embeddings
 
     def _build_curated_fallbacks(self) -> Dict[str, int]:
         """Pre-select the highest-popularity catalog index per category."""
@@ -268,8 +205,7 @@ class MadeInRwandaRecommender:
         for cat in self.catalog["category"].unique():
             mask = self.catalog["category"] == cat
             idxs = self.catalog.index[mask].tolist()
-            pops = self._popularity[idxs]
-            fallbacks[cat] = idxs[int(np.argmax(pops))]
+            fallbacks[cat] = idxs[int(np.argmax(self._popularity[idxs]))]
         return fallbacks
 
     # ------------------------------------------------------------------
@@ -279,10 +215,6 @@ class MadeInRwandaRecommender:
     def _apply_fairness_cap(
         self, ranked: List[int], k: int, max_per_artisan: int
     ) -> List[int]:
-        """
-        Re-order `ranked` so no artisan_id appears more than `max_per_artisan`
-        times in the first `k` positions.  Overflow items are moved to the back.
-        """
         artisan_counts: Dict[str, int] = {}
         accepted: List[int] = []
         deferred: List[int] = []
@@ -298,7 +230,6 @@ class MadeInRwandaRecommender:
             if len(accepted) == k:
                 break
 
-        # Back-fill from deferred in their original order
         for idx in deferred:
             if len(accepted) >= k:
                 break
@@ -318,24 +249,27 @@ class MadeInRwandaRecommender:
         """
         Return top-n local recommendations for `query`.
 
-        Returns a DataFrame (1-based rank as index) with columns:
-          sku, title, category, material, origin_district,
-          price_rwf, artisan_id, similarity, fallback_injected
+        Columns: sku, title, category, material, origin_district,
+                 price_rwf, artisan_id, similarity, fallback_injected
         """
-        # 1. Normalise French tokens → English before TF-IDF
-        normalized = _normalize_query(query)
+        # 1. Encode query (the model handles EN/FR/Kinyarwanda natively)
+        q_emb = self._model.encode(
+            [query],
+            convert_to_numpy=True,
+            normalize_embeddings=True,
+            show_progress_bar=False,
+        )
 
-        # 2. TF-IDF similarity against the full catalog
-        q_vec = self.vectorizer.transform([normalized])
-        sims: np.ndarray = cosine_similarity(q_vec, self.tfidf_matrix).flatten()
+        # 2. Cosine similarity (dot product because embeddings are unit-normalised)
+        sims: np.ndarray = (self._catalog_embeddings @ q_emb.T).flatten()
 
-        # 3. Blend with popularity: 90% relevance, 10% popularity
+        # 3. Blend with popularity: 90% semantic, 10% popularity
         blended: np.ndarray = 0.90 * sims + 0.10 * self._popularity
 
-        # 4. Sort descending by blended score
+        # 4. Sort descending
         ranked: List[int] = np.argsort(-blended).tolist()
 
-        # 5. Local-boost: if the best match is weak, inject a curated fallback
+        # 5. Local-boost: inject curated fallback when no strong match exists
         fallback_at_top = False
         top_sim = float(sims[ranked[0]])
         if top_sim < self.similarity_threshold:
@@ -347,12 +281,12 @@ class MadeInRwandaRecommender:
                 ranked.insert(0, fb_idx)
                 fallback_at_top = True
 
-        # 6. Fairness cap over max(n, 10) candidates (stretch goal)
+        # 6. Fairness cap over max(n, 10) candidates
         k = max(n, 10)
         max_slots = max(1, int(k * ARTISAN_CAP_FRACTION))
         capped = self._apply_fairness_cap(ranked, k=k, max_per_artisan=max_slots)
 
-        # 7. Slice to n results
+        # 7. Slice to n
         result_idxs = capped[:n]
         result = self.catalog.iloc[result_idxs].copy()
         result["similarity"] = sims[result_idxs]
@@ -361,7 +295,7 @@ class MadeInRwandaRecommender:
             result.iloc[0, result.columns.get_loc("fallback_injected")] = True
 
         result = result.reset_index(drop=True)
-        result.index = result.index + 1  # 1-based rank
+        result.index = result.index + 1
         result.index.name = "rank"
 
         return result[[
@@ -382,9 +316,8 @@ def _print_results(results: pd.DataFrame, query: str, elapsed_ms: float) -> None
         f"{'#':<3} {'SKU':<10} {'Title':<38} {'Category':<12} "
         f"{'RWF':>8}  {'District':<14} {'Sim':>5}  Note"
     )
-    sep = "-" * len(header)
     print(header)
-    print(sep)
+    print("-" * len(header))
     for rank, row in results.iterrows():
         title = str(row["title"])
         if len(title) > 36:
@@ -400,43 +333,32 @@ def _print_results(results: pd.DataFrame, query: str, elapsed_ms: float) -> None
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Made in Rwanda — niche-first content recommender",
+        description="Made in Rwanda — niche-first recommender (multilingual embeddings)",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""Examples:
   python recommender.py --q 'leather boots'
-  python recommender.py --q 'cadeau en cuir pour femme' --n 5
-  python recommender.py --q 'agaseke basket gift' --threshold 0.05
+  python recommender.py --q 'cadeau en cuir pour femme'
+  python recommender.py --q 'agaseke basket gift' --threshold 0.2
 """,
     )
-    parser.add_argument(
-        "--q", required=True, metavar="QUERY",
-        help="Search query (quote multi-word queries)",
-    )
-    parser.add_argument(
-        "--n", type=int, default=TOP_N_DEFAULT, metavar="N",
-        help=f"Number of results to return (default: {TOP_N_DEFAULT})",
-    )
-    parser.add_argument(
-        "--threshold", type=float, default=SIMILARITY_THRESHOLD, metavar="T",
-        help=(
-            f"Min cosine similarity before curated fallback is injected "
-            f"(default: {SIMILARITY_THRESHOLD})"
-        ),
-    )
-    parser.add_argument(
-        "--catalog", default=str(CATALOG_PATH), metavar="PATH",
-        help="Path to catalog CSV",
-    )
-    parser.add_argument(
-        "--clicks", default=str(CLICK_LOG_PATH), metavar="PATH",
-        help="Path to click_log CSV",
-    )
+    parser.add_argument("--q", required=True, metavar="QUERY",
+                        help="Search query")
+    parser.add_argument("--n", type=int, default=TOP_N_DEFAULT, metavar="N",
+                        help=f"Number of results (default: {TOP_N_DEFAULT})")
+    parser.add_argument("--threshold", type=float, default=SIMILARITY_THRESHOLD,
+                        metavar="T",
+                        help=f"Min similarity before fallback kicks in (default: {SIMILARITY_THRESHOLD})")
+    parser.add_argument("--catalog", default=str(CATALOG_PATH), metavar="PATH")
+    parser.add_argument("--clicks", default=str(CLICK_LOG_PATH), metavar="PATH")
+    parser.add_argument("--cache", default=str(CACHE_PATH), metavar="PATH",
+                        help="Path to embedding cache (.npz)")
     args = parser.parse_args()
 
     rec = MadeInRwandaRecommender(
         catalog_path=Path(args.catalog),
         click_log_path=Path(args.clicks),
         similarity_threshold=args.threshold,
+        cache_path=Path(args.cache),
     )
 
     t0 = time.perf_counter()
