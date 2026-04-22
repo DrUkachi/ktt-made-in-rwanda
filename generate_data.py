@@ -2,9 +2,9 @@
 Synthetic Data Generator for 'Made in Rwanda' Content Recommender
 =================================================================
 Generates three CSV files:
-  - catalog.csv:   430 products × {sku, title, description, category, material,
+  - catalog.csv:   440 products × {sku, title, description, category, material,
                    origin_district, price_rwf, artisan_id, is_local}
-                   (400 local Rwandan artisan products + 30 international brands)
+                   (400 local synthetic + 12 real Rwandan brands [30%] + 28 international brands [70%])
   - queries.csv:   120 anonymised search queries with a 'global_best_match' baseline SKU
                    (global_best_match points to international brands where they compete)
   - click_log.csv: 5,000 synthetic click events with position-bias noise
@@ -204,13 +204,6 @@ INTERNATIONAL_PRODUCTS = [
         "category": "apparel", "material": "silk",
         "origin_district": "", "price_rwf": 28000, "artisan_id": "", "is_local": False,
     },
-    {
-        "sku": "INTL-A006",
-        "title": "Primark cotton headwrap women",
-        "description": "Stretch cotton headwrap in bold solid colours, one size fits all.",
-        "category": "apparel", "material": "cotton",
-        "origin_district": "", "price_rwf": 5000, "artisan_id": "", "is_local": False,
-    },
     # basketry (4)
     {
         "sku": "INTL-B001",
@@ -225,13 +218,6 @@ INTERNATIONAL_PRODUCTS = [
         "description": "Hand-woven fruit bowl for kitchen countertop display, sturdy and decorative.",
         "category": "basketry", "material": "sweetgrass",
         "origin_district": "", "price_rwf": 20000, "artisan_id": "", "is_local": False,
-    },
-    {
-        "sku": "INTL-B003",
-        "title": "Amazon Basics woven placemat set 4",
-        "description": "Set of 4 woven placemats, easy to wipe clean, heat resistant up to 120 degrees.",
-        "category": "basketry", "material": "raffia",
-        "origin_district": "", "price_rwf": 9000, "artisan_id": "", "is_local": False,
     },
     {
         "sku": "INTL-B004",
@@ -325,6 +311,102 @@ INTERNATIONAL_PRODUCTS = [
         "description": "Pendant lamp shade in natural bamboo weave, creates warm diffused light effect.",
         "category": "home-decor", "material": "bamboo",
         "origin_district": "", "price_rwf": 19000, "artisan_id": "", "is_local": False,
+    },
+]
+
+# ─── Real Made-in-Rwanda brand products ──────────────────────────────
+# Three verified Rwandan companies hardcoded for demo authenticity.
+# Inzuki Designs: jewelry + weaving cooperative (Teta Isibo, Kigali)
+# UZURI K&Y: eco-friendly footwear (Kevine Kagirimpundu & Yvette Shimwe, Kigali)
+# Sina Gerard / Urwibutso: artisanal food gifts (Nyabihu) — framed as gift sets
+REAL_BRAND_PRODUCTS = [
+    # ── Inzuki Designs ───────────────────────────────────────────────
+    {
+        "sku": "INZUKI-J001",
+        "title": "Inzuki Designs beaded necklace handmade Rwanda",
+        "description": "Handmade statement beaded necklace by Inzuki Designs, crafted by a women's cooperative using traditional Rwandan weaving skills and vibrant natural-dyed beads.",
+        "category": "jewellery", "material": "beads",
+        "origin_district": "Gasabo", "price_rwf": 18000, "artisan_id": "INZUKI", "is_local": True,
+    },
+    {
+        "sku": "INZUKI-J002",
+        "title": "Inzuki Designs beaded earrings drop colourful",
+        "description": "Lightweight drop earrings handcrafted by Inzuki Designs artisans, featuring colourful beads and inspired by traditional Rwandan patterns. Empowers local women's cooperatives.",
+        "category": "jewellery", "material": "beads",
+        "origin_district": "Gasabo", "price_rwf": 9500, "artisan_id": "INZUKI", "is_local": True,
+    },
+    {
+        "sku": "INZUKI-J003",
+        "title": "Inzuki Designs woven bracelet accessories Rwanda",
+        "description": "Woven bracelet accessory from Inzuki Designs combining traditional Rwandan weaving technique with vibrant colour palettes. Each piece is unique and handmade.",
+        "category": "jewellery", "material": "beads",
+        "origin_district": "Gasabo", "price_rwf": 7000, "artisan_id": "INZUKI", "is_local": True,
+    },
+    {
+        "sku": "INZUKI-B001",
+        "title": "Inzuki Designs agaseke peace basket woven",
+        "description": "Traditional Rwandan agaseke peace basket handwoven by Inzuki Designs cooperative artisans using sweetgrass and natural dyes. A symbol of unity, ideal as a gift.",
+        "category": "basketry", "material": "sweetgrass",
+        "origin_district": "Gasabo", "price_rwf": 25000, "artisan_id": "INZUKI", "is_local": True,
+    },
+    {
+        "sku": "INZUKI-H001",
+        "title": "Inzuki Designs woven wall hanging interior decor",
+        "description": "Decorative woven wall hanging by Inzuki Designs, blending traditional Rwandan geometric patterns with contemporary interior décor. Handmade by women artisans.",
+        "category": "home-decor", "material": "banana-bark",
+        "origin_district": "Gasabo", "price_rwf": 32000, "artisan_id": "INZUKI", "is_local": True,
+    },
+    # ── UZURI K&Y ────────────────────────────────────────────────────
+    {
+        "sku": "UZURI-L001",
+        "title": "UZURI K&Y eco leather sandals women Rwanda",
+        "description": "Eco-friendly leather sandals handmade in Rwanda by UZURI K&Y, using sustainably sourced leather. Open-toe design with adjustable straps and cushioned footbed.",
+        "category": "leather", "material": "vegetable-tanned-leather",
+        "origin_district": "Nyarugenge", "price_rwf": 38000, "artisan_id": "UZURI", "is_local": True,
+    },
+    {
+        "sku": "UZURI-L002",
+        "title": "UZURI K&Y sustainable leather boots handmade Kigali",
+        "description": "Sustainable leather boots crafted in Kigali by UZURI K&Y founders Kevine and Yvette. Vegetable-tanned leather, rubber sole, built to last. Rwanda-made footwear at its finest.",
+        "category": "leather", "material": "vegetable-tanned-leather",
+        "origin_district": "Nyarugenge", "price_rwf": 72000, "artisan_id": "UZURI", "is_local": True,
+    },
+    {
+        "sku": "UZURI-L003",
+        "title": "UZURI K&Y handmade leather shoes men Rwanda",
+        "description": "Men's leather shoes handmade in Rwanda by UZURI K&Y. Eco-conscious production, genuine leather upper, leather lining, durable rubber outsole. Smart casual style.",
+        "category": "leather", "material": "cow-leather",
+        "origin_district": "Nyarugenge", "price_rwf": 58000, "artisan_id": "UZURI", "is_local": True,
+    },
+    # ── Inzuki Designs — apparel ─────────────────────────────────────
+    {
+        "sku": "INZUKI-A001",
+        "title": "Inzuki Designs kitenge headwrap African print",
+        "description": "Vibrant kitenge headwrap by Inzuki Designs, handcrafted in bold African prints. A staple of Rwandan fashion, made by women artisans empowered through the cooperative.",
+        "category": "apparel", "material": "kitenge-fabric",
+        "origin_district": "Gasabo", "price_rwf": 6500, "artisan_id": "INZUKI", "is_local": True,
+    },
+    # ── Sina Gerard / Urwibutso Enterprise ───────────────────────────
+    {
+        "sku": "SINAG-H001",
+        "title": "Urwibutso artisanal chili sauce gift set Rwanda",
+        "description": "Gift set of three award-winning Rwandan chili sauces by Sina Gerard / Urwibutso Enterprise, supporting local farmers. Bold, authentic flavours — a uniquely Rwandan gift.",
+        "category": "home-decor", "material": "banana-bark",
+        "origin_district": "Nyabihu", "price_rwf": 12000, "artisan_id": "SINAG", "is_local": True,
+    },
+    {
+        "sku": "SINAG-H002",
+        "title": "Urwibutso banana wine gift Rwanda traditional",
+        "description": "Traditionally fermented Rwandan banana wine (urwagwa) bottled by Urwibutso Enterprise. Presented in a handwoven banana-bark gift box. A true taste of Rwandan culture.",
+        "category": "home-decor", "material": "banana-bark",
+        "origin_district": "Nyabihu", "price_rwf": 8500, "artisan_id": "SINAG", "is_local": True,
+    },
+    {
+        "sku": "SINAG-H003",
+        "title": "Urwibutso fruit juice assorted gift Rwanda",
+        "description": "Assorted Rwandan fruit juice gift set by Urwibutso Enterprise, made from locally grown tropical fruits. Supports smallholder farmers across Rwanda. Presented in a woven tray.",
+        "category": "home-decor", "material": "banana-bark",
+        "origin_district": "Nyabihu", "price_rwf": 9500, "artisan_id": "SINAG", "is_local": True,
     },
 ]
 
@@ -425,7 +507,8 @@ def generate_catalog(artisans, n=400):
 
     random.shuffle(products)
 
-    # Append international brand products (not shuffled in — kept at end for traceability)
+    # Append real Rwandan brand products then international brands
+    products.extend(REAL_BRAND_PRODUCTS)
     products.extend(INTERNATIONAL_PRODUCTS)
 
     return products
