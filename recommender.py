@@ -87,7 +87,7 @@ def _load_popularity(click_log_path: Path, catalog: pd.DataFrame) -> np.ndarray:
     try:
         clicks = pd.read_csv(click_log_path)
         counts = clicks["clicked_sku"].value_counts()
-        pop = catalog["sku"].map(counts).fillna(0).to_numpy(dtype=float)
+        pop = catalog["sku"].map(counts).fillna(0).to_numpy(dtype=float).copy()
     except Exception:
         pop = np.zeros(len(catalog), dtype=float)
     max_c = pop.max()
@@ -151,8 +151,9 @@ class MadeInRwandaRecommender:
     2. At query time, encode the query string (single forward pass, ~20–80 ms CPU).
     3. Cosine similarity between the query embedding and all catalog embeddings.
     4. Blend with a 10% click-log popularity signal to break ties.
-    5. Local-boost: if top similarity < threshold, inject the most-clicked product
-       in the best-guess category as rank 1.
+    5. Local-boost: if the top result is an international brand, promote the
+       best-ranked local product to rank 1. If the top result is local but below
+       `similarity_threshold`, inject the curated category fallback instead.
     6. Fairness cap: no artisan occupies > 15% of the top-K returned slots.
     """
 
@@ -200,13 +201,21 @@ class MadeInRwandaRecommender:
         return embeddings
 
     def _build_curated_fallbacks(self) -> Dict[str, int]:
-        """Pre-select the highest-popularity catalog index per category."""
+        """Pre-select the highest-popularity LOCAL catalog index per category."""
         fallbacks: Dict[str, int] = {}
+        is_local = self._is_local_mask()
         for cat in self.catalog["category"].unique():
-            mask = self.catalog["category"] == cat
+            mask = (self.catalog["category"] == cat) & is_local
             idxs = self.catalog.index[mask].tolist()
-            fallbacks[cat] = idxs[int(np.argmax(self._popularity[idxs]))]
+            if idxs:
+                fallbacks[cat] = idxs[int(np.argmax(self._popularity[idxs]))]
         return fallbacks
+
+    def _is_local_mask(self) -> "pd.Series":
+        """Return boolean Series: True for Made-in-Rwanda products."""
+        if "is_local" in self.catalog.columns:
+            return self.catalog["is_local"].astype(bool)
+        return pd.Series([True] * len(self.catalog), index=self.catalog.index)
 
     # ------------------------------------------------------------------
     # Fairness cap
@@ -269,10 +278,29 @@ class MadeInRwandaRecommender:
         # 4. Sort descending
         ranked: List[int] = np.argsort(-blended).tolist()
 
-        # 5. Local-boost: inject curated fallback when no strong match exists
+        # 5. Local-boost
+        #    Trigger A: top result is an international (non-local) brand — promote
+        #               the highest-ranked local product to position 1.
+        #    Trigger B: top result is local but similarity is very weak — inject
+        #               the curated category fallback (most-clicked local product).
+        #    Without this, international brands with polished English descriptions
+        #    would dominate the ranking; the local-presence rate would be < 100%.
+        is_local = self._is_local_mask().values
         fallback_at_top = False
+        top_is_local = bool(is_local[ranked[0]])
         top_sim = float(sims[ranked[0]])
-        if top_sim < self.similarity_threshold:
+
+        if not top_is_local:
+            # Find the best-ranked local product and promote it to rank 1
+            for i, idx in enumerate(ranked):
+                if bool(is_local[idx]):
+                    if i > 0:
+                        ranked.pop(i)
+                        ranked.insert(0, idx)
+                        fallback_at_top = True
+                    break
+        elif top_sim < self.similarity_threshold:
+            # Local but very weak match — inject curated category fallback
             cat = _guess_category(query)
             if cat and cat in self._curated:
                 fb_idx = self._curated[cat]
@@ -322,7 +350,7 @@ def _print_results(results: pd.DataFrame, query: str, elapsed_ms: float) -> None
         title = str(row["title"])
         if len(title) > 36:
             title = title[:35] + "…"
-        note = "[curated fallback]" if row["fallback_injected"] else ""
+        note = "[local boost]" if row["fallback_injected"] else ""
         print(
             f"{rank:<3} {row['sku']:<10} {title:<38} {row['category']:<12} "
             f"{int(row['price_rwf']):>8,}  {row['origin_district']:<14} "
