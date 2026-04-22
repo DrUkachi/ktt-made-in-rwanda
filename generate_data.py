@@ -2,8 +2,11 @@
 Synthetic Data Generator for 'Made in Rwanda' Content Recommender
 =================================================================
 Generates three CSV files:
-  - catalog.csv:   400 products × {sku, title, description, category, material, origin_district, price_rwf, artisan_id}
+  - catalog.csv:   440 products × {sku, title, description, category, material,
+                   origin_district, price_rwf, artisan_id, is_local}
+                   (400 local synthetic + 12 real Rwandan brands [30%] + 28 international brands [70%])
   - queries.csv:   120 anonymised search queries with a 'global_best_match' baseline SKU
+                   (global_best_match points to international brands where they compete)
   - click_log.csv: 5,000 synthetic click events with position-bias noise
 
 Reproducible with seed=42. Runs in <2 min on a laptop.
@@ -103,6 +106,310 @@ CATEGORIES = {
     },
 }
 
+# ─── International brand products (is_local=False) ───────────────────
+# These simulate what a global e-commerce algorithm would surface.
+# Descriptions intentionally use the same keywords as local products
+# so they compete semantically — making the local-boost genuinely needed.
+INTERNATIONAL_PRODUCTS = [
+    # leather (8)
+    {
+        "sku": "INTL-L001",
+        "title": "Timberland cow leather boots waterproof",
+        "description": "Premium waterproof cow leather boots with rubber sole, built for all-day comfort and durability.",
+        "category": "leather", "material": "cow-leather",
+        "origin_district": "", "price_rwf": 120000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-L002",
+        "title": "Dr Martens leather boots classic",
+        "description": "Iconic leather boots with air-cushioned sole and classic stitching, a wardrobe staple.",
+        "category": "leather", "material": "cow-leather",
+        "origin_district": "", "price_rwf": 140000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-L003",
+        "title": "Coach leather handbag women premium",
+        "description": "Premium leather handbag with polished hardware, interior pockets, and signature lining.",
+        "category": "leather", "material": "cow-leather",
+        "origin_district": "", "price_rwf": 250000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-L004",
+        "title": "Fossil leather wallet slim card holder",
+        "description": "Slim bifold leather wallet with multiple card slots, coin pocket, and hand-finished edges.",
+        "category": "leather", "material": "cow-leather",
+        "origin_district": "", "price_rwf": 55000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-L005",
+        "title": "Adidas leather sandals comfort sport",
+        "description": "Leather sandals with cushioned footbed and adjustable straps, perfect for everyday wear.",
+        "category": "leather", "material": "cow-leather",
+        "origin_district": "", "price_rwf": 75000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-L006",
+        "title": "Clarks leather sandals women cushioned",
+        "description": "Women's leather sandals with Clarks cushion plus technology, open-toe summer style.",
+        "category": "leather", "material": "goat-leather",
+        "origin_district": "", "price_rwf": 90000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-L007",
+        "title": "Samsonite leather laptop sleeve protection",
+        "description": "Padded leather laptop sleeve with water-resistant lining, fits 13 to 15 inch laptops.",
+        "category": "leather", "material": "cow-leather",
+        "origin_district": "", "price_rwf": 65000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-L008",
+        "title": "Moleskine leather journal cover classic",
+        "description": "Classic leather journal cover with elastic closure, bookmark ribbon, and inner pocket.",
+        "category": "leather", "material": "cow-leather",
+        "origin_district": "", "price_rwf": 48000, "artisan_id": "", "is_local": False,
+    },
+    # apparel (6)
+    {
+        "sku": "INTL-A001",
+        "title": "H&M cotton shirt men slim fit",
+        "description": "Men's slim-fit cotton shirt with button-down collar, available in multiple colours.",
+        "category": "apparel", "material": "cotton",
+        "origin_district": "", "price_rwf": 18000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-A002",
+        "title": "Zara linen dress women summer",
+        "description": "Lightweight linen dress with V-neck and side pockets, ideal for warm weather.",
+        "category": "apparel", "material": "linen",
+        "origin_district": "", "price_rwf": 32000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-A003",
+        "title": "Uniqlo cotton trousers ankle length",
+        "description": "Ankle-length cotton trousers with elastic waistband and relaxed fit, wrinkle-resistant.",
+        "category": "apparel", "material": "cotton",
+        "origin_district": "", "price_rwf": 22000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-A004",
+        "title": "Gap cotton baby outfit set newborn",
+        "description": "Soft cotton baby outfit set including bodysuit and trousers, gentle on newborn skin.",
+        "category": "apparel", "material": "cotton",
+        "origin_district": "", "price_rwf": 14000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-A005",
+        "title": "ASOS silk blouse women printed",
+        "description": "Flowy silk blouse with abstract print, relaxed fit and cuffed sleeves.",
+        "category": "apparel", "material": "silk",
+        "origin_district": "", "price_rwf": 28000, "artisan_id": "", "is_local": False,
+    },
+    # basketry (4)
+    {
+        "sku": "INTL-B001",
+        "title": "IKEA woven storage basket synthetic large",
+        "description": "Large synthetic woven storage basket with handles, stackable and easy to clean.",
+        "category": "basketry", "material": "sisal",
+        "origin_district": "", "price_rwf": 12000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-B002",
+        "title": "Pottery Barn woven fruit bowl kitchen",
+        "description": "Hand-woven fruit bowl for kitchen countertop display, sturdy and decorative.",
+        "category": "basketry", "material": "sweetgrass",
+        "origin_district": "", "price_rwf": 20000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-B004",
+        "title": "West Elm woven wine bottle holder",
+        "description": "Woven wine bottle holder in natural fibres, holds one standard bottle upright.",
+        "category": "basketry", "material": "sisal",
+        "origin_district": "", "price_rwf": 11000, "artisan_id": "", "is_local": False,
+    },
+    # jewellery (6)
+    {
+        "sku": "INTL-J001",
+        "title": "Pandora silver necklace charm women",
+        "description": "Sterling silver necklace with signature charm, lobster clasp, and gift box included.",
+        "category": "jewellery", "material": "silver",
+        "origin_district": "", "price_rwf": 85000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-J002",
+        "title": "Swarovski crystal earrings drop women",
+        "description": "Drop earrings with Swarovski crystals set in rhodium-plated brass, hypoallergenic posts.",
+        "category": "jewellery", "material": "recycled-metal",
+        "origin_district": "", "price_rwf": 72000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-J003",
+        "title": "Tiffany brass ring simple band",
+        "description": "Simple polished brass band ring, unisex design available in all sizes.",
+        "category": "jewellery", "material": "brass",
+        "origin_district": "", "price_rwf": 95000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-J004",
+        "title": "Alex and Ani silver bracelet layered",
+        "description": "Expandable wire silver bracelet with charm, designed for layering and stacking.",
+        "category": "jewellery", "material": "silver",
+        "origin_district": "", "price_rwf": 38000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-J005",
+        "title": "Cufflinks Inc silver cufflinks formal",
+        "description": "Polished silver cufflinks for formal shirts, engraved geometric face, gift boxed.",
+        "category": "jewellery", "material": "silver",
+        "origin_district": "", "price_rwf": 42000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-J006",
+        "title": "H Samuel silver brooch vintage floral",
+        "description": "Vintage-style floral brooch in sterling silver, pin fastening, gift wrapped.",
+        "category": "jewellery", "material": "silver",
+        "origin_district": "", "price_rwf": 35000, "artisan_id": "", "is_local": False,
+    },
+    # home-decor (6)
+    {
+        "sku": "INTL-H001",
+        "title": "IKEA ceramic vase modern minimalist",
+        "description": "Minimalist ceramic vase in matte finish, suitable for dried or fresh flowers.",
+        "category": "home-decor", "material": "ceramic",
+        "origin_district": "", "price_rwf": 8500, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-H002",
+        "title": "Crate and Barrel glass serving bowl large",
+        "description": "Large clear glass serving bowl, dishwasher safe, elegant centrepiece for any table.",
+        "category": "home-decor", "material": "recycled-glass",
+        "origin_district": "", "price_rwf": 16000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-H003",
+        "title": "Bamboo Zen coasters set 6 bamboo",
+        "description": "Set of 6 natural bamboo coasters with cork backing, heat and moisture resistant.",
+        "category": "home-decor", "material": "bamboo",
+        "origin_district": "", "price_rwf": 7000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-H004",
+        "title": "West Elm ceramic candle holder set",
+        "description": "Set of three ceramic candle holders in graduated sizes, matte glazed finish.",
+        "category": "home-decor", "material": "ceramic",
+        "origin_district": "", "price_rwf": 22000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-H005",
+        "title": "Umbra wood photo frame 5x7",
+        "description": "Modern wood photo frame for 5x7 inch prints, tabletop or wall mount, natural finish.",
+        "category": "home-decor", "material": "wood",
+        "origin_district": "", "price_rwf": 11000, "artisan_id": "", "is_local": False,
+    },
+    {
+        "sku": "INTL-H006",
+        "title": "IKEA bamboo lamp shade pendant",
+        "description": "Pendant lamp shade in natural bamboo weave, creates warm diffused light effect.",
+        "category": "home-decor", "material": "bamboo",
+        "origin_district": "", "price_rwf": 19000, "artisan_id": "", "is_local": False,
+    },
+]
+
+# ─── Real Made-in-Rwanda brand products ──────────────────────────────
+# Three verified Rwandan companies hardcoded for demo authenticity.
+# Inzuki Designs: jewelry + weaving cooperative (Teta Isibo, Kigali)
+# UZURI K&Y: eco-friendly footwear (Kevine Kagirimpundu & Yvette Shimwe, Kigali)
+# Sina Gerard / Urwibutso: artisanal food gifts (Nyabihu) — framed as gift sets
+REAL_BRAND_PRODUCTS = [
+    # ── Inzuki Designs ───────────────────────────────────────────────
+    {
+        "sku": "INZUKI-J001",
+        "title": "Inzuki Designs beaded necklace handmade Rwanda",
+        "description": "Handmade statement beaded necklace by Inzuki Designs, crafted by a women's cooperative using traditional Rwandan weaving skills and vibrant natural-dyed beads.",
+        "category": "jewellery", "material": "beads",
+        "origin_district": "Gasabo", "price_rwf": 18000, "artisan_id": "INZUKI", "is_local": True,
+    },
+    {
+        "sku": "INZUKI-J002",
+        "title": "Inzuki Designs beaded earrings drop colourful",
+        "description": "Lightweight drop earrings handcrafted by Inzuki Designs artisans, featuring colourful beads and inspired by traditional Rwandan patterns. Empowers local women's cooperatives.",
+        "category": "jewellery", "material": "beads",
+        "origin_district": "Gasabo", "price_rwf": 9500, "artisan_id": "INZUKI", "is_local": True,
+    },
+    {
+        "sku": "INZUKI-J003",
+        "title": "Inzuki Designs woven bracelet accessories Rwanda",
+        "description": "Woven bracelet accessory from Inzuki Designs combining traditional Rwandan weaving technique with vibrant colour palettes. Each piece is unique and handmade.",
+        "category": "jewellery", "material": "beads",
+        "origin_district": "Gasabo", "price_rwf": 7000, "artisan_id": "INZUKI", "is_local": True,
+    },
+    {
+        "sku": "INZUKI-B001",
+        "title": "Inzuki Designs agaseke peace basket woven",
+        "description": "Traditional Rwandan agaseke peace basket handwoven by Inzuki Designs cooperative artisans using sweetgrass and natural dyes. A symbol of unity, ideal as a gift.",
+        "category": "basketry", "material": "sweetgrass",
+        "origin_district": "Gasabo", "price_rwf": 25000, "artisan_id": "INZUKI", "is_local": True,
+    },
+    {
+        "sku": "INZUKI-H001",
+        "title": "Inzuki Designs woven wall hanging interior decor",
+        "description": "Decorative woven wall hanging by Inzuki Designs, blending traditional Rwandan geometric patterns with contemporary interior décor. Handmade by women artisans.",
+        "category": "home-decor", "material": "banana-bark",
+        "origin_district": "Gasabo", "price_rwf": 32000, "artisan_id": "INZUKI", "is_local": True,
+    },
+    # ── UZURI K&Y ────────────────────────────────────────────────────
+    {
+        "sku": "UZURI-L001",
+        "title": "UZURI K&Y eco leather sandals women Rwanda",
+        "description": "Eco-friendly leather sandals handmade in Rwanda by UZURI K&Y, using sustainably sourced leather. Open-toe design with adjustable straps and cushioned footbed.",
+        "category": "leather", "material": "vegetable-tanned-leather",
+        "origin_district": "Nyarugenge", "price_rwf": 38000, "artisan_id": "UZURI", "is_local": True,
+    },
+    {
+        "sku": "UZURI-L002",
+        "title": "UZURI K&Y sustainable leather boots handmade Kigali",
+        "description": "Sustainable leather boots crafted in Kigali by UZURI K&Y founders Kevine and Yvette. Vegetable-tanned leather, rubber sole, built to last. Rwanda-made footwear at its finest.",
+        "category": "leather", "material": "vegetable-tanned-leather",
+        "origin_district": "Nyarugenge", "price_rwf": 72000, "artisan_id": "UZURI", "is_local": True,
+    },
+    {
+        "sku": "UZURI-L003",
+        "title": "UZURI K&Y handmade leather shoes men Rwanda",
+        "description": "Men's leather shoes handmade in Rwanda by UZURI K&Y. Eco-conscious production, genuine leather upper, leather lining, durable rubber outsole. Smart casual style.",
+        "category": "leather", "material": "cow-leather",
+        "origin_district": "Nyarugenge", "price_rwf": 58000, "artisan_id": "UZURI", "is_local": True,
+    },
+    # ── Inzuki Designs — apparel ─────────────────────────────────────
+    {
+        "sku": "INZUKI-A001",
+        "title": "Inzuki Designs kitenge headwrap African print",
+        "description": "Vibrant kitenge headwrap by Inzuki Designs, handcrafted in bold African prints. A staple of Rwandan fashion, made by women artisans empowered through the cooperative.",
+        "category": "apparel", "material": "kitenge-fabric",
+        "origin_district": "Gasabo", "price_rwf": 6500, "artisan_id": "INZUKI", "is_local": True,
+    },
+    # ── Sina Gerard / Urwibutso Enterprise ───────────────────────────
+    {
+        "sku": "SINAG-H001",
+        "title": "Urwibutso artisanal chili sauce gift set Rwanda",
+        "description": "Gift set of three award-winning Rwandan chili sauces by Sina Gerard / Urwibutso Enterprise, supporting local farmers. Bold, authentic flavours — a uniquely Rwandan gift.",
+        "category": "home-decor", "material": "banana-bark",
+        "origin_district": "Nyabihu", "price_rwf": 12000, "artisan_id": "SINAG", "is_local": True,
+    },
+    {
+        "sku": "SINAG-H002",
+        "title": "Urwibutso banana wine gift Rwanda traditional",
+        "description": "Traditionally fermented Rwandan banana wine (urwagwa) bottled by Urwibutso Enterprise. Presented in a handwoven banana-bark gift box. A true taste of Rwandan culture.",
+        "category": "home-decor", "material": "banana-bark",
+        "origin_district": "Nyabihu", "price_rwf": 8500, "artisan_id": "SINAG", "is_local": True,
+    },
+    {
+        "sku": "SINAG-H003",
+        "title": "Urwibutso fruit juice assorted gift Rwanda",
+        "description": "Assorted Rwandan fruit juice gift set by Urwibutso Enterprise, made from locally grown tropical fruits. Supports smallholder farmers across Rwanda. Presented in a woven tray.",
+        "category": "home-decor", "material": "banana-bark",
+        "origin_district": "Nyabihu", "price_rwf": 9500, "artisan_id": "SINAG", "is_local": True,
+    },
+]
+
 # ─── Artisan names ───────────────────────────────────────────────────
 FIRST_NAMES = [
     "Jean", "Marie", "Pierre", "Claudine", "Emmanuel", "Diane", "Patrick",
@@ -155,11 +462,11 @@ def generate_artisans(n=80):
 
 
 def generate_catalog(artisans, n=400):
-    """Generate n products across all categories."""
+    """Generate n local products + all INTERNATIONAL_PRODUCTS."""
     products = []
     sku_counter = 0
 
-    # Distribute products roughly evenly across categories
+    # Distribute local products roughly evenly across categories
     cats = list(CATEGORIES.keys())
     per_cat = n // len(cats)
     remainder = n % len(cats)
@@ -176,7 +483,6 @@ def generate_catalog(artisans, n=400):
 
             artisan = random.choice(artisans)
 
-            # Price ranges by category (in RWF)
             price_ranges = {
                 "apparel": (3000, 45000),
                 "leather": (5000, 80000),
@@ -196,9 +502,15 @@ def generate_catalog(artisans, n=400):
                 "origin_district": artisan["district"],
                 "price_rwf": price,
                 "artisan_id": artisan["artisan_id"],
+                "is_local": True,
             })
 
     random.shuffle(products)
+
+    # Append real Rwandan brand products then international brands
+    products.extend(REAL_BRAND_PRODUCTS)
+    products.extend(INTERNATIONAL_PRODUCTS)
+
     return products
 
 
@@ -249,17 +561,33 @@ QUERY_TEMPLATES = {
 }
 
 
+def _keyword_match_score(query_text, product):
+    """Count keyword overlaps between query and product title+category+material."""
+    q_words = set(query_text.lower().replace("'", " ").replace("à", "a")
+                  .replace("é", "e").replace("è", "e").split())
+    p_words = set((product["title"] + " " + product["category"] + " "
+                   + product["material"]).lower().replace("-", " ").split())
+    return len(q_words & p_words)
+
+
 def generate_queries(products, n=120):
-    """Generate n search queries with global_best_match baseline."""
+    """
+    Generate n search queries with global_best_match baseline.
+
+    global_best_match_sku simulates what a global e-commerce algorithm (e.g. Amazon)
+    would return — preferring international brand products when they match the query
+    keywords, falling back to a local product otherwise.
+    """
+    local_products = [p for p in products if p.get("is_local", True)]
+    intl_products  = [p for p in products if not p.get("is_local", True)]
+
     queries = []
     all_q = []
 
-    # Flatten all query templates
     for lang, qs in QUERY_TEMPLATES.items():
         for q in qs:
             all_q.append((q, lang))
 
-    # Repeat/sample to get n queries
     selected = []
     while len(selected) < n:
         random.shuffle(all_q)
@@ -267,8 +595,23 @@ def generate_queries(products, n=120):
     selected = selected[:n]
 
     for i, (query_text, lang) in enumerate(selected):
-        # Pick a "global best match" — just a random product as baseline
-        best_match = random.choice(products)
+        # Find the best-matching international product by keyword overlap
+        best_intl = None
+        best_intl_score = 0
+        for p in intl_products:
+            score = _keyword_match_score(query_text, p)
+            if score > best_intl_score:
+                best_intl_score = score
+                best_intl = p
+
+        # Use the international product as global_best_match when it has at least
+        # 2 keyword overlaps (i.e. genuinely competes for that query).
+        # Otherwise fall back to a random local product.
+        if best_intl and best_intl_score >= 2:
+            best_match = best_intl
+        else:
+            best_match = random.choice(local_products)
+
         queries.append({
             "query_id": f"Q-{i+1:03d}",
             "query_text": query_text,
@@ -282,14 +625,13 @@ def generate_queries(products, n=120):
 def generate_click_log(products, queries, n=5000):
     """Generate n click events with position-bias noise model."""
     clicks = []
-    skus = [p["sku"] for p in products]
+    # Click log only covers local products (platform tracks artisan engagement)
+    local_skus = [p["sku"] for p in products if p.get("is_local", True)]
 
     for i in range(n):
         query = random.choice(queries)
-        # Simulate a result list of 10 items
-        result_list = random.sample(skus, min(10, len(skus)))
+        result_list = random.sample(local_skus, min(10, len(local_skus)))
 
-        # Position bias: higher positions get more clicks (1/log2(pos+1))
         position = random.choices(
             range(1, 11),
             weights=[1.0 / math.log2(pos + 1) for pos in range(1, 11)],
@@ -297,11 +639,9 @@ def generate_click_log(products, queries, n=5000):
         )[0]
         clicked_sku = result_list[position - 1]
 
-        # Dwell time with noise (seconds)
         base_dwell = random.gauss(30, 15)
         dwell_time = max(1, round(base_dwell))
 
-        # Timestamp within a 90-day window
         day_offset = random.randint(0, 89)
         hour = random.randint(6, 22)
         minute = random.randint(0, 59)
@@ -321,10 +661,10 @@ def generate_click_log(products, queries, n=5000):
 
 def write_csv(filepath, data, fieldnames):
     with open(filepath, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(data)
-    print(f"  ✓ {filepath} — {len(data)} rows")
+    print(f"  OK  {filepath} -- {len(data)} rows")
 
 
 def main():
@@ -335,18 +675,24 @@ def main():
     print(f"  Generated {len(artisans)} artisans")
 
     catalog = generate_catalog(artisans, 400)
+    local_count = sum(1 for p in catalog if p.get("is_local", True))
+    intl_count  = sum(1 for p in catalog if not p.get("is_local", True))
     write_csv(
         os.path.join(OUTPUT_DIR, "catalog.csv"),
         catalog,
-        ["sku", "title", "description", "category", "material", "origin_district", "price_rwf", "artisan_id"],
+        ["sku", "title", "description", "category", "material",
+         "origin_district", "price_rwf", "artisan_id", "is_local"],
     )
+    print(f"    {local_count} local (Made in Rwanda) + {intl_count} international brand products")
 
     queries = generate_queries(catalog, 120)
+    intl_baseline = sum(1 for q in queries if q["global_best_match_sku"].startswith("INTL"))
     write_csv(
         os.path.join(OUTPUT_DIR, "queries.csv"),
         queries,
         ["query_id", "query_text", "language", "global_best_match_sku"],
     )
+    print(f"    {intl_baseline}/{len(queries)} queries have an international brand as global_best_match")
 
     click_log = generate_click_log(catalog, queries, 5000)
     write_csv(
@@ -355,10 +701,10 @@ def main():
         ["click_id", "query_id", "clicked_sku", "position", "dwell_time_s", "timestamp"],
     )
 
-    print("\n✅ All data generated successfully!")
-    print(f"   catalog.csv:   {len(catalog)} products across {len(CATEGORIES)} categories")
+    print("\nAll data generated successfully!")
+    print(f"   catalog.csv:   {len(catalog)} products ({local_count} local, {intl_count} international)")
     print(f"   queries.csv:   {len(queries)} queries (EN/FR/code-switched/misspelled)")
-    print(f"   click_log.csv: {len(click_log)} click events")
+    print(f"   click_log.csv: {len(click_log)} click events (local SKUs only)")
 
 
 if __name__ == "__main__":

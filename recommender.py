@@ -52,7 +52,7 @@ def _load_popularity(click_log_path: Path, catalog: pd.DataFrame) -> np.ndarray:
     try:
         clicks = pd.read_csv(click_log_path)
         counts = clicks["clicked_sku"].value_counts()
-        pop = catalog["sku"].map(counts).fillna(0).to_numpy(dtype=float)
+        pop = catalog["sku"].map(counts).fillna(0).to_numpy(dtype=float).copy()
     except Exception:
         pop = np.zeros(len(catalog), dtype=float)
     max_c = pop.max()
@@ -226,10 +226,12 @@ class MadeInRwandaRecommender:
     2. Cosine similarity gives the base relevance score per query.
     3. A 10% popularity blend (from click_log) breaks ties between
        equally-matched products.
-    4. Local-boost: if the highest similarity score is below
-       `similarity_threshold`, no catalog product is a strong semantic match.
-       We inject the most-clicked product in the best-guess category at
-       position 1 to guarantee a local product always appears at the top.
+    4. Local-boost (two triggers):
+       Trigger A — top result is international (is_local=False): promote the
+                   highest-ranked local product to position 1.
+       Trigger B — top result is local but similarity < threshold: inject the
+                   most-clicked local product in the guessed category at pos 1.
+       Both triggers set fallback_injected=True on the promoted result.
     5. Fairness cap (stretch goal): no single artisan occupies more than 15%
        of the top-K returned slots.
     """
@@ -262,14 +264,21 @@ class MadeInRwandaRecommender:
         )
         self.tfidf_matrix = self.vectorizer.fit_transform(texts)
 
+    def _is_local_mask(self) -> "pd.Series":
+        """Return boolean Series: True for Made-in-Rwanda products."""
+        if "is_local" in self.catalog.columns:
+            return self.catalog["is_local"].astype(bool)
+        return pd.Series([True] * len(self.catalog), index=self.catalog.index)
+
     def _build_curated_fallbacks(self) -> Dict[str, int]:
-        """Pre-select the highest-popularity catalog index per category."""
+        """Pre-select the highest-popularity LOCAL catalog index per category."""
         fallbacks: Dict[str, int] = {}
+        is_local = self._is_local_mask()
         for cat in self.catalog["category"].unique():
-            mask = self.catalog["category"] == cat
+            mask = (self.catalog["category"] == cat) & is_local
             idxs = self.catalog.index[mask].tolist()
-            pops = self._popularity[idxs]
-            fallbacks[cat] = idxs[int(np.argmax(pops))]
+            if idxs:
+                fallbacks[cat] = idxs[int(np.argmax(self._popularity[idxs]))]
         return fallbacks
 
     # ------------------------------------------------------------------
@@ -335,10 +344,23 @@ class MadeInRwandaRecommender:
         # 4. Sort descending by blended score
         ranked: List[int] = np.argsort(-blended).tolist()
 
-        # 5. Local-boost: if the best match is weak, inject a curated fallback
+        # 5. Local-boost (two triggers)
+        is_local = self._is_local_mask().values
         fallback_at_top = False
+        top_is_local = bool(is_local[ranked[0]])
         top_sim = float(sims[ranked[0]])
-        if top_sim < self.similarity_threshold:
+
+        if not top_is_local:
+            # Trigger A: international brand at top — promote best-ranked local
+            for i, idx in enumerate(ranked):
+                if bool(is_local[idx]):
+                    if i > 0:
+                        ranked.pop(i)
+                        ranked.insert(0, idx)
+                        fallback_at_top = True
+                    break
+        elif top_sim < self.similarity_threshold:
+            # Trigger B: local but weak match — inject curated category fallback
             cat = _guess_category(query)
             if cat and cat in self._curated:
                 fb_idx = self._curated[cat]
@@ -389,7 +411,7 @@ def _print_results(results: pd.DataFrame, query: str, elapsed_ms: float) -> None
         title = str(row["title"])
         if len(title) > 36:
             title = title[:35] + "…"
-        note = "[curated fallback]" if row["fallback_injected"] else ""
+        note = "[local boost]" if row["fallback_injected"] else ""
         print(
             f"{rank:<3} {row['sku']:<10} {title:<38} {row['category']:<12} "
             f"{int(row['price_rwf']):>8,}  {row['origin_district']:<14} "

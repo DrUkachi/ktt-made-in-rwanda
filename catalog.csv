@@ -1,401 +1,441 @@
-sku,title,description,category,material,origin_district,price_rwf,artisan_id
-RW-0078,ankara fabric shirt with Rwandan motifs,Handcrafted ankara fabric shirt adorned with traditional Rwandan geometric motifs.,apparel,ankara-fabric,Nyarugenge,26000,ART-056
-RW-0269,brass ring geometric,"Geometric brass ring with clean lines, available in multiple sizes.",jewellery,brass,Nyabihu,21500,ART-010
-RW-0337,recycled glass serving bowl,"Large recycled glass serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,recycled-glass,Huye,7000,ART-050
-RW-0303,beads ring geometric,"Geometric beads ring with clean lines, available in multiple sizes.",jewellery,beads,Huye,23000,ART-053
-RW-0125,cow leather sandals Nyamirambo style,"Open-toe cow leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,cow-leather,Kayonza,10000,ART-074
-RW-0034,denim skirt with embroidery,Flowing denim skirt with hand-stitched embroidery from local artisans.,apparel,denim,Huye,34500,ART-050
-RW-0297,wood ring geometric,"Geometric wood ring with clean lines, available in multiple sizes.",jewellery,wood,Rusizi,11000,ART-065
-RW-0382,clay vase hand-painted,Hand-painted clay vase with motifs depicting Rwandan thousand hills landscape.,home-decor,clay,Nyagatare,11500,ART-078
-RW-0139,goat leather sandals Nyamirambo style,"Open-toe goat leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,goat-leather,Nyabihu,6500,ART-071
-RW-0008,denim shirt with Rwandan motifs,Handcrafted denim shirt adorned with traditional Rwandan geometric motifs.,apparel,denim,Huye,5000,ART-049
-RW-0090,cow leather handbag artisan,Artisan-made cow leather handbag with hand-stitched seams and brass buckle closure.,leather,cow-leather,Kayonza,33000,ART-038
-RW-0046,kitenge fabric headwrap igitenge,"Vibrant kitenge fabric headwrap (igitenge) in bold colours, a staple of Rwandan fashion.",apparel,kitenge-fabric,Gasabo,8000,ART-070
-RW-0002,cotton blazer Kigali style,Modern cotton blazer blending contemporary Kigali fashion with traditional textiles.,apparel,cotton,Bugesera,5500,ART-047
-RW-0342,ceramic candle holder set,Set of three ceramic candle holders with carved geometric patterns.,home-decor,ceramic,Kicukiro,18000,ART-003
-RW-0186,sisal fruit bowl,"Elegant sisal fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,sisal,Nyabihu,11000,ART-010
-RW-0380,bamboo incense burner,Artisan bamboo incense burner with ventilation slots and ash catcher tray.,home-decor,bamboo,Kayonza,10000,ART-005
-RW-0334,bamboo wall art Imigongo,"Imigongo-style bamboo wall art panel, traditional cow-dung painting technique.",home-decor,bamboo,Nyarugenge,7500,ART-056
-RW-0023,denim blazer Kigali style,Modern denim blazer blending contemporary Kigali fashion with traditional textiles.,apparel,denim,Nyabihu,11000,ART-071
-RW-0151,cow leather laptop sleeve,"Protective cow leather laptop sleeve with soft lining, fits up to 15 inches.",leather,cow-leather,Gakenke,53500,ART-061
-RW-0242,brass cufflinks artisan,"Handmade brass cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,brass,Gasabo,38000,ART-036
-RW-0017,ankara fabric shirt with Rwandan motifs,Handcrafted ankara fabric shirt adorned with traditional Rwandan geometric motifs.,apparel,ankara-fabric,Huye,39500,ART-050
-RW-0373,ceramic coasters set of 6,Set of six ceramic coasters with protective felt backing and cultural patterns.,home-decor,ceramic,Kayonza,21500,ART-038
-RW-0268,cow horn cufflinks artisan,"Handmade cow horn cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,cow-horn,Nyagatare,29000,ART-006
-RW-0379,banana bark wall art Imigongo,"Imigongo-style banana bark wall art panel, traditional cow-dung painting technique.",home-decor,banana-bark,Gakenke,11000,ART-004
-RW-0071,denim shirt with Rwandan motifs,Handcrafted denim shirt adorned with traditional Rwandan geometric motifs.,apparel,denim,Ngoma,22500,ART-021
-RW-0332,ceramic candle holder set,Set of three ceramic candle holders with carved geometric patterns.,home-decor,ceramic,Kayonza,7000,ART-037
-RW-0397,wood serving bowl,"Large wood serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,wood,Gasabo,3500,ART-064
-RW-0020,cotton headwrap igitenge,"Vibrant cotton headwrap (igitenge) in bold colours, a staple of Rwandan fashion.",apparel,cotton,Kayonza,23000,ART-080
-RW-0100,cow leather wallet minimalist,"Slim minimalist cow leather wallet with card slots and coin pocket, hand-finished edges.",leather,cow-leather,Gasabo,10500,ART-036
-RW-0318,brass bracelet layered,"Layered brass bracelet set with adjustable clasp, great for stacking.",jewellery,brass,Kicukiro,33500,ART-013
-RW-0272,brass ring geometric,"Geometric brass ring with clean lines, available in multiple sizes.",jewellery,brass,Kicukiro,22000,ART-003
-RW-0229,raffia fruit bowl,"Elegant raffia fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,raffia,Nyarugenge,28000,ART-030
-RW-0052,linen trousers tailored,Custom-tailored linen trousers with a comfortable fit and African-inspired details.,apparel,linen,Gasabo,3000,ART-062
-RW-0218,raffia fruit bowl,"Elegant raffia fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,raffia,Bugesera,34500,ART-047
-RW-0075,denim shirt with Rwandan motifs,Handcrafted denim shirt adorned with traditional Rwandan geometric motifs.,apparel,denim,Muhanga,5500,ART-073
-RW-0251,cow horn ring geometric,"Geometric cow horn ring with clean lines, available in multiple sizes.",jewellery,cow-horn,Rusizi,11500,ART-044
-RW-0110,vegetable tanned leather sandals Nyamirambo style,"Open-toe vegetable tanned leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,vegetable-tanned-leather,Muhanga,12500,ART-073
-RW-0040,linen headwrap igitenge,"Vibrant linen headwrap (igitenge) in bold colours, a staple of Rwandan fashion.",apparel,linen,Rwamagana,42000,ART-057
-RW-0058,cotton trousers tailored,Custom-tailored cotton trousers with a comfortable fit and African-inspired details.,apparel,cotton,Gakenke,39000,ART-076
-RW-0209,sisal wine bottle holder,"Unique sisal wine bottle holder, a conversation starter and perfect gift.",basketry,sisal,Nyabihu,15000,ART-071
-RW-0003,kitenge fabric skirt with embroidery,Flowing kitenge fabric skirt with hand-stitched embroidery from local artisans.,apparel,kitenge-fabric,Gicumbi,9500,ART-032
-RW-0080,silk blazer Kigali style,Modern silk blazer blending contemporary Kigali fashion with traditional textiles.,apparel,silk,Kayonza,37000,ART-079
-RW-0336,clay vase hand-painted,Hand-painted clay vase with motifs depicting Rwandan thousand hills landscape.,home-decor,clay,Nyabihu,34000,ART-051
-RW-0092,recycled leather keychain set,"Set of three recycled leather keychains with hand-stamped initials, great as gifts.",leather,recycled-leather,Nyabihu,72500,ART-071
-RW-0350,ceramic coasters set of 6,Set of six ceramic coasters with protective felt backing and cultural patterns.,home-decor,ceramic,Gakenke,38500,ART-031
-RW-0308,beads necklace Rwandan design,Statement beads necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,beads,Rubavu,43500,ART-075
-RW-0004,kitenge fabric trousers tailored,Custom-tailored kitenge fabric trousers with a comfortable fit and African-inspired details.,apparel,kitenge-fabric,Kayonza,12500,ART-080
-RW-0138,Handmade cow leather boots,"Durable handmade cow leather boots crafted by Kigali leatherworkers, built for comfort and longevity.",leather,cow-leather,Nyagatare,35500,ART-078
-RW-0134,cow leather keychain set,"Set of three cow leather keychains with hand-stamped initials, great as gifts.",leather,cow-leather,Huye,11500,ART-053
-RW-0021,denim shirt with Rwandan motifs,Handcrafted denim shirt adorned with traditional Rwandan geometric motifs.,apparel,denim,Bugesera,35000,ART-039
-RW-0366,recycled glass vase hand-painted,Hand-painted recycled glass vase with motifs depicting Rwandan thousand hills landscape.,home-decor,recycled-glass,Nyarugenge,19000,ART-043
-RW-0192,sisal tray woven,"Flat woven sisal tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,sisal,Nyarugenge,22500,ART-072
-RW-0355,recycled glass vase hand-painted,Hand-painted recycled glass vase with motifs depicting Rwandan thousand hills landscape.,home-decor,recycled-glass,Kirehe,52000,ART-046
-RW-0171,raffia placemat set of 4,"Set of four raffia placemats with coordinated colour patterns, handwoven.",basketry,raffia,Kayonza,31000,ART-033
-RW-0351,clay wall art Imigongo,"Imigongo-style clay wall art panel, traditional cow-dung painting technique.",home-decor,clay,Gasabo,35500,ART-011
-RW-0276,cow horn anklet with charms,cow horn anklet featuring small charms inspired by Lake Kivu waves.,jewellery,cow-horn,Gasabo,26500,ART-011
-RW-0217,raffia tray woven,"Flat woven raffia tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,raffia,Karongi,6000,ART-015
-RW-0114,vegetable tanned leather keychain set,"Set of three vegetable tanned leather keychains with hand-stamped initials, great as gifts.",leather,vegetable-tanned-leather,Kayonza,9000,ART-038
-RW-0112,cow leather wallet minimalist,"Slim minimalist cow leather wallet with card slots and coin pocket, hand-finished edges.",leather,cow-leather,Gakenke,27000,ART-031
-RW-0060,Handwoven ankara fabric scarf,Soft handwoven ankara fabric scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,ankara-fabric,Rutsiro,14500,ART-060
-RW-0340,ceramic photo frame,"Rustic ceramic photo frame with hand-carved border, fits 5×7 inch photo.",home-decor,ceramic,Gakenke,46500,ART-061
-RW-0302,wood earrings drop style,"Elegant drop-style wood earrings, lightweight and handcrafted.",jewellery,wood,Bugesera,25000,ART-047
-RW-0001,Handwoven linen scarf,Soft handwoven linen scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,linen,Nyarugenge,11000,ART-056
-RW-0290,wood necklace Rwandan design,Statement wood necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,wood,Kirehe,33500,ART-046
-RW-0400,ceramic candle holder set,Set of three ceramic candle holders with carved geometric patterns.,home-decor,ceramic,Rwamagana,27000,ART-040
-RW-0061,cotton blazer Kigali style,Modern cotton blazer blending contemporary Kigali fashion with traditional textiles.,apparel,cotton,Huye,23500,ART-049
-RW-0043,silk blazer Kigali style,Modern silk blazer blending contemporary Kigali fashion with traditional textiles.,apparel,silk,Nyabihu,34000,ART-067
-RW-0206,sweetgrass placemat set of 4,"Set of four sweetgrass placemats with coordinated colour patterns, handwoven.",basketry,sweetgrass,Nyagatare,3000,ART-077
-RW-0013,denim trousers tailored,Custom-tailored denim trousers with a comfortable fit and African-inspired details.,apparel,denim,Rubavu,24000,ART-069
-RW-0193,papyrus storage basket large,"Large papyrus storage basket with lid, handwoven by women's cooperative artisans.",basketry,papyrus,Nyamasheke,31500,ART-009
-RW-0030,linen headwrap igitenge,"Vibrant linen headwrap (igitenge) in bold colours, a staple of Rwandan fashion.",apparel,linen,Nyamasheke,18000,ART-012
-RW-0119,Handmade cow leather boots,"Durable handmade cow leather boots crafted by Kigali leatherworkers, built for comfort and longevity.",leather,cow-leather,Musanze,44000,ART-022
-RW-0357,banana bark candle holder set,Set of three banana bark candle holders with carved geometric patterns.,home-decor,banana-bark,Rubavu,49000,ART-075
-RW-0170,sisal fruit bowl,"Elegant sisal fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,sisal,Rutsiro,21000,ART-045
-RW-0363,ceramic serving bowl,"Large ceramic serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,ceramic,Nyagatare,22000,ART-006
-RW-0253,wood necklace Rwandan design,Statement wood necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,wood,Rusizi,11000,ART-007
-RW-0076,kitenge fabric trousers tailored,Custom-tailored kitenge fabric trousers with a comfortable fit and African-inspired details.,apparel,kitenge-fabric,Nyamasheke,7000,ART-048
-RW-0390,recycled glass incense burner,Artisan recycled glass incense burner with ventilation slots and ash catcher tray.,home-decor,recycled-glass,Gicumbi,9500,ART-026
-RW-0018,silk blazer Kigali style,Modern silk blazer blending contemporary Kigali fashion with traditional textiles.,apparel,silk,Nyagatare,30500,ART-006
-RW-0195,Agaseke peace basket sweetgrass,"Traditional Rwandan agaseke peace basket woven from sweetgrass, symbolising unity and reconciliation.",basketry,sweetgrass,Kayonza,21000,ART-005
-RW-0174,papyrus wall hanging decorative,Decorative papyrus wall hanging with geometric Imigongo-inspired patterns.,basketry,papyrus,Kayonza,3000,ART-038
-RW-0260,wood brooch traditional,Traditional-style wood brooch with Imigongo pattern inlay.,jewellery,wood,Rwamagana,4000,ART-040
-RW-0069,linen skirt with embroidery,Flowing linen skirt with hand-stitched embroidery from local artisans.,apparel,linen,Rutsiro,19000,ART-060
-RW-0262,brass earrings drop style,"Elegant drop-style brass earrings, lightweight and handcrafted.",jewellery,brass,Bugesera,15000,ART-039
-RW-0028,ankara fabric skirt with embroidery,Flowing ankara fabric skirt with hand-stitched embroidery from local artisans.,apparel,ankara-fabric,Musanze,33000,ART-066
-RW-0109,vegetable tanned leather keychain set,"Set of three vegetable tanned leather keychains with hand-stamped initials, great as gifts.",leather,vegetable-tanned-leather,Bugesera,80000,ART-039
-RW-0225,sisal storage basket large,"Large sisal storage basket with lid, handwoven by women's cooperative artisans.",basketry,sisal,Gasabo,22500,ART-036
-RW-0185,raffia wine bottle holder,"Unique raffia wine bottle holder, a conversation starter and perfect gift.",basketry,raffia,Kayonza,23500,ART-038
-RW-0057,Handwoven ankara fabric scarf,Soft handwoven ankara fabric scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,ankara-fabric,Kayonza,37000,ART-080
-RW-0376,banana bark coasters set of 6,Set of six banana bark coasters with protective felt backing and cultural patterns.,home-decor,banana-bark,Kayonza,29500,ART-079
-RW-0395,wood wall art Imigongo,"Imigongo-style wood wall art panel, traditional cow-dung painting technique.",home-decor,wood,Bugesera,34500,ART-047
-RW-0230,banana leaf wine bottle holder,"Unique banana leaf wine bottle holder, a conversation starter and perfect gift.",basketry,banana-leaf,Kicukiro,27500,ART-059
-RW-0006,Handwoven cotton scarf,Soft handwoven cotton scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,cotton,Nyarugenge,29000,ART-043
-RW-0316,recycled metal earrings drop style,"Elegant drop-style recycled metal earrings, lightweight and handcrafted.",jewellery,recycled-metal,Rusizi,32500,ART-044
-RW-0237,sisal fruit bowl,"Elegant sisal fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,sisal,Kirehe,29000,ART-046
-RW-0165,sweetgrass storage basket large,"Large sweetgrass storage basket with lid, handwoven by women's cooperative artisans.",basketry,sweetgrass,Gasabo,26000,ART-011
-RW-0284,silver necklace Rwandan design,Statement silver necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,silver,Bugesera,41500,ART-023
-RW-0189,banana leaf tray woven,"Flat woven banana leaf tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,banana-leaf,Gasabo,31000,ART-016
-RW-0070,Handwoven kitenge fabric scarf,Soft handwoven kitenge fabric scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,kitenge-fabric,Nyagatare,41500,ART-078
-RW-0188,sisal wine bottle holder,"Unique sisal wine bottle holder, a conversation starter and perfect gift.",basketry,sisal,Nyabihu,2500,ART-051
-RW-0309,recycled metal bracelet layered,"Layered recycled metal bracelet set with adjustable clasp, great for stacking.",jewellery,recycled-metal,Rwamagana,43000,ART-040
-RW-0232,raffia wall hanging decorative,Decorative raffia wall hanging with geometric Imigongo-inspired patterns.,basketry,raffia,Kayonza,25500,ART-033
-RW-0234,sisal wine bottle holder,"Unique sisal wine bottle holder, a conversation starter and perfect gift.",basketry,sisal,Gasabo,7500,ART-011
-RW-0281,silver cufflinks artisan,"Handmade silver cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,silver,Rusizi,16500,ART-019
-RW-0275,brass earrings drop style,"Elegant drop-style brass earrings, lightweight and handcrafted.",jewellery,brass,Nyarugenge,39000,ART-056
-RW-0102,Handmade cow leather boots,"Durable handmade cow leather boots crafted by Kigali leatherworkers, built for comfort and longevity.",leather,cow-leather,Kayonza,41000,ART-074
-RW-0294,wood anklet with charms,wood anklet featuring small charms inspired by Lake Kivu waves.,jewellery,wood,Huye,31000,ART-050
-RW-0199,papyrus placemat set of 4,"Set of four papyrus placemats with coordinated colour patterns, handwoven.",basketry,papyrus,Kirehe,28500,ART-020
-RW-0184,banana leaf wine bottle holder,"Unique banana leaf wine bottle holder, a conversation starter and perfect gift.",basketry,banana-leaf,Musanze,18000,ART-022
-RW-0361,wood wall art Imigongo,"Imigongo-style wood wall art panel, traditional cow-dung painting technique.",home-decor,wood,Nyamasheke,47500,ART-009
-RW-0200,sisal wine bottle holder,"Unique sisal wine bottle holder, a conversation starter and perfect gift.",basketry,sisal,Musanze,28000,ART-063
-RW-0115,goat leather sandals Nyamirambo style,"Open-toe goat leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,goat-leather,Kayonza,63000,ART-037
-RW-0089,goat leather keychain set,"Set of three goat leather keychains with hand-stamped initials, great as gifts.",leather,goat-leather,Musanze,62000,ART-063
-RW-0027,ankara fabric headwrap igitenge,"Vibrant ankara fabric headwrap (igitenge) in bold colours, a staple of Rwandan fashion.",apparel,ankara-fabric,Rutsiro,31000,ART-060
-RW-0219,Agaseke peace basket papyrus,"Traditional Rwandan agaseke peace basket woven from papyrus, symbolising unity and reconciliation.",basketry,papyrus,Rwamagana,34000,ART-058
-RW-0216,sweetgrass wall hanging decorative,Decorative sweetgrass wall hanging with geometric Imigongo-inspired patterns.,basketry,sweetgrass,Rusizi,10000,ART-007
-RW-0236,Agaseke peace basket papyrus,"Traditional Rwandan agaseke peace basket woven from papyrus, symbolising unity and reconciliation.",basketry,papyrus,Gakenke,23000,ART-076
-RW-0120,recycled leather keychain set,"Set of three recycled leather keychains with hand-stamped initials, great as gifts.",leather,recycled-leather,Gasabo,64500,ART-016
-RW-0169,raffia wall hanging decorative,Decorative raffia wall hanging with geometric Imigongo-inspired patterns.,basketry,raffia,Gasabo,12000,ART-070
-RW-0154,cow leather keychain set,"Set of three cow leather keychains with hand-stamped initials, great as gifts.",leather,cow-leather,Huye,23000,ART-002
-RW-0291,brass bracelet layered,"Layered brass bracelet set with adjustable clasp, great for stacking.",jewellery,brass,Rutsiro,30000,ART-060
-RW-0140,vegetable tanned leather handbag artisan,Artisan-made vegetable tanned leather handbag with hand-stitched seams and brass buckle closure.,leather,vegetable-tanned-leather,Huye,19500,ART-029
-RW-0032,silk dress with African print,"Elegant silk dress featuring hand-dyed African prints, perfect for formal and casual occasions.",apparel,silk,Nyagatare,18500,ART-006
-RW-0331,banana bark incense burner,Artisan banana bark incense burner with ventilation slots and ash catcher tray.,home-decor,banana-bark,Nyamasheke,37000,ART-048
-RW-0224,sisal wall hanging decorative,Decorative sisal wall hanging with geometric Imigongo-inspired patterns.,basketry,sisal,Nyagatare,11000,ART-078
-RW-0062,silk baby outfit set,"Adorable silk baby clothing set with soft Rwandan-printed fabric, safe for infants.",apparel,silk,Rusizi,24500,ART-042
-RW-0172,banana leaf storage basket large,"Large banana leaf storage basket with lid, handwoven by women's cooperative artisans.",basketry,banana-leaf,Huye,32500,ART-050
-RW-0167,papyrus storage basket large,"Large papyrus storage basket with lid, handwoven by women's cooperative artisans.",basketry,papyrus,Nyarugenge,31500,ART-030
-RW-0091,vegetable tanned leather belt with brass buckle,"Classic vegetable tanned leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,vegetable-tanned-leather,Rwamagana,79000,ART-040
-RW-0343,wood wall art Imigongo,"Imigongo-style wood wall art panel, traditional cow-dung painting technique.",home-decor,wood,Nyabihu,48500,ART-071
-RW-0118,goat leather wallet minimalist,"Slim minimalist goat leather wallet with card slots and coin pocket, hand-finished edges.",leather,goat-leather,Rwamagana,23000,ART-035
-RW-0045,cotton blazer Kigali style,Modern cotton blazer blending contemporary Kigali fashion with traditional textiles.,apparel,cotton,Gakenke,20000,ART-031
-RW-0367,ceramic coasters set of 6,Set of six ceramic coasters with protective felt backing and cultural patterns.,home-decor,ceramic,Nyarugenge,58500,ART-056
-RW-0097,goat leather belt with brass buckle,"Classic goat leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,goat-leather,Gasabo,40000,ART-062
-RW-0159,cow leather belt with brass buckle,"Classic cow leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,cow-leather,Kayonza,34000,ART-037
-RW-0323,clay coasters set of 6,Set of six clay coasters with protective felt backing and cultural patterns.,home-decor,clay,Gakenke,30000,ART-031
-RW-0285,cow horn ring geometric,"Geometric cow horn ring with clean lines, available in multiple sizes.",jewellery,cow-horn,Muhanga,50000,ART-073
-RW-0054,linen skirt with embroidery,Flowing linen skirt with hand-stitched embroidery from local artisans.,apparel,linen,Musanze,17000,ART-063
-RW-0203,sisal placemat set of 4,"Set of four sisal placemats with coordinated colour patterns, handwoven.",basketry,sisal,Nyamasheke,24500,ART-048
-RW-0198,banana leaf placemat set of 4,"Set of four banana leaf placemats with coordinated colour patterns, handwoven.",basketry,banana-leaf,Gasabo,28500,ART-070
-RW-0358,recycled glass wall art Imigongo,"Imigongo-style recycled glass wall art panel, traditional cow-dung painting technique.",home-decor,recycled-glass,Nyagatare,24500,ART-006
-RW-0121,recycled leather journal cover,"Beautiful recycled leather journal cover with embossed Rwandan patterns, refillable insert.",leather,recycled-leather,Rwamagana,69000,ART-035
-RW-0396,wood candle holder set,Set of three wood candle holders with carved geometric patterns.,home-decor,wood,Gicumbi,52500,ART-026
-RW-0243,recycled metal cufflinks artisan,"Handmade recycled metal cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,recycled-metal,Rutsiro,37000,ART-055
-RW-0053,kitenge fabric blazer Kigali style,Modern kitenge fabric blazer blending contemporary Kigali fashion with traditional textiles.,apparel,kitenge-fabric,Huye,29500,ART-050
-RW-0106,Handmade cow leather boots,"Durable handmade cow leather boots crafted by Kigali leatherworkers, built for comfort and longevity.",leather,cow-leather,Kirehe,24000,ART-020
-RW-0201,Agaseke peace basket banana leaf,"Traditional Rwandan agaseke peace basket woven from banana leaf, symbolising unity and reconciliation.",basketry,banana-leaf,Nyamasheke,15500,ART-048
-RW-0330,bamboo wall art Imigongo,"Imigongo-style bamboo wall art panel, traditional cow-dung painting technique.",home-decor,bamboo,Kayonza,5000,ART-033
-RW-0313,silver brooch traditional,Traditional-style silver brooch with Imigongo pattern inlay.,jewellery,silver,Gicumbi,7000,ART-068
-RW-0113,cow leather wallet minimalist,"Slim minimalist cow leather wallet with card slots and coin pocket, hand-finished edges.",leather,cow-leather,Nyarugenge,57000,ART-001
-RW-0179,sisal placemat set of 4,"Set of four sisal placemats with coordinated colour patterns, handwoven.",basketry,sisal,Nyagatare,21500,ART-006
-RW-0049,ankara fabric trousers tailored,Custom-tailored ankara fabric trousers with a comfortable fit and African-inspired details.,apparel,ankara-fabric,Nyarugenge,37500,ART-043
-RW-0228,sisal wine bottle holder,"Unique sisal wine bottle holder, a conversation starter and perfect gift.",basketry,sisal,Karongi,15500,ART-015
-RW-0385,bamboo coasters set of 6,Set of six bamboo coasters with protective felt backing and cultural patterns.,home-decor,bamboo,Nyabihu,22000,ART-051
-RW-0009,ankara fabric skirt with embroidery,Flowing ankara fabric skirt with hand-stitched embroidery from local artisans.,apparel,ankara-fabric,Gicumbi,32000,ART-026
-RW-0333,wood photo frame,"Rustic wood photo frame with hand-carved border, fits 5×7 inch photo.",home-decor,wood,Rwamagana,59500,ART-058
-RW-0352,recycled glass candle holder set,Set of three recycled glass candle holders with carved geometric patterns.,home-decor,recycled-glass,Gicumbi,36500,ART-068
-RW-0279,wood brooch traditional,Traditional-style wood brooch with Imigongo pattern inlay.,jewellery,wood,Karongi,35000,ART-015
-RW-0135,goat leather laptop sleeve,"Protective goat leather laptop sleeve with soft lining, fits up to 15 inches.",leather,goat-leather,Kayonza,68500,ART-080
-RW-0044,denim skirt with embroidery,Flowing denim skirt with hand-stitched embroidery from local artisans.,apparel,denim,Gasabo,31000,ART-036
-RW-0123,vegetable tanned leather laptop sleeve,"Protective vegetable tanned leather laptop sleeve with soft lining, fits up to 15 inches.",leather,vegetable-tanned-leather,Nyagatare,37000,ART-078
-RW-0176,papyrus placemat set of 4,"Set of four papyrus placemats with coordinated colour patterns, handwoven.",basketry,papyrus,Gasabo,20000,ART-064
-RW-0244,wood anklet with charms,wood anklet featuring small charms inspired by Lake Kivu waves.,jewellery,wood,Nyarugenge,3000,ART-072
-RW-0059,denim dress with African print,"Elegant denim dress featuring hand-dyed African prints, perfect for formal and casual occasions.",apparel,denim,Gasabo,44000,ART-011
-RW-0148,vegetable tanned leather laptop sleeve,"Protective vegetable tanned leather laptop sleeve with soft lining, fits up to 15 inches.",leather,vegetable-tanned-leather,Nyarugenge,75500,ART-043
-RW-0286,wood ring geometric,"Geometric wood ring with clean lines, available in multiple sizes.",jewellery,wood,Muhanga,42500,ART-073
-RW-0252,beads bracelet layered,"Layered beads bracelet set with adjustable clasp, great for stacking.",jewellery,beads,Rusizi,37500,ART-042
-RW-0180,Agaseke peace basket raffia,"Traditional Rwandan agaseke peace basket woven from raffia, symbolising unity and reconciliation.",basketry,raffia,Rubavu,25000,ART-075
-RW-0327,bamboo incense burner,Artisan bamboo incense burner with ventilation slots and ash catcher tray.,home-decor,bamboo,Rutsiro,51000,ART-060
-RW-0007,denim skirt with embroidery,Flowing denim skirt with hand-stitched embroidery from local artisans.,apparel,denim,Rwamagana,13000,ART-035
-RW-0162,sisal wall hanging decorative,Decorative sisal wall hanging with geometric Imigongo-inspired patterns.,basketry,sisal,Huye,20500,ART-008
-RW-0344,bamboo lamp shade,"Unique bamboo lamp shade casting warm patterned light, handmade by local craftspeople.",home-decor,bamboo,Karongi,51500,ART-015
-RW-0150,goat leather journal cover,"Beautiful goat leather journal cover with embossed Rwandan patterns, refillable insert.",leather,goat-leather,Nyarugenge,57500,ART-030
-RW-0107,recycled leather handbag artisan,Artisan-made recycled leather handbag with hand-stitched seams and brass buckle closure.,leather,recycled-leather,Gicumbi,20000,ART-032
-RW-0374,clay lamp shade,"Unique clay lamp shade casting warm patterned light, handmade by local craftspeople.",home-decor,clay,Musanze,46000,ART-022
-RW-0339,ceramic coasters set of 6,Set of six ceramic coasters with protective felt backing and cultural patterns.,home-decor,ceramic,Rusizi,10500,ART-019
-RW-0399,bamboo wall art Imigongo,"Imigongo-style bamboo wall art panel, traditional cow-dung painting technique.",home-decor,bamboo,Kayonza,58500,ART-079
-RW-0095,recycled leather belt with brass buckle,"Classic recycled leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,recycled-leather,Gasabo,29500,ART-016
-RW-0257,cow horn ring geometric,"Geometric cow horn ring with clean lines, available in multiple sizes.",jewellery,cow-horn,Rwamagana,15000,ART-035
-RW-0221,banana leaf fruit bowl,"Elegant banana leaf fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,banana-leaf,Gakenke,5500,ART-004
-RW-0191,Agaseke peace basket banana leaf,"Traditional Rwandan agaseke peace basket woven from banana leaf, symbolising unity and reconciliation.",basketry,banana-leaf,Nyarugenge,32000,ART-030
-RW-0261,recycled metal ring geometric,"Geometric recycled metal ring with clean lines, available in multiple sizes.",jewellery,recycled-metal,Nyagatare,5000,ART-077
-RW-0182,raffia storage basket large,"Large raffia storage basket with lid, handwoven by women's cooperative artisans.",basketry,raffia,Gicumbi,10000,ART-026
-RW-0319,wood cufflinks artisan,"Handmade wood cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,wood,Gicumbi,3500,ART-068
-RW-0292,brass necklace Rwandan design,Statement brass necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,brass,Nyamasheke,19500,ART-048
-RW-0311,wood brooch traditional,Traditional-style wood brooch with Imigongo pattern inlay.,jewellery,wood,Gasabo,21000,ART-011
-RW-0267,wood cufflinks artisan,"Handmade wood cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,wood,Kirehe,6000,ART-046
-RW-0220,sweetgrass tray woven,"Flat woven sweetgrass tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,sweetgrass,Nyagatare,35000,ART-006
-RW-0152,vegetable tanned leather wallet minimalist,"Slim minimalist vegetable tanned leather wallet with card slots and coin pocket, hand-finished edges.",leather,vegetable-tanned-leather,Gasabo,9500,ART-064
-RW-0077,linen headwrap igitenge,"Vibrant linen headwrap (igitenge) in bold colours, a staple of Rwandan fashion.",apparel,linen,Huye,29500,ART-002
-RW-0300,recycled metal necklace Rwandan design,Statement recycled metal necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,recycled-metal,Gicumbi,46500,ART-032
-RW-0273,recycled metal cufflinks artisan,"Handmade recycled metal cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,recycled-metal,Kayonza,30500,ART-080
-RW-0223,sisal fruit bowl,"Elegant sisal fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,sisal,Rwamagana,6500,ART-057
-RW-0335,wood incense burner,Artisan wood incense burner with ventilation slots and ash catcher tray.,home-decor,wood,Rutsiro,3500,ART-045
-RW-0278,beads cufflinks artisan,"Handmade beads cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,beads,Musanze,6000,ART-022
-RW-0227,raffia tray woven,"Flat woven raffia tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,raffia,Nyagatare,29500,ART-078
-RW-0084,vegetable tanned leather laptop sleeve,"Protective vegetable tanned leather laptop sleeve with soft lining, fits up to 15 inches.",leather,vegetable-tanned-leather,Gakenke,68000,ART-004
-RW-0207,sisal wine bottle holder,"Unique sisal wine bottle holder, a conversation starter and perfect gift.",basketry,sisal,Nyarugenge,17500,ART-043
-RW-0132,vegetable tanned leather handbag artisan,Artisan-made vegetable tanned leather handbag with hand-stitched seams and brass buckle closure.,leather,vegetable-tanned-leather,Nyabihu,37000,ART-041
-RW-0353,bamboo vase hand-painted,Hand-painted bamboo vase with motifs depicting Rwandan thousand hills landscape.,home-decor,bamboo,Huye,57500,ART-050
-RW-0039,silk baby outfit set,"Adorable silk baby clothing set with soft Rwandan-printed fabric, safe for infants.",apparel,silk,Gicumbi,38500,ART-068
-RW-0117,goat leather journal cover,"Beautiful goat leather journal cover with embossed Rwandan patterns, refillable insert.",leather,goat-leather,Karongi,74500,ART-015
-RW-0133,recycled leather handbag artisan,Artisan-made recycled leather handbag with hand-stitched seams and brass buckle closure.,leather,recycled-leather,Nyabihu,70500,ART-052
-RW-0122,vegetable tanned leather keychain set,"Set of three vegetable tanned leather keychains with hand-stamped initials, great as gifts.",leather,vegetable-tanned-leather,Gasabo,10000,ART-011
-RW-0086,recycled leather sandals Nyamirambo style,"Open-toe recycled leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,recycled-leather,Rusizi,40500,ART-044
-RW-0183,papyrus wall hanging decorative,Decorative papyrus wall hanging with geometric Imigongo-inspired patterns.,basketry,papyrus,Gicumbi,34000,ART-068
-RW-0036,denim dress with African print,"Elegant denim dress featuring hand-dyed African prints, perfect for formal and casual occasions.",apparel,denim,Huye,30000,ART-014
-RW-0010,kitenge fabric blazer Kigali style,Modern kitenge fabric blazer blending contemporary Kigali fashion with traditional textiles.,apparel,kitenge-fabric,Nyarugenge,17000,ART-030
-RW-0398,recycled glass coasters set of 6,Set of six recycled glass coasters with protective felt backing and cultural patterns.,home-decor,recycled-glass,Rutsiro,53000,ART-060
-RW-0011,cotton skirt with embroidery,Flowing cotton skirt with hand-stitched embroidery from local artisans.,apparel,cotton,Nyabihu,24000,ART-052
-RW-0360,banana bark incense burner,Artisan banana bark incense burner with ventilation slots and ash catcher tray.,home-decor,banana-bark,Gasabo,42000,ART-062
-RW-0245,wood brooch traditional,Traditional-style wood brooch with Imigongo pattern inlay.,jewellery,wood,Rwamagana,3000,ART-035
-RW-0131,recycled leather journal cover,"Beautiful recycled leather journal cover with embossed Rwandan patterns, refillable insert.",leather,recycled-leather,Nyabihu,9500,ART-071
-RW-0354,clay vase hand-painted,Hand-painted clay vase with motifs depicting Rwandan thousand hills landscape.,home-decor,clay,Huye,25500,ART-050
-RW-0051,ankara fabric trousers tailored,Custom-tailored ankara fabric trousers with a comfortable fit and African-inspired details.,apparel,ankara-fabric,Rubavu,4000,ART-075
-RW-0037,Handwoven silk scarf,Soft handwoven silk scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,silk,Nyabihu,32500,ART-067
-RW-0194,banana leaf placemat set of 4,"Set of four banana leaf placemats with coordinated colour patterns, handwoven.",basketry,banana-leaf,Huye,9000,ART-053
-RW-0247,beads necklace Rwandan design,Statement beads necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,beads,Muhanga,10500,ART-024
-RW-0143,vegetable tanned leather belt with brass buckle,"Classic vegetable tanned leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,vegetable-tanned-leather,Kicukiro,75500,ART-059
-RW-0347,bamboo incense burner,Artisan bamboo incense burner with ventilation slots and ash catcher tray.,home-decor,bamboo,Nyamasheke,9000,ART-009
-RW-0204,sisal fruit bowl,"Elegant sisal fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,sisal,Gasabo,14000,ART-036
-RW-0096,recycled leather handbag artisan,Artisan-made recycled leather handbag with hand-stitched seams and brass buckle closure.,leather,recycled-leather,Rubavu,28500,ART-069
-RW-0359,bamboo coasters set of 6,Set of six bamboo coasters with protective felt backing and cultural patterns.,home-decor,bamboo,Bugesera,55000,ART-023
-RW-0263,recycled metal cufflinks artisan,"Handmade recycled metal cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,recycled-metal,Kayonza,20000,ART-033
-RW-0033,ankara fabric shirt with Rwandan motifs,Handcrafted ankara fabric shirt adorned with traditional Rwandan geometric motifs.,apparel,ankara-fabric,Kicukiro,29500,ART-059
-RW-0314,silver brooch traditional,Traditional-style silver brooch with Imigongo pattern inlay.,jewellery,silver,Rutsiro,34000,ART-055
-RW-0157,cow leather laptop sleeve,"Protective cow leather laptop sleeve with soft lining, fits up to 15 inches.",leather,cow-leather,Rubavu,53500,ART-069
-RW-0307,beads brooch traditional,Traditional-style beads brooch with Imigongo pattern inlay.,jewellery,beads,Nyagatare,11000,ART-078
-RW-0160,cow leather journal cover,"Beautiful cow leather journal cover with embossed Rwandan patterns, refillable insert.",leather,cow-leather,Kicukiro,17500,ART-013
-RW-0212,banana leaf wine bottle holder,"Unique banana leaf wine bottle holder, a conversation starter and perfect gift.",basketry,banana-leaf,Rusizi,10000,ART-019
-RW-0072,cotton dress with African print,"Elegant cotton dress featuring hand-dyed African prints, perfect for formal and casual occasions.",apparel,cotton,Rwamagana,39500,ART-040
-RW-0356,ceramic coasters set of 6,Set of six ceramic coasters with protective felt backing and cultural patterns.,home-decor,ceramic,Gakenke,48500,ART-031
-RW-0249,recycled metal brooch traditional,Traditional-style recycled metal brooch with Imigongo pattern inlay.,jewellery,recycled-metal,Gakenke,7000,ART-004
-RW-0365,recycled glass vase hand-painted,Hand-painted recycled glass vase with motifs depicting Rwandan thousand hills landscape.,home-decor,recycled-glass,Huye,20000,ART-025
-RW-0130,goat leather laptop sleeve,"Protective goat leather laptop sleeve with soft lining, fits up to 15 inches.",leather,goat-leather,Huye,68000,ART-053
-RW-0099,goat leather laptop sleeve,"Protective goat leather laptop sleeve with soft lining, fits up to 15 inches.",leather,goat-leather,Bugesera,43500,ART-023
-RW-0019,cotton skirt with embroidery,Flowing cotton skirt with hand-stitched embroidery from local artisans.,apparel,cotton,Bugesera,30500,ART-047
-RW-0306,brass anklet with charms,brass anklet featuring small charms inspired by Lake Kivu waves.,jewellery,brass,Huye,19500,ART-050
-RW-0142,recycled leather sandals Nyamirambo style,"Open-toe recycled leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,recycled-leather,Gasabo,66500,ART-054
-RW-0093,recycled leather journal cover,"Beautiful recycled leather journal cover with embossed Rwandan patterns, refillable insert.",leather,recycled-leather,Nyabihu,47000,ART-071
-RW-0345,recycled glass serving bowl,"Large recycled glass serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,recycled-glass,Bugesera,9500,ART-039
-RW-0144,goat leather journal cover,"Beautiful goat leather journal cover with embossed Rwandan patterns, refillable insert.",leather,goat-leather,Huye,70000,ART-025
-RW-0362,clay vase hand-painted,Hand-painted clay vase with motifs depicting Rwandan thousand hills landscape.,home-decor,clay,Kayonza,14500,ART-038
-RW-0014,cotton shirt with Rwandan motifs,Handcrafted cotton shirt adorned with traditional Rwandan geometric motifs.,apparel,cotton,Rutsiro,14000,ART-034
-RW-0103,vegetable tanned leather keychain set,"Set of three vegetable tanned leather keychains with hand-stamped initials, great as gifts.",leather,vegetable-tanned-leather,Rwamagana,48500,ART-057
-RW-0271,silver brooch traditional,Traditional-style silver brooch with Imigongo pattern inlay.,jewellery,silver,Gasabo,20000,ART-054
-RW-0250,silver anklet with charms,silver anklet featuring small charms inspired by Lake Kivu waves.,jewellery,silver,Huye,25500,ART-028
-RW-0104,Handmade goat leather boots,"Durable handmade goat leather boots crafted by Kigali leatherworkers, built for comfort and longevity.",leather,goat-leather,Kayonza,66000,ART-033
-RW-0196,Agaseke peace basket raffia,"Traditional Rwandan agaseke peace basket woven from raffia, symbolising unity and reconciliation.",basketry,raffia,Kicukiro,17000,ART-013
-RW-0378,banana bark lamp shade,"Unique banana bark lamp shade casting warm patterned light, handmade by local craftspeople.",home-decor,banana-bark,Bugesera,34500,ART-047
-RW-0187,sweetgrass wine bottle holder,"Unique sweetgrass wine bottle holder, a conversation starter and perfect gift.",basketry,sweetgrass,Nyabihu,25000,ART-051
-RW-0068,Handwoven silk scarf,Soft handwoven silk scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,silk,Gakenke,10000,ART-061
-RW-0312,wood ring geometric,"Geometric wood ring with clean lines, available in multiple sizes.",jewellery,wood,Nyarugenge,9500,ART-043
-RW-0035,ankara fabric skirt with embroidery,Flowing ankara fabric skirt with hand-stitched embroidery from local artisans.,apparel,ankara-fabric,Rusizi,44500,ART-019
-RW-0384,clay candle holder set,Set of three clay candle holders with carved geometric patterns.,home-decor,clay,Kayonza,10500,ART-074
-RW-0056,ankara fabric headwrap igitenge,"Vibrant ankara fabric headwrap (igitenge) in bold colours, a staple of Rwandan fashion.",apparel,ankara-fabric,Nyabihu,13500,ART-052
-RW-0005,Handwoven silk scarf,Soft handwoven silk scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,silk,Bugesera,29000,ART-023
-RW-0147,recycled leather keychain set,"Set of three recycled leather keychains with hand-stamped initials, great as gifts.",leather,recycled-leather,Kirehe,62000,ART-020
-RW-0241,brass bracelet layered,"Layered brass bracelet set with adjustable clasp, great for stacking.",jewellery,brass,Nyarugenge,25000,ART-072
-RW-0254,recycled metal cufflinks artisan,"Handmade recycled metal cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,recycled-metal,Kayonza,4500,ART-080
-RW-0145,goat leather handbag artisan,Artisan-made goat leather handbag with hand-stitched seams and brass buckle closure.,leather,goat-leather,Gasabo,58000,ART-036
-RW-0287,silver anklet with charms,silver anklet featuring small charms inspired by Lake Kivu waves.,jewellery,silver,Rusizi,41500,ART-042
-RW-0025,linen blazer Kigali style,Modern linen blazer blending contemporary Kigali fashion with traditional textiles.,apparel,linen,Nyabihu,38000,ART-052
-RW-0181,Agaseke peace basket sweetgrass,"Traditional Rwandan agaseke peace basket woven from sweetgrass, symbolising unity and reconciliation.",basketry,sweetgrass,Kayonza,22500,ART-038
-RW-0111,cow leather belt with brass buckle,"Classic cow leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,cow-leather,Huye,38500,ART-028
-RW-0393,banana bark coasters set of 6,Set of six banana bark coasters with protective felt backing and cultural patterns.,home-decor,banana-bark,Rutsiro,47000,ART-045
-RW-0235,Agaseke peace basket raffia,"Traditional Rwandan agaseke peace basket woven from raffia, symbolising unity and reconciliation.",basketry,raffia,Nyamasheke,10000,ART-048
-RW-0259,brass bracelet layered,"Layered brass bracelet set with adjustable clasp, great for stacking.",jewellery,brass,Gakenke,32500,ART-076
-RW-0202,raffia fruit bowl,"Elegant raffia fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,raffia,Gakenke,25000,ART-031
-RW-0047,Handwoven silk scarf,Soft handwoven silk scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,silk,Nyarugenge,27500,ART-030
-RW-0012,kitenge fabric shirt with Rwandan motifs,Handcrafted kitenge fabric shirt adorned with traditional Rwandan geometric motifs.,apparel,kitenge-fabric,Gasabo,25000,ART-036
-RW-0325,bamboo serving bowl,"Large bamboo serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,bamboo,Rwamagana,53500,ART-040
-RW-0158,recycled leather keychain set,"Set of three recycled leather keychains with hand-stamped initials, great as gifts.",leather,recycled-leather,Gasabo,9500,ART-070
-RW-0277,beads brooch traditional,Traditional-style beads brooch with Imigongo pattern inlay.,jewellery,beads,Rusizi,15500,ART-044
-RW-0240,sweetgrass storage basket large,"Large sweetgrass storage basket with lid, handwoven by women's cooperative artisans.",basketry,sweetgrass,Gasabo,16000,ART-062
-RW-0299,silver necklace Rwandan design,Statement silver necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,silver,Rusizi,42500,ART-065
-RW-0256,silver ring geometric,"Geometric silver ring with clean lines, available in multiple sizes.",jewellery,silver,Musanze,40000,ART-063
-RW-0282,brass earrings drop style,"Elegant drop-style brass earrings, lightweight and handcrafted.",jewellery,brass,Kayonza,14000,ART-033
-RW-0098,recycled leather handbag artisan,Artisan-made recycled leather handbag with hand-stitched seams and brass buckle closure.,leather,recycled-leather,Huye,42500,ART-025
-RW-0305,silver bracelet layered,"Layered silver bracelet set with adjustable clasp, great for stacking.",jewellery,silver,Nyamasheke,22500,ART-009
-RW-0168,banana leaf fruit bowl,"Elegant banana leaf fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,banana-leaf,Kayonza,2500,ART-033
-RW-0082,recycled leather belt with brass buckle,"Classic recycled leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,recycled-leather,Nyamasheke,40500,ART-012
-RW-0128,vegetable tanned leather handbag artisan,Artisan-made vegetable tanned leather handbag with hand-stitched seams and brass buckle closure.,leather,vegetable-tanned-leather,Gakenke,49500,ART-061
-RW-0215,sweetgrass tray woven,"Flat woven sweetgrass tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,sweetgrass,Rusizi,3000,ART-042
-RW-0197,papyrus storage basket large,"Large papyrus storage basket with lid, handwoven by women's cooperative artisans.",basketry,papyrus,Huye,31000,ART-050
-RW-0324,bamboo photo frame,"Rustic bamboo photo frame with hand-carved border, fits 5×7 inch photo.",home-decor,bamboo,Rwamagana,16500,ART-058
-RW-0026,cotton blazer Kigali style,Modern cotton blazer blending contemporary Kigali fashion with traditional textiles.,apparel,cotton,Kayonza,16000,ART-037
-RW-0050,ankara fabric trousers tailored,Custom-tailored ankara fabric trousers with a comfortable fit and African-inspired details.,apparel,ankara-fabric,Huye,16000,ART-008
-RW-0073,denim trousers tailored,Custom-tailored denim trousers with a comfortable fit and African-inspired details.,apparel,denim,Nyabihu,15500,ART-051
-RW-0127,recycled leather wallet minimalist,"Slim minimalist recycled leather wallet with card slots and coin pocket, hand-finished edges.",leather,recycled-leather,Rubavu,60500,ART-075
-RW-0387,ceramic wall art Imigongo,"Imigongo-style ceramic wall art panel, traditional cow-dung painting technique.",home-decor,ceramic,Gasabo,35000,ART-064
-RW-0137,goat leather sandals Nyamirambo style,"Open-toe goat leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,goat-leather,Rwamagana,67000,ART-057
-RW-0063,ankara fabric blazer Kigali style,Modern ankara fabric blazer blending contemporary Kigali fashion with traditional textiles.,apparel,ankara-fabric,Gasabo,19000,ART-054
-RW-0386,banana bark photo frame,"Rustic banana bark photo frame with hand-carved border, fits 5×7 inch photo.",home-decor,banana-bark,Gicumbi,9000,ART-032
-RW-0124,cow leather handbag artisan,Artisan-made cow leather handbag with hand-stitched seams and brass buckle closure.,leather,cow-leather,Nyarugenge,78500,ART-030
-RW-0346,ceramic serving bowl,"Large ceramic serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,ceramic,Gasabo,42500,ART-054
-RW-0055,kitenge fabric trousers tailored,Custom-tailored kitenge fabric trousers with a comfortable fit and African-inspired details.,apparel,kitenge-fabric,Musanze,4500,ART-063
-RW-0288,beads earrings drop style,"Elegant drop-style beads earrings, lightweight and handcrafted.",jewellery,beads,Rwamagana,5500,ART-057
-RW-0264,beads necklace Rwandan design,Statement beads necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,beads,Nyarugenge,33000,ART-001
-RW-0190,banana leaf placemat set of 4,"Set of four banana leaf placemats with coordinated colour patterns, handwoven.",basketry,banana-leaf,Rutsiro,26000,ART-034
-RW-0377,recycled glass vase hand-painted,Hand-painted recycled glass vase with motifs depicting Rwandan thousand hills landscape.,home-decor,recycled-glass,Nyabihu,44500,ART-010
-RW-0205,sisal wine bottle holder,"Unique sisal wine bottle holder, a conversation starter and perfect gift.",basketry,sisal,Kicukiro,7500,ART-059
-RW-0383,banana bark incense burner,Artisan banana bark incense burner with ventilation slots and ash catcher tray.,home-decor,banana-bark,Nyamasheke,25500,ART-048
-RW-0164,sweetgrass tray woven,"Flat woven sweetgrass tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,sweetgrass,Huye,13500,ART-053
-RW-0161,raffia storage basket large,"Large raffia storage basket with lid, handwoven by women's cooperative artisans.",basketry,raffia,Bugesera,3500,ART-039
-RW-0074,cotton skirt with embroidery,Flowing cotton skirt with hand-stitched embroidery from local artisans.,apparel,cotton,Huye,22000,ART-014
-RW-0175,raffia wall hanging decorative,Decorative raffia wall hanging with geometric Imigongo-inspired patterns.,basketry,raffia,Huye,5000,ART-002
-RW-0105,cow leather handbag artisan,Artisan-made cow leather handbag with hand-stitched seams and brass buckle closure.,leather,cow-leather,Nyabihu,67500,ART-052
-RW-0238,sisal wall hanging decorative,Decorative sisal wall hanging with geometric Imigongo-inspired patterns.,basketry,sisal,Nyagatare,21500,ART-077
-RW-0341,wood incense burner,Artisan wood incense burner with ventilation slots and ash catcher tray.,home-decor,wood,Rwamagana,41000,ART-058
-RW-0213,papyrus wall hanging decorative,Decorative papyrus wall hanging with geometric Imigongo-inspired patterns.,basketry,papyrus,Bugesera,9000,ART-023
-RW-0226,raffia tray woven,"Flat woven raffia tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,raffia,Gicumbi,20500,ART-068
-RW-0081,vegetable tanned leather keychain set,"Set of three vegetable tanned leather keychains with hand-stamped initials, great as gifts.",leather,vegetable-tanned-leather,Nyarugenge,39000,ART-056
-RW-0031,denim blazer Kigali style,Modern denim blazer blending contemporary Kigali fashion with traditional textiles.,apparel,denim,Huye,15500,ART-029
-RW-0388,clay candle holder set,Set of three clay candle holders with carved geometric patterns.,home-decor,clay,Rutsiro,51500,ART-034
-RW-0233,sweetgrass placemat set of 4,"Set of four sweetgrass placemats with coordinated colour patterns, handwoven.",basketry,sweetgrass,Gakenke,6000,ART-061
-RW-0153,goat leather laptop sleeve,"Protective goat leather laptop sleeve with soft lining, fits up to 15 inches.",leather,goat-leather,Kicukiro,61000,ART-013
-RW-0208,sweetgrass wine bottle holder,"Unique sweetgrass wine bottle holder, a conversation starter and perfect gift.",basketry,sweetgrass,Muhanga,15000,ART-073
-RW-0126,goat leather keychain set,"Set of three goat leather keychains with hand-stamped initials, great as gifts.",leather,goat-leather,Nyabihu,61500,ART-067
-RW-0248,wood brooch traditional,Traditional-style wood brooch with Imigongo pattern inlay.,jewellery,wood,Nyabihu,5500,ART-052
-RW-0155,vegetable tanned leather wallet minimalist,"Slim minimalist vegetable tanned leather wallet with card slots and coin pocket, hand-finished edges.",leather,vegetable-tanned-leather,Nyabihu,65000,ART-010
-RW-0149,vegetable tanned leather keychain set,"Set of three vegetable tanned leather keychains with hand-stamped initials, great as gifts.",leather,vegetable-tanned-leather,Rusizi,29000,ART-042
-RW-0280,wood earrings drop style,"Elegant drop-style wood earrings, lightweight and handcrafted.",jewellery,wood,Rutsiro,23500,ART-045
-RW-0322,wood wall art Imigongo,"Imigongo-style wood wall art panel, traditional cow-dung painting technique.",home-decor,wood,Rwamagana,4500,ART-057
-RW-0255,silver necklace Rwandan design,Statement silver necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,silver,Rwamagana,29500,ART-035
-RW-0016,linen trousers tailored,Custom-tailored linen trousers with a comfortable fit and African-inspired details.,apparel,linen,Rutsiro,23000,ART-045
-RW-0317,recycled metal earrings drop style,"Elegant drop-style recycled metal earrings, lightweight and handcrafted.",jewellery,recycled-metal,Musanze,11000,ART-018
-RW-0214,sisal storage basket large,"Large sisal storage basket with lid, handwoven by women's cooperative artisans.",basketry,sisal,Huye,24500,ART-002
-RW-0293,brass brooch traditional,Traditional-style brass brooch with Imigongo pattern inlay.,jewellery,brass,Nyamasheke,40500,ART-012
-RW-0108,vegetable tanned leather belt with brass buckle,"Classic vegetable tanned leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,vegetable-tanned-leather,Nyabihu,53500,ART-067
-RW-0136,Handmade vegetable tanned leather boots,"Durable handmade vegetable tanned leather boots crafted by Kigali leatherworkers, built for comfort and longevity.",leather,vegetable-tanned-leather,Nyabihu,39000,ART-027
-RW-0296,wood brooch traditional,Traditional-style wood brooch with Imigongo pattern inlay.,jewellery,wood,Huye,22000,ART-025
-RW-0348,clay vase hand-painted,Hand-painted clay vase with motifs depicting Rwandan thousand hills landscape.,home-decor,clay,Musanze,38500,ART-066
-RW-0024,silk trousers tailored,Custom-tailored silk trousers with a comfortable fit and African-inspired details.,apparel,silk,Huye,14000,ART-049
-RW-0042,silk baby outfit set,"Adorable silk baby clothing set with soft Rwandan-printed fabric, safe for infants.",apparel,silk,Rwamagana,19500,ART-058
-RW-0015,linen blazer Kigali style,Modern linen blazer blending contemporary Kigali fashion with traditional textiles.,apparel,linen,Kayonza,9500,ART-005
-RW-0022,kitenge fabric trousers tailored,Custom-tailored kitenge fabric trousers with a comfortable fit and African-inspired details.,apparel,kitenge-fabric,Rusizi,28500,ART-042
-RW-0289,cow horn ring geometric,"Geometric cow horn ring with clean lines, available in multiple sizes.",jewellery,cow-horn,Bugesera,19000,ART-039
-RW-0173,sisal storage basket large,"Large sisal storage basket with lid, handwoven by women's cooperative artisans.",basketry,sisal,Huye,24500,ART-049
-RW-0310,silver brooch traditional,Traditional-style silver brooch with Imigongo pattern inlay.,jewellery,silver,Nyabihu,9500,ART-051
-RW-0320,silver bracelet layered,"Layered silver bracelet set with adjustable clasp, great for stacking.",jewellery,silver,Kayonza,9500,ART-080
-RW-0338,recycled glass serving bowl,"Large recycled glass serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,recycled-glass,Gakenke,22000,ART-004
-RW-0088,cow leather belt with brass buckle,"Classic cow leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,cow-leather,Huye,67500,ART-053
-RW-0371,clay candle holder set,Set of three clay candle holders with carved geometric patterns.,home-decor,clay,Nyarugenge,40500,ART-056
-RW-0298,brass ring geometric,"Geometric brass ring with clean lines, available in multiple sizes.",jewellery,brass,Huye,23000,ART-014
-RW-0304,silver anklet with charms,silver anklet featuring small charms inspired by Lake Kivu waves.,jewellery,silver,Rusizi,41500,ART-007
-RW-0087,Handmade recycled leather boots,"Durable handmade recycled leather boots crafted by Kigali leatherworkers, built for comfort and longevity.",leather,recycled-leather,Nyabihu,29000,ART-067
-RW-0389,recycled glass incense burner,Artisan recycled glass incense burner with ventilation slots and ash catcher tray.,home-decor,recycled-glass,Huye,41000,ART-028
-RW-0375,clay coasters set of 6,Set of six clay coasters with protective felt backing and cultural patterns.,home-decor,clay,Rwamagana,4500,ART-058
-RW-0048,Handwoven denim scarf,Soft handwoven denim scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,denim,Huye,7000,ART-028
-RW-0274,silver bracelet layered,"Layered silver bracelet set with adjustable clasp, great for stacking.",jewellery,silver,Nyamasheke,29000,ART-012
-RW-0315,beads necklace Rwandan design,Statement beads necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,beads,Bugesera,21000,ART-047
-RW-0370,bamboo photo frame,"Rustic bamboo photo frame with hand-carved border, fits 5×7 inch photo.",home-decor,bamboo,Gasabo,48500,ART-011
-RW-0321,bamboo lamp shade,"Unique bamboo lamp shade casting warm patterned light, handmade by local craftspeople.",home-decor,bamboo,Kirehe,12000,ART-020
-RW-0391,wood candle holder set,Set of three wood candle holders with carved geometric patterns.,home-decor,wood,Rwamagana,13000,ART-058
-RW-0141,vegetable tanned leather handbag artisan,Artisan-made vegetable tanned leather handbag with hand-stitched seams and brass buckle closure.,leather,vegetable-tanned-leather,Kirehe,68500,ART-020
-RW-0381,ceramic serving bowl,"Large ceramic serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,ceramic,Bugesera,25000,ART-047
-RW-0326,clay serving bowl,"Large clay serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,clay,Nyamasheke,45000,ART-048
-RW-0101,cow leather sandals Nyamirambo style,"Open-toe cow leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,cow-leather,Karongi,67500,ART-017
-RW-0129,vegetable tanned leather laptop sleeve,"Protective vegetable tanned leather laptop sleeve with soft lining, fits up to 15 inches.",leather,vegetable-tanned-leather,Rusizi,18000,ART-042
-RW-0041,denim trousers tailored,Custom-tailored denim trousers with a comfortable fit and African-inspired details.,apparel,denim,Nyabihu,31500,ART-071
-RW-0146,recycled leather sandals Nyamirambo style,"Open-toe recycled leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,recycled-leather,Nyarugenge,41000,ART-001
-RW-0372,wood photo frame,"Rustic wood photo frame with hand-carved border, fits 5×7 inch photo.",home-decor,wood,Rusizi,8500,ART-042
-RW-0178,sweetgrass tray woven,"Flat woven sweetgrass tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,sweetgrass,Kayonza,10500,ART-033
-RW-0116,cow leather belt with brass buckle,"Classic cow leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,cow-leather,Rutsiro,80000,ART-034
-RW-0364,recycled glass lamp shade,"Unique recycled glass lamp shade casting warm patterned light, handmade by local craftspeople.",home-decor,recycled-glass,Gasabo,32000,ART-070
-RW-0166,papyrus placemat set of 4,"Set of four papyrus placemats with coordinated colour patterns, handwoven.",basketry,papyrus,Gakenke,33500,ART-031
-RW-0083,vegetable tanned leather belt with brass buckle,"Classic vegetable tanned leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,vegetable-tanned-leather,Rutsiro,77500,ART-060
-RW-0085,recycled leather wallet minimalist,"Slim minimalist recycled leather wallet with card slots and coin pocket, hand-finished edges.",leather,recycled-leather,Musanze,32000,ART-063
-RW-0156,recycled leather laptop sleeve,"Protective recycled leather laptop sleeve with soft lining, fits up to 15 inches.",leather,recycled-leather,Kayonza,55500,ART-080
-RW-0079,denim baby outfit set,"Adorable denim baby clothing set with soft Rwandan-printed fabric, safe for infants.",apparel,denim,Kirehe,30500,ART-020
-RW-0266,cow horn anklet with charms,cow horn anklet featuring small charms inspired by Lake Kivu waves.,jewellery,cow-horn,Nyarugenge,33500,ART-030
-RW-0064,cotton baby outfit set,"Adorable cotton baby clothing set with soft Rwandan-printed fabric, safe for infants.",apparel,cotton,Kicukiro,37500,ART-003
-RW-0029,Handwoven denim scarf,Soft handwoven denim scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,denim,Gasabo,21000,ART-011
-RW-0258,wood necklace Rwandan design,Statement wood necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,wood,Rutsiro,29000,ART-045
-RW-0222,raffia wine bottle holder,"Unique raffia wine bottle holder, a conversation starter and perfect gift.",basketry,raffia,Nyabihu,29000,ART-052
-RW-0067,silk dress with African print,"Elegant silk dress featuring hand-dyed African prints, perfect for formal and casual occasions.",apparel,silk,Kayonza,12500,ART-080
-RW-0094,recycled leather keychain set,"Set of three recycled leather keychains with hand-stamped initials, great as gifts.",leather,recycled-leather,Rwamagana,44000,ART-035
-RW-0301,cow horn ring geometric,"Geometric cow horn ring with clean lines, available in multiple sizes.",jewellery,cow-horn,Gicumbi,34500,ART-068
-RW-0328,recycled glass lamp shade,"Unique recycled glass lamp shade casting warm patterned light, handmade by local craftspeople.",home-decor,recycled-glass,Rusizi,35500,ART-065
-RW-0283,recycled metal anklet with charms,recycled metal anklet featuring small charms inspired by Lake Kivu waves.,jewellery,recycled-metal,Kirehe,50000,ART-020
-RW-0066,cotton dress with African print,"Elegant cotton dress featuring hand-dyed African prints, perfect for formal and casual occasions.",apparel,cotton,Gakenke,18500,ART-004
-RW-0177,sweetgrass tray woven,"Flat woven sweetgrass tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,sweetgrass,Kirehe,16000,ART-046
-RW-0265,silver ring geometric,"Geometric silver ring with clean lines, available in multiple sizes.",jewellery,silver,Bugesera,9500,ART-023
-RW-0349,wood wall art Imigongo,"Imigongo-style wood wall art panel, traditional cow-dung painting technique.",home-decor,wood,Kayonza,29000,ART-038
-RW-0239,Agaseke peace basket banana leaf,"Traditional Rwandan agaseke peace basket woven from banana leaf, symbolising unity and reconciliation.",basketry,banana-leaf,Kayonza,34000,ART-074
-RW-0231,raffia placemat set of 4,"Set of four raffia placemats with coordinated colour patterns, handwoven.",basketry,raffia,Kicukiro,22000,ART-013
-RW-0392,banana bark incense burner,Artisan banana bark incense burner with ventilation slots and ash catcher tray.,home-decor,banana-bark,Nyamasheke,53500,ART-012
-RW-0329,clay wall art Imigongo,"Imigongo-style clay wall art panel, traditional cow-dung painting technique.",home-decor,clay,Gicumbi,53000,ART-026
-RW-0163,banana leaf wall hanging decorative,Decorative banana leaf wall hanging with geometric Imigongo-inspired patterns.,basketry,banana-leaf,Nyarugenge,11000,ART-056
-RW-0065,cotton headwrap igitenge,"Vibrant cotton headwrap (igitenge) in bold colours, a staple of Rwandan fashion.",apparel,cotton,Huye,44500,ART-029
-RW-0038,cotton skirt with embroidery,Flowing cotton skirt with hand-stitched embroidery from local artisans.,apparel,cotton,Gasabo,32000,ART-016
-RW-0295,wood anklet with charms,wood anklet featuring small charms inspired by Lake Kivu waves.,jewellery,wood,Nyagatare,30000,ART-006
-RW-0210,papyrus storage basket large,"Large papyrus storage basket with lid, handwoven by women's cooperative artisans.",basketry,papyrus,Nyarugenge,23000,ART-030
-RW-0394,ceramic photo frame,"Rustic ceramic photo frame with hand-carved border, fits 5×7 inch photo.",home-decor,ceramic,Bugesera,56000,ART-039
-RW-0211,sweetgrass wine bottle holder,"Unique sweetgrass wine bottle holder, a conversation starter and perfect gift.",basketry,sweetgrass,Nyagatare,2000,ART-077
-RW-0270,wood ring geometric,"Geometric wood ring with clean lines, available in multiple sizes.",jewellery,wood,Kayonza,27000,ART-074
-RW-0246,recycled metal bracelet layered,"Layered recycled metal bracelet set with adjustable clasp, great for stacking.",jewellery,recycled-metal,Rwamagana,23000,ART-040
-RW-0369,wood incense burner,Artisan wood incense burner with ventilation slots and ash catcher tray.,home-decor,wood,Gasabo,25500,ART-064
-RW-0368,clay incense burner,Artisan clay incense burner with ventilation slots and ash catcher tray.,home-decor,clay,Huye,23500,ART-050
+sku,title,description,category,material,origin_district,price_rwf,artisan_id,is_local
+RW-0078,ankara fabric shirt with Rwandan motifs,Handcrafted ankara fabric shirt adorned with traditional Rwandan geometric motifs.,apparel,ankara-fabric,Nyarugenge,26000,ART-056,True
+RW-0269,brass ring geometric,"Geometric brass ring with clean lines, available in multiple sizes.",jewellery,brass,Nyabihu,21500,ART-010,True
+RW-0337,recycled glass serving bowl,"Large recycled glass serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,recycled-glass,Huye,7000,ART-050,True
+RW-0303,beads ring geometric,"Geometric beads ring with clean lines, available in multiple sizes.",jewellery,beads,Huye,23000,ART-053,True
+RW-0125,cow leather sandals Nyamirambo style,"Open-toe cow leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,cow-leather,Kayonza,10000,ART-074,True
+RW-0034,denim skirt with embroidery,Flowing denim skirt with hand-stitched embroidery from local artisans.,apparel,denim,Huye,34500,ART-050,True
+RW-0297,wood ring geometric,"Geometric wood ring with clean lines, available in multiple sizes.",jewellery,wood,Rusizi,11000,ART-065,True
+RW-0382,clay vase hand-painted,Hand-painted clay vase with motifs depicting Rwandan thousand hills landscape.,home-decor,clay,Nyagatare,11500,ART-078,True
+RW-0139,goat leather sandals Nyamirambo style,"Open-toe goat leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,goat-leather,Nyabihu,6500,ART-071,True
+RW-0008,denim shirt with Rwandan motifs,Handcrafted denim shirt adorned with traditional Rwandan geometric motifs.,apparel,denim,Huye,5000,ART-049,True
+RW-0090,cow leather handbag artisan,Artisan-made cow leather handbag with hand-stitched seams and brass buckle closure.,leather,cow-leather,Kayonza,33000,ART-038,True
+RW-0046,kitenge fabric headwrap igitenge,"Vibrant kitenge fabric headwrap (igitenge) in bold colours, a staple of Rwandan fashion.",apparel,kitenge-fabric,Gasabo,8000,ART-070,True
+RW-0002,cotton blazer Kigali style,Modern cotton blazer blending contemporary Kigali fashion with traditional textiles.,apparel,cotton,Bugesera,5500,ART-047,True
+RW-0342,ceramic candle holder set,Set of three ceramic candle holders with carved geometric patterns.,home-decor,ceramic,Kicukiro,18000,ART-003,True
+RW-0186,sisal fruit bowl,"Elegant sisal fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,sisal,Nyabihu,11000,ART-010,True
+RW-0380,bamboo incense burner,Artisan bamboo incense burner with ventilation slots and ash catcher tray.,home-decor,bamboo,Kayonza,10000,ART-005,True
+RW-0334,bamboo wall art Imigongo,"Imigongo-style bamboo wall art panel, traditional cow-dung painting technique.",home-decor,bamboo,Nyarugenge,7500,ART-056,True
+RW-0023,denim blazer Kigali style,Modern denim blazer blending contemporary Kigali fashion with traditional textiles.,apparel,denim,Nyabihu,11000,ART-071,True
+RW-0151,cow leather laptop sleeve,"Protective cow leather laptop sleeve with soft lining, fits up to 15 inches.",leather,cow-leather,Gakenke,53500,ART-061,True
+RW-0242,brass cufflinks artisan,"Handmade brass cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,brass,Gasabo,38000,ART-036,True
+RW-0017,ankara fabric shirt with Rwandan motifs,Handcrafted ankara fabric shirt adorned with traditional Rwandan geometric motifs.,apparel,ankara-fabric,Huye,39500,ART-050,True
+RW-0373,ceramic coasters set of 6,Set of six ceramic coasters with protective felt backing and cultural patterns.,home-decor,ceramic,Kayonza,21500,ART-038,True
+RW-0268,cow horn cufflinks artisan,"Handmade cow horn cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,cow-horn,Nyagatare,29000,ART-006,True
+RW-0379,banana bark wall art Imigongo,"Imigongo-style banana bark wall art panel, traditional cow-dung painting technique.",home-decor,banana-bark,Gakenke,11000,ART-004,True
+RW-0071,denim shirt with Rwandan motifs,Handcrafted denim shirt adorned with traditional Rwandan geometric motifs.,apparel,denim,Ngoma,22500,ART-021,True
+RW-0332,ceramic candle holder set,Set of three ceramic candle holders with carved geometric patterns.,home-decor,ceramic,Kayonza,7000,ART-037,True
+RW-0397,wood serving bowl,"Large wood serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,wood,Gasabo,3500,ART-064,True
+RW-0020,cotton headwrap igitenge,"Vibrant cotton headwrap (igitenge) in bold colours, a staple of Rwandan fashion.",apparel,cotton,Kayonza,23000,ART-080,True
+RW-0100,cow leather wallet minimalist,"Slim minimalist cow leather wallet with card slots and coin pocket, hand-finished edges.",leather,cow-leather,Gasabo,10500,ART-036,True
+RW-0318,brass bracelet layered,"Layered brass bracelet set with adjustable clasp, great for stacking.",jewellery,brass,Kicukiro,33500,ART-013,True
+RW-0272,brass ring geometric,"Geometric brass ring with clean lines, available in multiple sizes.",jewellery,brass,Kicukiro,22000,ART-003,True
+RW-0229,raffia fruit bowl,"Elegant raffia fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,raffia,Nyarugenge,28000,ART-030,True
+RW-0052,linen trousers tailored,Custom-tailored linen trousers with a comfortable fit and African-inspired details.,apparel,linen,Gasabo,3000,ART-062,True
+RW-0218,raffia fruit bowl,"Elegant raffia fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,raffia,Bugesera,34500,ART-047,True
+RW-0075,denim shirt with Rwandan motifs,Handcrafted denim shirt adorned with traditional Rwandan geometric motifs.,apparel,denim,Muhanga,5500,ART-073,True
+RW-0251,cow horn ring geometric,"Geometric cow horn ring with clean lines, available in multiple sizes.",jewellery,cow-horn,Rusizi,11500,ART-044,True
+RW-0110,vegetable tanned leather sandals Nyamirambo style,"Open-toe vegetable tanned leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,vegetable-tanned-leather,Muhanga,12500,ART-073,True
+RW-0040,linen headwrap igitenge,"Vibrant linen headwrap (igitenge) in bold colours, a staple of Rwandan fashion.",apparel,linen,Rwamagana,42000,ART-057,True
+RW-0058,cotton trousers tailored,Custom-tailored cotton trousers with a comfortable fit and African-inspired details.,apparel,cotton,Gakenke,39000,ART-076,True
+RW-0209,sisal wine bottle holder,"Unique sisal wine bottle holder, a conversation starter and perfect gift.",basketry,sisal,Nyabihu,15000,ART-071,True
+RW-0003,kitenge fabric skirt with embroidery,Flowing kitenge fabric skirt with hand-stitched embroidery from local artisans.,apparel,kitenge-fabric,Gicumbi,9500,ART-032,True
+RW-0080,silk blazer Kigali style,Modern silk blazer blending contemporary Kigali fashion with traditional textiles.,apparel,silk,Kayonza,37000,ART-079,True
+RW-0336,clay vase hand-painted,Hand-painted clay vase with motifs depicting Rwandan thousand hills landscape.,home-decor,clay,Nyabihu,34000,ART-051,True
+RW-0092,recycled leather keychain set,"Set of three recycled leather keychains with hand-stamped initials, great as gifts.",leather,recycled-leather,Nyabihu,72500,ART-071,True
+RW-0350,ceramic coasters set of 6,Set of six ceramic coasters with protective felt backing and cultural patterns.,home-decor,ceramic,Gakenke,38500,ART-031,True
+RW-0308,beads necklace Rwandan design,Statement beads necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,beads,Rubavu,43500,ART-075,True
+RW-0004,kitenge fabric trousers tailored,Custom-tailored kitenge fabric trousers with a comfortable fit and African-inspired details.,apparel,kitenge-fabric,Kayonza,12500,ART-080,True
+RW-0138,Handmade cow leather boots,"Durable handmade cow leather boots crafted by Kigali leatherworkers, built for comfort and longevity.",leather,cow-leather,Nyagatare,35500,ART-078,True
+RW-0134,cow leather keychain set,"Set of three cow leather keychains with hand-stamped initials, great as gifts.",leather,cow-leather,Huye,11500,ART-053,True
+RW-0021,denim shirt with Rwandan motifs,Handcrafted denim shirt adorned with traditional Rwandan geometric motifs.,apparel,denim,Bugesera,35000,ART-039,True
+RW-0366,recycled glass vase hand-painted,Hand-painted recycled glass vase with motifs depicting Rwandan thousand hills landscape.,home-decor,recycled-glass,Nyarugenge,19000,ART-043,True
+RW-0192,sisal tray woven,"Flat woven sisal tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,sisal,Nyarugenge,22500,ART-072,True
+RW-0355,recycled glass vase hand-painted,Hand-painted recycled glass vase with motifs depicting Rwandan thousand hills landscape.,home-decor,recycled-glass,Kirehe,52000,ART-046,True
+RW-0171,raffia placemat set of 4,"Set of four raffia placemats with coordinated colour patterns, handwoven.",basketry,raffia,Kayonza,31000,ART-033,True
+RW-0351,clay wall art Imigongo,"Imigongo-style clay wall art panel, traditional cow-dung painting technique.",home-decor,clay,Gasabo,35500,ART-011,True
+RW-0276,cow horn anklet with charms,cow horn anklet featuring small charms inspired by Lake Kivu waves.,jewellery,cow-horn,Gasabo,26500,ART-011,True
+RW-0217,raffia tray woven,"Flat woven raffia tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,raffia,Karongi,6000,ART-015,True
+RW-0114,vegetable tanned leather keychain set,"Set of three vegetable tanned leather keychains with hand-stamped initials, great as gifts.",leather,vegetable-tanned-leather,Kayonza,9000,ART-038,True
+RW-0112,cow leather wallet minimalist,"Slim minimalist cow leather wallet with card slots and coin pocket, hand-finished edges.",leather,cow-leather,Gakenke,27000,ART-031,True
+RW-0060,Handwoven ankara fabric scarf,Soft handwoven ankara fabric scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,ankara-fabric,Rutsiro,14500,ART-060,True
+RW-0340,ceramic photo frame,"Rustic ceramic photo frame with hand-carved border, fits 5×7 inch photo.",home-decor,ceramic,Gakenke,46500,ART-061,True
+RW-0302,wood earrings drop style,"Elegant drop-style wood earrings, lightweight and handcrafted.",jewellery,wood,Bugesera,25000,ART-047,True
+RW-0001,Handwoven linen scarf,Soft handwoven linen scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,linen,Nyarugenge,11000,ART-056,True
+RW-0290,wood necklace Rwandan design,Statement wood necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,wood,Kirehe,33500,ART-046,True
+RW-0400,ceramic candle holder set,Set of three ceramic candle holders with carved geometric patterns.,home-decor,ceramic,Rwamagana,27000,ART-040,True
+RW-0061,cotton blazer Kigali style,Modern cotton blazer blending contemporary Kigali fashion with traditional textiles.,apparel,cotton,Huye,23500,ART-049,True
+RW-0043,silk blazer Kigali style,Modern silk blazer blending contemporary Kigali fashion with traditional textiles.,apparel,silk,Nyabihu,34000,ART-067,True
+RW-0206,sweetgrass placemat set of 4,"Set of four sweetgrass placemats with coordinated colour patterns, handwoven.",basketry,sweetgrass,Nyagatare,3000,ART-077,True
+RW-0013,denim trousers tailored,Custom-tailored denim trousers with a comfortable fit and African-inspired details.,apparel,denim,Rubavu,24000,ART-069,True
+RW-0193,papyrus storage basket large,"Large papyrus storage basket with lid, handwoven by women's cooperative artisans.",basketry,papyrus,Nyamasheke,31500,ART-009,True
+RW-0030,linen headwrap igitenge,"Vibrant linen headwrap (igitenge) in bold colours, a staple of Rwandan fashion.",apparel,linen,Nyamasheke,18000,ART-012,True
+RW-0119,Handmade cow leather boots,"Durable handmade cow leather boots crafted by Kigali leatherworkers, built for comfort and longevity.",leather,cow-leather,Musanze,44000,ART-022,True
+RW-0357,banana bark candle holder set,Set of three banana bark candle holders with carved geometric patterns.,home-decor,banana-bark,Rubavu,49000,ART-075,True
+RW-0170,sisal fruit bowl,"Elegant sisal fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,sisal,Rutsiro,21000,ART-045,True
+RW-0363,ceramic serving bowl,"Large ceramic serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,ceramic,Nyagatare,22000,ART-006,True
+RW-0253,wood necklace Rwandan design,Statement wood necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,wood,Rusizi,11000,ART-007,True
+RW-0076,kitenge fabric trousers tailored,Custom-tailored kitenge fabric trousers with a comfortable fit and African-inspired details.,apparel,kitenge-fabric,Nyamasheke,7000,ART-048,True
+RW-0390,recycled glass incense burner,Artisan recycled glass incense burner with ventilation slots and ash catcher tray.,home-decor,recycled-glass,Gicumbi,9500,ART-026,True
+RW-0018,silk blazer Kigali style,Modern silk blazer blending contemporary Kigali fashion with traditional textiles.,apparel,silk,Nyagatare,30500,ART-006,True
+RW-0195,Agaseke peace basket sweetgrass,"Traditional Rwandan agaseke peace basket woven from sweetgrass, symbolising unity and reconciliation.",basketry,sweetgrass,Kayonza,21000,ART-005,True
+RW-0174,papyrus wall hanging decorative,Decorative papyrus wall hanging with geometric Imigongo-inspired patterns.,basketry,papyrus,Kayonza,3000,ART-038,True
+RW-0260,wood brooch traditional,Traditional-style wood brooch with Imigongo pattern inlay.,jewellery,wood,Rwamagana,4000,ART-040,True
+RW-0069,linen skirt with embroidery,Flowing linen skirt with hand-stitched embroidery from local artisans.,apparel,linen,Rutsiro,19000,ART-060,True
+RW-0262,brass earrings drop style,"Elegant drop-style brass earrings, lightweight and handcrafted.",jewellery,brass,Bugesera,15000,ART-039,True
+RW-0028,ankara fabric skirt with embroidery,Flowing ankara fabric skirt with hand-stitched embroidery from local artisans.,apparel,ankara-fabric,Musanze,33000,ART-066,True
+RW-0109,vegetable tanned leather keychain set,"Set of three vegetable tanned leather keychains with hand-stamped initials, great as gifts.",leather,vegetable-tanned-leather,Bugesera,80000,ART-039,True
+RW-0225,sisal storage basket large,"Large sisal storage basket with lid, handwoven by women's cooperative artisans.",basketry,sisal,Gasabo,22500,ART-036,True
+RW-0185,raffia wine bottle holder,"Unique raffia wine bottle holder, a conversation starter and perfect gift.",basketry,raffia,Kayonza,23500,ART-038,True
+RW-0057,Handwoven ankara fabric scarf,Soft handwoven ankara fabric scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,ankara-fabric,Kayonza,37000,ART-080,True
+RW-0376,banana bark coasters set of 6,Set of six banana bark coasters with protective felt backing and cultural patterns.,home-decor,banana-bark,Kayonza,29500,ART-079,True
+RW-0395,wood wall art Imigongo,"Imigongo-style wood wall art panel, traditional cow-dung painting technique.",home-decor,wood,Bugesera,34500,ART-047,True
+RW-0230,banana leaf wine bottle holder,"Unique banana leaf wine bottle holder, a conversation starter and perfect gift.",basketry,banana-leaf,Kicukiro,27500,ART-059,True
+RW-0006,Handwoven cotton scarf,Soft handwoven cotton scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,cotton,Nyarugenge,29000,ART-043,True
+RW-0316,recycled metal earrings drop style,"Elegant drop-style recycled metal earrings, lightweight and handcrafted.",jewellery,recycled-metal,Rusizi,32500,ART-044,True
+RW-0237,sisal fruit bowl,"Elegant sisal fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,sisal,Kirehe,29000,ART-046,True
+RW-0165,sweetgrass storage basket large,"Large sweetgrass storage basket with lid, handwoven by women's cooperative artisans.",basketry,sweetgrass,Gasabo,26000,ART-011,True
+RW-0284,silver necklace Rwandan design,Statement silver necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,silver,Bugesera,41500,ART-023,True
+RW-0189,banana leaf tray woven,"Flat woven banana leaf tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,banana-leaf,Gasabo,31000,ART-016,True
+RW-0070,Handwoven kitenge fabric scarf,Soft handwoven kitenge fabric scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,kitenge-fabric,Nyagatare,41500,ART-078,True
+RW-0188,sisal wine bottle holder,"Unique sisal wine bottle holder, a conversation starter and perfect gift.",basketry,sisal,Nyabihu,2500,ART-051,True
+RW-0309,recycled metal bracelet layered,"Layered recycled metal bracelet set with adjustable clasp, great for stacking.",jewellery,recycled-metal,Rwamagana,43000,ART-040,True
+RW-0232,raffia wall hanging decorative,Decorative raffia wall hanging with geometric Imigongo-inspired patterns.,basketry,raffia,Kayonza,25500,ART-033,True
+RW-0234,sisal wine bottle holder,"Unique sisal wine bottle holder, a conversation starter and perfect gift.",basketry,sisal,Gasabo,7500,ART-011,True
+RW-0281,silver cufflinks artisan,"Handmade silver cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,silver,Rusizi,16500,ART-019,True
+RW-0275,brass earrings drop style,"Elegant drop-style brass earrings, lightweight and handcrafted.",jewellery,brass,Nyarugenge,39000,ART-056,True
+RW-0102,Handmade cow leather boots,"Durable handmade cow leather boots crafted by Kigali leatherworkers, built for comfort and longevity.",leather,cow-leather,Kayonza,41000,ART-074,True
+RW-0294,wood anklet with charms,wood anklet featuring small charms inspired by Lake Kivu waves.,jewellery,wood,Huye,31000,ART-050,True
+RW-0199,papyrus placemat set of 4,"Set of four papyrus placemats with coordinated colour patterns, handwoven.",basketry,papyrus,Kirehe,28500,ART-020,True
+RW-0184,banana leaf wine bottle holder,"Unique banana leaf wine bottle holder, a conversation starter and perfect gift.",basketry,banana-leaf,Musanze,18000,ART-022,True
+RW-0361,wood wall art Imigongo,"Imigongo-style wood wall art panel, traditional cow-dung painting technique.",home-decor,wood,Nyamasheke,47500,ART-009,True
+RW-0200,sisal wine bottle holder,"Unique sisal wine bottle holder, a conversation starter and perfect gift.",basketry,sisal,Musanze,28000,ART-063,True
+RW-0115,goat leather sandals Nyamirambo style,"Open-toe goat leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,goat-leather,Kayonza,63000,ART-037,True
+RW-0089,goat leather keychain set,"Set of three goat leather keychains with hand-stamped initials, great as gifts.",leather,goat-leather,Musanze,62000,ART-063,True
+RW-0027,ankara fabric headwrap igitenge,"Vibrant ankara fabric headwrap (igitenge) in bold colours, a staple of Rwandan fashion.",apparel,ankara-fabric,Rutsiro,31000,ART-060,True
+RW-0219,Agaseke peace basket papyrus,"Traditional Rwandan agaseke peace basket woven from papyrus, symbolising unity and reconciliation.",basketry,papyrus,Rwamagana,34000,ART-058,True
+RW-0216,sweetgrass wall hanging decorative,Decorative sweetgrass wall hanging with geometric Imigongo-inspired patterns.,basketry,sweetgrass,Rusizi,10000,ART-007,True
+RW-0236,Agaseke peace basket papyrus,"Traditional Rwandan agaseke peace basket woven from papyrus, symbolising unity and reconciliation.",basketry,papyrus,Gakenke,23000,ART-076,True
+RW-0120,recycled leather keychain set,"Set of three recycled leather keychains with hand-stamped initials, great as gifts.",leather,recycled-leather,Gasabo,64500,ART-016,True
+RW-0169,raffia wall hanging decorative,Decorative raffia wall hanging with geometric Imigongo-inspired patterns.,basketry,raffia,Gasabo,12000,ART-070,True
+RW-0154,cow leather keychain set,"Set of three cow leather keychains with hand-stamped initials, great as gifts.",leather,cow-leather,Huye,23000,ART-002,True
+RW-0291,brass bracelet layered,"Layered brass bracelet set with adjustable clasp, great for stacking.",jewellery,brass,Rutsiro,30000,ART-060,True
+RW-0140,vegetable tanned leather handbag artisan,Artisan-made vegetable tanned leather handbag with hand-stitched seams and brass buckle closure.,leather,vegetable-tanned-leather,Huye,19500,ART-029,True
+RW-0032,silk dress with African print,"Elegant silk dress featuring hand-dyed African prints, perfect for formal and casual occasions.",apparel,silk,Nyagatare,18500,ART-006,True
+RW-0331,banana bark incense burner,Artisan banana bark incense burner with ventilation slots and ash catcher tray.,home-decor,banana-bark,Nyamasheke,37000,ART-048,True
+RW-0224,sisal wall hanging decorative,Decorative sisal wall hanging with geometric Imigongo-inspired patterns.,basketry,sisal,Nyagatare,11000,ART-078,True
+RW-0062,silk baby outfit set,"Adorable silk baby clothing set with soft Rwandan-printed fabric, safe for infants.",apparel,silk,Rusizi,24500,ART-042,True
+RW-0172,banana leaf storage basket large,"Large banana leaf storage basket with lid, handwoven by women's cooperative artisans.",basketry,banana-leaf,Huye,32500,ART-050,True
+RW-0167,papyrus storage basket large,"Large papyrus storage basket with lid, handwoven by women's cooperative artisans.",basketry,papyrus,Nyarugenge,31500,ART-030,True
+RW-0091,vegetable tanned leather belt with brass buckle,"Classic vegetable tanned leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,vegetable-tanned-leather,Rwamagana,79000,ART-040,True
+RW-0343,wood wall art Imigongo,"Imigongo-style wood wall art panel, traditional cow-dung painting technique.",home-decor,wood,Nyabihu,48500,ART-071,True
+RW-0118,goat leather wallet minimalist,"Slim minimalist goat leather wallet with card slots and coin pocket, hand-finished edges.",leather,goat-leather,Rwamagana,23000,ART-035,True
+RW-0045,cotton blazer Kigali style,Modern cotton blazer blending contemporary Kigali fashion with traditional textiles.,apparel,cotton,Gakenke,20000,ART-031,True
+RW-0367,ceramic coasters set of 6,Set of six ceramic coasters with protective felt backing and cultural patterns.,home-decor,ceramic,Nyarugenge,58500,ART-056,True
+RW-0097,goat leather belt with brass buckle,"Classic goat leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,goat-leather,Gasabo,40000,ART-062,True
+RW-0159,cow leather belt with brass buckle,"Classic cow leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,cow-leather,Kayonza,34000,ART-037,True
+RW-0323,clay coasters set of 6,Set of six clay coasters with protective felt backing and cultural patterns.,home-decor,clay,Gakenke,30000,ART-031,True
+RW-0285,cow horn ring geometric,"Geometric cow horn ring with clean lines, available in multiple sizes.",jewellery,cow-horn,Muhanga,50000,ART-073,True
+RW-0054,linen skirt with embroidery,Flowing linen skirt with hand-stitched embroidery from local artisans.,apparel,linen,Musanze,17000,ART-063,True
+RW-0203,sisal placemat set of 4,"Set of four sisal placemats with coordinated colour patterns, handwoven.",basketry,sisal,Nyamasheke,24500,ART-048,True
+RW-0198,banana leaf placemat set of 4,"Set of four banana leaf placemats with coordinated colour patterns, handwoven.",basketry,banana-leaf,Gasabo,28500,ART-070,True
+RW-0358,recycled glass wall art Imigongo,"Imigongo-style recycled glass wall art panel, traditional cow-dung painting technique.",home-decor,recycled-glass,Nyagatare,24500,ART-006,True
+RW-0121,recycled leather journal cover,"Beautiful recycled leather journal cover with embossed Rwandan patterns, refillable insert.",leather,recycled-leather,Rwamagana,69000,ART-035,True
+RW-0396,wood candle holder set,Set of three wood candle holders with carved geometric patterns.,home-decor,wood,Gicumbi,52500,ART-026,True
+RW-0243,recycled metal cufflinks artisan,"Handmade recycled metal cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,recycled-metal,Rutsiro,37000,ART-055,True
+RW-0053,kitenge fabric blazer Kigali style,Modern kitenge fabric blazer blending contemporary Kigali fashion with traditional textiles.,apparel,kitenge-fabric,Huye,29500,ART-050,True
+RW-0106,Handmade cow leather boots,"Durable handmade cow leather boots crafted by Kigali leatherworkers, built for comfort and longevity.",leather,cow-leather,Kirehe,24000,ART-020,True
+RW-0201,Agaseke peace basket banana leaf,"Traditional Rwandan agaseke peace basket woven from banana leaf, symbolising unity and reconciliation.",basketry,banana-leaf,Nyamasheke,15500,ART-048,True
+RW-0330,bamboo wall art Imigongo,"Imigongo-style bamboo wall art panel, traditional cow-dung painting technique.",home-decor,bamboo,Kayonza,5000,ART-033,True
+RW-0313,silver brooch traditional,Traditional-style silver brooch with Imigongo pattern inlay.,jewellery,silver,Gicumbi,7000,ART-068,True
+RW-0113,cow leather wallet minimalist,"Slim minimalist cow leather wallet with card slots and coin pocket, hand-finished edges.",leather,cow-leather,Nyarugenge,57000,ART-001,True
+RW-0179,sisal placemat set of 4,"Set of four sisal placemats with coordinated colour patterns, handwoven.",basketry,sisal,Nyagatare,21500,ART-006,True
+RW-0049,ankara fabric trousers tailored,Custom-tailored ankara fabric trousers with a comfortable fit and African-inspired details.,apparel,ankara-fabric,Nyarugenge,37500,ART-043,True
+RW-0228,sisal wine bottle holder,"Unique sisal wine bottle holder, a conversation starter and perfect gift.",basketry,sisal,Karongi,15500,ART-015,True
+RW-0385,bamboo coasters set of 6,Set of six bamboo coasters with protective felt backing and cultural patterns.,home-decor,bamboo,Nyabihu,22000,ART-051,True
+RW-0009,ankara fabric skirt with embroidery,Flowing ankara fabric skirt with hand-stitched embroidery from local artisans.,apparel,ankara-fabric,Gicumbi,32000,ART-026,True
+RW-0333,wood photo frame,"Rustic wood photo frame with hand-carved border, fits 5×7 inch photo.",home-decor,wood,Rwamagana,59500,ART-058,True
+RW-0352,recycled glass candle holder set,Set of three recycled glass candle holders with carved geometric patterns.,home-decor,recycled-glass,Gicumbi,36500,ART-068,True
+RW-0279,wood brooch traditional,Traditional-style wood brooch with Imigongo pattern inlay.,jewellery,wood,Karongi,35000,ART-015,True
+RW-0135,goat leather laptop sleeve,"Protective goat leather laptop sleeve with soft lining, fits up to 15 inches.",leather,goat-leather,Kayonza,68500,ART-080,True
+RW-0044,denim skirt with embroidery,Flowing denim skirt with hand-stitched embroidery from local artisans.,apparel,denim,Gasabo,31000,ART-036,True
+RW-0123,vegetable tanned leather laptop sleeve,"Protective vegetable tanned leather laptop sleeve with soft lining, fits up to 15 inches.",leather,vegetable-tanned-leather,Nyagatare,37000,ART-078,True
+RW-0176,papyrus placemat set of 4,"Set of four papyrus placemats with coordinated colour patterns, handwoven.",basketry,papyrus,Gasabo,20000,ART-064,True
+RW-0244,wood anklet with charms,wood anklet featuring small charms inspired by Lake Kivu waves.,jewellery,wood,Nyarugenge,3000,ART-072,True
+RW-0059,denim dress with African print,"Elegant denim dress featuring hand-dyed African prints, perfect for formal and casual occasions.",apparel,denim,Gasabo,44000,ART-011,True
+RW-0148,vegetable tanned leather laptop sleeve,"Protective vegetable tanned leather laptop sleeve with soft lining, fits up to 15 inches.",leather,vegetable-tanned-leather,Nyarugenge,75500,ART-043,True
+RW-0286,wood ring geometric,"Geometric wood ring with clean lines, available in multiple sizes.",jewellery,wood,Muhanga,42500,ART-073,True
+RW-0252,beads bracelet layered,"Layered beads bracelet set with adjustable clasp, great for stacking.",jewellery,beads,Rusizi,37500,ART-042,True
+RW-0180,Agaseke peace basket raffia,"Traditional Rwandan agaseke peace basket woven from raffia, symbolising unity and reconciliation.",basketry,raffia,Rubavu,25000,ART-075,True
+RW-0327,bamboo incense burner,Artisan bamboo incense burner with ventilation slots and ash catcher tray.,home-decor,bamboo,Rutsiro,51000,ART-060,True
+RW-0007,denim skirt with embroidery,Flowing denim skirt with hand-stitched embroidery from local artisans.,apparel,denim,Rwamagana,13000,ART-035,True
+RW-0162,sisal wall hanging decorative,Decorative sisal wall hanging with geometric Imigongo-inspired patterns.,basketry,sisal,Huye,20500,ART-008,True
+RW-0344,bamboo lamp shade,"Unique bamboo lamp shade casting warm patterned light, handmade by local craftspeople.",home-decor,bamboo,Karongi,51500,ART-015,True
+RW-0150,goat leather journal cover,"Beautiful goat leather journal cover with embossed Rwandan patterns, refillable insert.",leather,goat-leather,Nyarugenge,57500,ART-030,True
+RW-0107,recycled leather handbag artisan,Artisan-made recycled leather handbag with hand-stitched seams and brass buckle closure.,leather,recycled-leather,Gicumbi,20000,ART-032,True
+RW-0374,clay lamp shade,"Unique clay lamp shade casting warm patterned light, handmade by local craftspeople.",home-decor,clay,Musanze,46000,ART-022,True
+RW-0339,ceramic coasters set of 6,Set of six ceramic coasters with protective felt backing and cultural patterns.,home-decor,ceramic,Rusizi,10500,ART-019,True
+RW-0399,bamboo wall art Imigongo,"Imigongo-style bamboo wall art panel, traditional cow-dung painting technique.",home-decor,bamboo,Kayonza,58500,ART-079,True
+RW-0095,recycled leather belt with brass buckle,"Classic recycled leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,recycled-leather,Gasabo,29500,ART-016,True
+RW-0257,cow horn ring geometric,"Geometric cow horn ring with clean lines, available in multiple sizes.",jewellery,cow-horn,Rwamagana,15000,ART-035,True
+RW-0221,banana leaf fruit bowl,"Elegant banana leaf fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,banana-leaf,Gakenke,5500,ART-004,True
+RW-0191,Agaseke peace basket banana leaf,"Traditional Rwandan agaseke peace basket woven from banana leaf, symbolising unity and reconciliation.",basketry,banana-leaf,Nyarugenge,32000,ART-030,True
+RW-0261,recycled metal ring geometric,"Geometric recycled metal ring with clean lines, available in multiple sizes.",jewellery,recycled-metal,Nyagatare,5000,ART-077,True
+RW-0182,raffia storage basket large,"Large raffia storage basket with lid, handwoven by women's cooperative artisans.",basketry,raffia,Gicumbi,10000,ART-026,True
+RW-0319,wood cufflinks artisan,"Handmade wood cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,wood,Gicumbi,3500,ART-068,True
+RW-0292,brass necklace Rwandan design,Statement brass necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,brass,Nyamasheke,19500,ART-048,True
+RW-0311,wood brooch traditional,Traditional-style wood brooch with Imigongo pattern inlay.,jewellery,wood,Gasabo,21000,ART-011,True
+RW-0267,wood cufflinks artisan,"Handmade wood cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,wood,Kirehe,6000,ART-046,True
+RW-0220,sweetgrass tray woven,"Flat woven sweetgrass tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,sweetgrass,Nyagatare,35000,ART-006,True
+RW-0152,vegetable tanned leather wallet minimalist,"Slim minimalist vegetable tanned leather wallet with card slots and coin pocket, hand-finished edges.",leather,vegetable-tanned-leather,Gasabo,9500,ART-064,True
+RW-0077,linen headwrap igitenge,"Vibrant linen headwrap (igitenge) in bold colours, a staple of Rwandan fashion.",apparel,linen,Huye,29500,ART-002,True
+RW-0300,recycled metal necklace Rwandan design,Statement recycled metal necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,recycled-metal,Gicumbi,46500,ART-032,True
+RW-0273,recycled metal cufflinks artisan,"Handmade recycled metal cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,recycled-metal,Kayonza,30500,ART-080,True
+RW-0223,sisal fruit bowl,"Elegant sisal fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,sisal,Rwamagana,6500,ART-057,True
+RW-0335,wood incense burner,Artisan wood incense burner with ventilation slots and ash catcher tray.,home-decor,wood,Rutsiro,3500,ART-045,True
+RW-0278,beads cufflinks artisan,"Handmade beads cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,beads,Musanze,6000,ART-022,True
+RW-0227,raffia tray woven,"Flat woven raffia tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,raffia,Nyagatare,29500,ART-078,True
+RW-0084,vegetable tanned leather laptop sleeve,"Protective vegetable tanned leather laptop sleeve with soft lining, fits up to 15 inches.",leather,vegetable-tanned-leather,Gakenke,68000,ART-004,True
+RW-0207,sisal wine bottle holder,"Unique sisal wine bottle holder, a conversation starter and perfect gift.",basketry,sisal,Nyarugenge,17500,ART-043,True
+RW-0132,vegetable tanned leather handbag artisan,Artisan-made vegetable tanned leather handbag with hand-stitched seams and brass buckle closure.,leather,vegetable-tanned-leather,Nyabihu,37000,ART-041,True
+RW-0353,bamboo vase hand-painted,Hand-painted bamboo vase with motifs depicting Rwandan thousand hills landscape.,home-decor,bamboo,Huye,57500,ART-050,True
+RW-0039,silk baby outfit set,"Adorable silk baby clothing set with soft Rwandan-printed fabric, safe for infants.",apparel,silk,Gicumbi,38500,ART-068,True
+RW-0117,goat leather journal cover,"Beautiful goat leather journal cover with embossed Rwandan patterns, refillable insert.",leather,goat-leather,Karongi,74500,ART-015,True
+RW-0133,recycled leather handbag artisan,Artisan-made recycled leather handbag with hand-stitched seams and brass buckle closure.,leather,recycled-leather,Nyabihu,70500,ART-052,True
+RW-0122,vegetable tanned leather keychain set,"Set of three vegetable tanned leather keychains with hand-stamped initials, great as gifts.",leather,vegetable-tanned-leather,Gasabo,10000,ART-011,True
+RW-0086,recycled leather sandals Nyamirambo style,"Open-toe recycled leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,recycled-leather,Rusizi,40500,ART-044,True
+RW-0183,papyrus wall hanging decorative,Decorative papyrus wall hanging with geometric Imigongo-inspired patterns.,basketry,papyrus,Gicumbi,34000,ART-068,True
+RW-0036,denim dress with African print,"Elegant denim dress featuring hand-dyed African prints, perfect for formal and casual occasions.",apparel,denim,Huye,30000,ART-014,True
+RW-0010,kitenge fabric blazer Kigali style,Modern kitenge fabric blazer blending contemporary Kigali fashion with traditional textiles.,apparel,kitenge-fabric,Nyarugenge,17000,ART-030,True
+RW-0398,recycled glass coasters set of 6,Set of six recycled glass coasters with protective felt backing and cultural patterns.,home-decor,recycled-glass,Rutsiro,53000,ART-060,True
+RW-0011,cotton skirt with embroidery,Flowing cotton skirt with hand-stitched embroidery from local artisans.,apparel,cotton,Nyabihu,24000,ART-052,True
+RW-0360,banana bark incense burner,Artisan banana bark incense burner with ventilation slots and ash catcher tray.,home-decor,banana-bark,Gasabo,42000,ART-062,True
+RW-0245,wood brooch traditional,Traditional-style wood brooch with Imigongo pattern inlay.,jewellery,wood,Rwamagana,3000,ART-035,True
+RW-0131,recycled leather journal cover,"Beautiful recycled leather journal cover with embossed Rwandan patterns, refillable insert.",leather,recycled-leather,Nyabihu,9500,ART-071,True
+RW-0354,clay vase hand-painted,Hand-painted clay vase with motifs depicting Rwandan thousand hills landscape.,home-decor,clay,Huye,25500,ART-050,True
+RW-0051,ankara fabric trousers tailored,Custom-tailored ankara fabric trousers with a comfortable fit and African-inspired details.,apparel,ankara-fabric,Rubavu,4000,ART-075,True
+RW-0037,Handwoven silk scarf,Soft handwoven silk scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,silk,Nyabihu,32500,ART-067,True
+RW-0194,banana leaf placemat set of 4,"Set of four banana leaf placemats with coordinated colour patterns, handwoven.",basketry,banana-leaf,Huye,9000,ART-053,True
+RW-0247,beads necklace Rwandan design,Statement beads necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,beads,Muhanga,10500,ART-024,True
+RW-0143,vegetable tanned leather belt with brass buckle,"Classic vegetable tanned leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,vegetable-tanned-leather,Kicukiro,75500,ART-059,True
+RW-0347,bamboo incense burner,Artisan bamboo incense burner with ventilation slots and ash catcher tray.,home-decor,bamboo,Nyamasheke,9000,ART-009,True
+RW-0204,sisal fruit bowl,"Elegant sisal fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,sisal,Gasabo,14000,ART-036,True
+RW-0096,recycled leather handbag artisan,Artisan-made recycled leather handbag with hand-stitched seams and brass buckle closure.,leather,recycled-leather,Rubavu,28500,ART-069,True
+RW-0359,bamboo coasters set of 6,Set of six bamboo coasters with protective felt backing and cultural patterns.,home-decor,bamboo,Bugesera,55000,ART-023,True
+RW-0263,recycled metal cufflinks artisan,"Handmade recycled metal cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,recycled-metal,Kayonza,20000,ART-033,True
+RW-0033,ankara fabric shirt with Rwandan motifs,Handcrafted ankara fabric shirt adorned with traditional Rwandan geometric motifs.,apparel,ankara-fabric,Kicukiro,29500,ART-059,True
+RW-0314,silver brooch traditional,Traditional-style silver brooch with Imigongo pattern inlay.,jewellery,silver,Rutsiro,34000,ART-055,True
+RW-0157,cow leather laptop sleeve,"Protective cow leather laptop sleeve with soft lining, fits up to 15 inches.",leather,cow-leather,Rubavu,53500,ART-069,True
+RW-0307,beads brooch traditional,Traditional-style beads brooch with Imigongo pattern inlay.,jewellery,beads,Nyagatare,11000,ART-078,True
+RW-0160,cow leather journal cover,"Beautiful cow leather journal cover with embossed Rwandan patterns, refillable insert.",leather,cow-leather,Kicukiro,17500,ART-013,True
+RW-0212,banana leaf wine bottle holder,"Unique banana leaf wine bottle holder, a conversation starter and perfect gift.",basketry,banana-leaf,Rusizi,10000,ART-019,True
+RW-0072,cotton dress with African print,"Elegant cotton dress featuring hand-dyed African prints, perfect for formal and casual occasions.",apparel,cotton,Rwamagana,39500,ART-040,True
+RW-0356,ceramic coasters set of 6,Set of six ceramic coasters with protective felt backing and cultural patterns.,home-decor,ceramic,Gakenke,48500,ART-031,True
+RW-0249,recycled metal brooch traditional,Traditional-style recycled metal brooch with Imigongo pattern inlay.,jewellery,recycled-metal,Gakenke,7000,ART-004,True
+RW-0365,recycled glass vase hand-painted,Hand-painted recycled glass vase with motifs depicting Rwandan thousand hills landscape.,home-decor,recycled-glass,Huye,20000,ART-025,True
+RW-0130,goat leather laptop sleeve,"Protective goat leather laptop sleeve with soft lining, fits up to 15 inches.",leather,goat-leather,Huye,68000,ART-053,True
+RW-0099,goat leather laptop sleeve,"Protective goat leather laptop sleeve with soft lining, fits up to 15 inches.",leather,goat-leather,Bugesera,43500,ART-023,True
+RW-0019,cotton skirt with embroidery,Flowing cotton skirt with hand-stitched embroidery from local artisans.,apparel,cotton,Bugesera,30500,ART-047,True
+RW-0306,brass anklet with charms,brass anklet featuring small charms inspired by Lake Kivu waves.,jewellery,brass,Huye,19500,ART-050,True
+RW-0142,recycled leather sandals Nyamirambo style,"Open-toe recycled leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,recycled-leather,Gasabo,66500,ART-054,True
+RW-0093,recycled leather journal cover,"Beautiful recycled leather journal cover with embossed Rwandan patterns, refillable insert.",leather,recycled-leather,Nyabihu,47000,ART-071,True
+RW-0345,recycled glass serving bowl,"Large recycled glass serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,recycled-glass,Bugesera,9500,ART-039,True
+RW-0144,goat leather journal cover,"Beautiful goat leather journal cover with embossed Rwandan patterns, refillable insert.",leather,goat-leather,Huye,70000,ART-025,True
+RW-0362,clay vase hand-painted,Hand-painted clay vase with motifs depicting Rwandan thousand hills landscape.,home-decor,clay,Kayonza,14500,ART-038,True
+RW-0014,cotton shirt with Rwandan motifs,Handcrafted cotton shirt adorned with traditional Rwandan geometric motifs.,apparel,cotton,Rutsiro,14000,ART-034,True
+RW-0103,vegetable tanned leather keychain set,"Set of three vegetable tanned leather keychains with hand-stamped initials, great as gifts.",leather,vegetable-tanned-leather,Rwamagana,48500,ART-057,True
+RW-0271,silver brooch traditional,Traditional-style silver brooch with Imigongo pattern inlay.,jewellery,silver,Gasabo,20000,ART-054,True
+RW-0250,silver anklet with charms,silver anklet featuring small charms inspired by Lake Kivu waves.,jewellery,silver,Huye,25500,ART-028,True
+RW-0104,Handmade goat leather boots,"Durable handmade goat leather boots crafted by Kigali leatherworkers, built for comfort and longevity.",leather,goat-leather,Kayonza,66000,ART-033,True
+RW-0196,Agaseke peace basket raffia,"Traditional Rwandan agaseke peace basket woven from raffia, symbolising unity and reconciliation.",basketry,raffia,Kicukiro,17000,ART-013,True
+RW-0378,banana bark lamp shade,"Unique banana bark lamp shade casting warm patterned light, handmade by local craftspeople.",home-decor,banana-bark,Bugesera,34500,ART-047,True
+RW-0187,sweetgrass wine bottle holder,"Unique sweetgrass wine bottle holder, a conversation starter and perfect gift.",basketry,sweetgrass,Nyabihu,25000,ART-051,True
+RW-0068,Handwoven silk scarf,Soft handwoven silk scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,silk,Gakenke,10000,ART-061,True
+RW-0312,wood ring geometric,"Geometric wood ring with clean lines, available in multiple sizes.",jewellery,wood,Nyarugenge,9500,ART-043,True
+RW-0035,ankara fabric skirt with embroidery,Flowing ankara fabric skirt with hand-stitched embroidery from local artisans.,apparel,ankara-fabric,Rusizi,44500,ART-019,True
+RW-0384,clay candle holder set,Set of three clay candle holders with carved geometric patterns.,home-decor,clay,Kayonza,10500,ART-074,True
+RW-0056,ankara fabric headwrap igitenge,"Vibrant ankara fabric headwrap (igitenge) in bold colours, a staple of Rwandan fashion.",apparel,ankara-fabric,Nyabihu,13500,ART-052,True
+RW-0005,Handwoven silk scarf,Soft handwoven silk scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,silk,Bugesera,29000,ART-023,True
+RW-0147,recycled leather keychain set,"Set of three recycled leather keychains with hand-stamped initials, great as gifts.",leather,recycled-leather,Kirehe,62000,ART-020,True
+RW-0241,brass bracelet layered,"Layered brass bracelet set with adjustable clasp, great for stacking.",jewellery,brass,Nyarugenge,25000,ART-072,True
+RW-0254,recycled metal cufflinks artisan,"Handmade recycled metal cufflinks with subtle Rwandan motifs, perfect for formal wear.",jewellery,recycled-metal,Kayonza,4500,ART-080,True
+RW-0145,goat leather handbag artisan,Artisan-made goat leather handbag with hand-stitched seams and brass buckle closure.,leather,goat-leather,Gasabo,58000,ART-036,True
+RW-0287,silver anklet with charms,silver anklet featuring small charms inspired by Lake Kivu waves.,jewellery,silver,Rusizi,41500,ART-042,True
+RW-0025,linen blazer Kigali style,Modern linen blazer blending contemporary Kigali fashion with traditional textiles.,apparel,linen,Nyabihu,38000,ART-052,True
+RW-0181,Agaseke peace basket sweetgrass,"Traditional Rwandan agaseke peace basket woven from sweetgrass, symbolising unity and reconciliation.",basketry,sweetgrass,Kayonza,22500,ART-038,True
+RW-0111,cow leather belt with brass buckle,"Classic cow leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,cow-leather,Huye,38500,ART-028,True
+RW-0393,banana bark coasters set of 6,Set of six banana bark coasters with protective felt backing and cultural patterns.,home-decor,banana-bark,Rutsiro,47000,ART-045,True
+RW-0235,Agaseke peace basket raffia,"Traditional Rwandan agaseke peace basket woven from raffia, symbolising unity and reconciliation.",basketry,raffia,Nyamasheke,10000,ART-048,True
+RW-0259,brass bracelet layered,"Layered brass bracelet set with adjustable clasp, great for stacking.",jewellery,brass,Gakenke,32500,ART-076,True
+RW-0202,raffia fruit bowl,"Elegant raffia fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,raffia,Gakenke,25000,ART-031,True
+RW-0047,Handwoven silk scarf,Soft handwoven silk scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,silk,Nyarugenge,27500,ART-030,True
+RW-0012,kitenge fabric shirt with Rwandan motifs,Handcrafted kitenge fabric shirt adorned with traditional Rwandan geometric motifs.,apparel,kitenge-fabric,Gasabo,25000,ART-036,True
+RW-0325,bamboo serving bowl,"Large bamboo serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,bamboo,Rwamagana,53500,ART-040,True
+RW-0158,recycled leather keychain set,"Set of three recycled leather keychains with hand-stamped initials, great as gifts.",leather,recycled-leather,Gasabo,9500,ART-070,True
+RW-0277,beads brooch traditional,Traditional-style beads brooch with Imigongo pattern inlay.,jewellery,beads,Rusizi,15500,ART-044,True
+RW-0240,sweetgrass storage basket large,"Large sweetgrass storage basket with lid, handwoven by women's cooperative artisans.",basketry,sweetgrass,Gasabo,16000,ART-062,True
+RW-0299,silver necklace Rwandan design,Statement silver necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,silver,Rusizi,42500,ART-065,True
+RW-0256,silver ring geometric,"Geometric silver ring with clean lines, available in multiple sizes.",jewellery,silver,Musanze,40000,ART-063,True
+RW-0282,brass earrings drop style,"Elegant drop-style brass earrings, lightweight and handcrafted.",jewellery,brass,Kayonza,14000,ART-033,True
+RW-0098,recycled leather handbag artisan,Artisan-made recycled leather handbag with hand-stitched seams and brass buckle closure.,leather,recycled-leather,Huye,42500,ART-025,True
+RW-0305,silver bracelet layered,"Layered silver bracelet set with adjustable clasp, great for stacking.",jewellery,silver,Nyamasheke,22500,ART-009,True
+RW-0168,banana leaf fruit bowl,"Elegant banana leaf fruit bowl woven with natural dyes, a functional art piece for the home.",basketry,banana-leaf,Kayonza,2500,ART-033,True
+RW-0082,recycled leather belt with brass buckle,"Classic recycled leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,recycled-leather,Nyamasheke,40500,ART-012,True
+RW-0128,vegetable tanned leather handbag artisan,Artisan-made vegetable tanned leather handbag with hand-stitched seams and brass buckle closure.,leather,vegetable-tanned-leather,Gakenke,49500,ART-061,True
+RW-0215,sweetgrass tray woven,"Flat woven sweetgrass tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,sweetgrass,Rusizi,3000,ART-042,True
+RW-0197,papyrus storage basket large,"Large papyrus storage basket with lid, handwoven by women's cooperative artisans.",basketry,papyrus,Huye,31000,ART-050,True
+RW-0324,bamboo photo frame,"Rustic bamboo photo frame with hand-carved border, fits 5×7 inch photo.",home-decor,bamboo,Rwamagana,16500,ART-058,True
+RW-0026,cotton blazer Kigali style,Modern cotton blazer blending contemporary Kigali fashion with traditional textiles.,apparel,cotton,Kayonza,16000,ART-037,True
+RW-0050,ankara fabric trousers tailored,Custom-tailored ankara fabric trousers with a comfortable fit and African-inspired details.,apparel,ankara-fabric,Huye,16000,ART-008,True
+RW-0073,denim trousers tailored,Custom-tailored denim trousers with a comfortable fit and African-inspired details.,apparel,denim,Nyabihu,15500,ART-051,True
+RW-0127,recycled leather wallet minimalist,"Slim minimalist recycled leather wallet with card slots and coin pocket, hand-finished edges.",leather,recycled-leather,Rubavu,60500,ART-075,True
+RW-0387,ceramic wall art Imigongo,"Imigongo-style ceramic wall art panel, traditional cow-dung painting technique.",home-decor,ceramic,Gasabo,35000,ART-064,True
+RW-0137,goat leather sandals Nyamirambo style,"Open-toe goat leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,goat-leather,Rwamagana,67000,ART-057,True
+RW-0063,ankara fabric blazer Kigali style,Modern ankara fabric blazer blending contemporary Kigali fashion with traditional textiles.,apparel,ankara-fabric,Gasabo,19000,ART-054,True
+RW-0386,banana bark photo frame,"Rustic banana bark photo frame with hand-carved border, fits 5×7 inch photo.",home-decor,banana-bark,Gicumbi,9000,ART-032,True
+RW-0124,cow leather handbag artisan,Artisan-made cow leather handbag with hand-stitched seams and brass buckle closure.,leather,cow-leather,Nyarugenge,78500,ART-030,True
+RW-0346,ceramic serving bowl,"Large ceramic serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,ceramic,Gasabo,42500,ART-054,True
+RW-0055,kitenge fabric trousers tailored,Custom-tailored kitenge fabric trousers with a comfortable fit and African-inspired details.,apparel,kitenge-fabric,Musanze,4500,ART-063,True
+RW-0288,beads earrings drop style,"Elegant drop-style beads earrings, lightweight and handcrafted.",jewellery,beads,Rwamagana,5500,ART-057,True
+RW-0264,beads necklace Rwandan design,Statement beads necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,beads,Nyarugenge,33000,ART-001,True
+RW-0190,banana leaf placemat set of 4,"Set of four banana leaf placemats with coordinated colour patterns, handwoven.",basketry,banana-leaf,Rutsiro,26000,ART-034,True
+RW-0377,recycled glass vase hand-painted,Hand-painted recycled glass vase with motifs depicting Rwandan thousand hills landscape.,home-decor,recycled-glass,Nyabihu,44500,ART-010,True
+RW-0205,sisal wine bottle holder,"Unique sisal wine bottle holder, a conversation starter and perfect gift.",basketry,sisal,Kicukiro,7500,ART-059,True
+RW-0383,banana bark incense burner,Artisan banana bark incense burner with ventilation slots and ash catcher tray.,home-decor,banana-bark,Nyamasheke,25500,ART-048,True
+RW-0164,sweetgrass tray woven,"Flat woven sweetgrass tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,sweetgrass,Huye,13500,ART-053,True
+RW-0161,raffia storage basket large,"Large raffia storage basket with lid, handwoven by women's cooperative artisans.",basketry,raffia,Bugesera,3500,ART-039,True
+RW-0074,cotton skirt with embroidery,Flowing cotton skirt with hand-stitched embroidery from local artisans.,apparel,cotton,Huye,22000,ART-014,True
+RW-0175,raffia wall hanging decorative,Decorative raffia wall hanging with geometric Imigongo-inspired patterns.,basketry,raffia,Huye,5000,ART-002,True
+RW-0105,cow leather handbag artisan,Artisan-made cow leather handbag with hand-stitched seams and brass buckle closure.,leather,cow-leather,Nyabihu,67500,ART-052,True
+RW-0238,sisal wall hanging decorative,Decorative sisal wall hanging with geometric Imigongo-inspired patterns.,basketry,sisal,Nyagatare,21500,ART-077,True
+RW-0341,wood incense burner,Artisan wood incense burner with ventilation slots and ash catcher tray.,home-decor,wood,Rwamagana,41000,ART-058,True
+RW-0213,papyrus wall hanging decorative,Decorative papyrus wall hanging with geometric Imigongo-inspired patterns.,basketry,papyrus,Bugesera,9000,ART-023,True
+RW-0226,raffia tray woven,"Flat woven raffia tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,raffia,Gicumbi,20500,ART-068,True
+RW-0081,vegetable tanned leather keychain set,"Set of three vegetable tanned leather keychains with hand-stamped initials, great as gifts.",leather,vegetable-tanned-leather,Nyarugenge,39000,ART-056,True
+RW-0031,denim blazer Kigali style,Modern denim blazer blending contemporary Kigali fashion with traditional textiles.,apparel,denim,Huye,15500,ART-029,True
+RW-0388,clay candle holder set,Set of three clay candle holders with carved geometric patterns.,home-decor,clay,Rutsiro,51500,ART-034,True
+RW-0233,sweetgrass placemat set of 4,"Set of four sweetgrass placemats with coordinated colour patterns, handwoven.",basketry,sweetgrass,Gakenke,6000,ART-061,True
+RW-0153,goat leather laptop sleeve,"Protective goat leather laptop sleeve with soft lining, fits up to 15 inches.",leather,goat-leather,Kicukiro,61000,ART-013,True
+RW-0208,sweetgrass wine bottle holder,"Unique sweetgrass wine bottle holder, a conversation starter and perfect gift.",basketry,sweetgrass,Muhanga,15000,ART-073,True
+RW-0126,goat leather keychain set,"Set of three goat leather keychains with hand-stamped initials, great as gifts.",leather,goat-leather,Nyabihu,61500,ART-067,True
+RW-0248,wood brooch traditional,Traditional-style wood brooch with Imigongo pattern inlay.,jewellery,wood,Nyabihu,5500,ART-052,True
+RW-0155,vegetable tanned leather wallet minimalist,"Slim minimalist vegetable tanned leather wallet with card slots and coin pocket, hand-finished edges.",leather,vegetable-tanned-leather,Nyabihu,65000,ART-010,True
+RW-0149,vegetable tanned leather keychain set,"Set of three vegetable tanned leather keychains with hand-stamped initials, great as gifts.",leather,vegetable-tanned-leather,Rusizi,29000,ART-042,True
+RW-0280,wood earrings drop style,"Elegant drop-style wood earrings, lightweight and handcrafted.",jewellery,wood,Rutsiro,23500,ART-045,True
+RW-0322,wood wall art Imigongo,"Imigongo-style wood wall art panel, traditional cow-dung painting technique.",home-decor,wood,Rwamagana,4500,ART-057,True
+RW-0255,silver necklace Rwandan design,Statement silver necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,silver,Rwamagana,29500,ART-035,True
+RW-0016,linen trousers tailored,Custom-tailored linen trousers with a comfortable fit and African-inspired details.,apparel,linen,Rutsiro,23000,ART-045,True
+RW-0317,recycled metal earrings drop style,"Elegant drop-style recycled metal earrings, lightweight and handcrafted.",jewellery,recycled-metal,Musanze,11000,ART-018,True
+RW-0214,sisal storage basket large,"Large sisal storage basket with lid, handwoven by women's cooperative artisans.",basketry,sisal,Huye,24500,ART-002,True
+RW-0293,brass brooch traditional,Traditional-style brass brooch with Imigongo pattern inlay.,jewellery,brass,Nyamasheke,40500,ART-012,True
+RW-0108,vegetable tanned leather belt with brass buckle,"Classic vegetable tanned leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,vegetable-tanned-leather,Nyabihu,53500,ART-067,True
+RW-0136,Handmade vegetable tanned leather boots,"Durable handmade vegetable tanned leather boots crafted by Kigali leatherworkers, built for comfort and longevity.",leather,vegetable-tanned-leather,Nyabihu,39000,ART-027,True
+RW-0296,wood brooch traditional,Traditional-style wood brooch with Imigongo pattern inlay.,jewellery,wood,Huye,22000,ART-025,True
+RW-0348,clay vase hand-painted,Hand-painted clay vase with motifs depicting Rwandan thousand hills landscape.,home-decor,clay,Musanze,38500,ART-066,True
+RW-0024,silk trousers tailored,Custom-tailored silk trousers with a comfortable fit and African-inspired details.,apparel,silk,Huye,14000,ART-049,True
+RW-0042,silk baby outfit set,"Adorable silk baby clothing set with soft Rwandan-printed fabric, safe for infants.",apparel,silk,Rwamagana,19500,ART-058,True
+RW-0015,linen blazer Kigali style,Modern linen blazer blending contemporary Kigali fashion with traditional textiles.,apparel,linen,Kayonza,9500,ART-005,True
+RW-0022,kitenge fabric trousers tailored,Custom-tailored kitenge fabric trousers with a comfortable fit and African-inspired details.,apparel,kitenge-fabric,Rusizi,28500,ART-042,True
+RW-0289,cow horn ring geometric,"Geometric cow horn ring with clean lines, available in multiple sizes.",jewellery,cow-horn,Bugesera,19000,ART-039,True
+RW-0173,sisal storage basket large,"Large sisal storage basket with lid, handwoven by women's cooperative artisans.",basketry,sisal,Huye,24500,ART-049,True
+RW-0310,silver brooch traditional,Traditional-style silver brooch with Imigongo pattern inlay.,jewellery,silver,Nyabihu,9500,ART-051,True
+RW-0320,silver bracelet layered,"Layered silver bracelet set with adjustable clasp, great for stacking.",jewellery,silver,Kayonza,9500,ART-080,True
+RW-0338,recycled glass serving bowl,"Large recycled glass serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,recycled-glass,Gakenke,22000,ART-004,True
+RW-0088,cow leather belt with brass buckle,"Classic cow leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,cow-leather,Huye,67500,ART-053,True
+RW-0371,clay candle holder set,Set of three clay candle holders with carved geometric patterns.,home-decor,clay,Nyarugenge,40500,ART-056,True
+RW-0298,brass ring geometric,"Geometric brass ring with clean lines, available in multiple sizes.",jewellery,brass,Huye,23000,ART-014,True
+RW-0304,silver anklet with charms,silver anklet featuring small charms inspired by Lake Kivu waves.,jewellery,silver,Rusizi,41500,ART-007,True
+RW-0087,Handmade recycled leather boots,"Durable handmade recycled leather boots crafted by Kigali leatherworkers, built for comfort and longevity.",leather,recycled-leather,Nyabihu,29000,ART-067,True
+RW-0389,recycled glass incense burner,Artisan recycled glass incense burner with ventilation slots and ash catcher tray.,home-decor,recycled-glass,Huye,41000,ART-028,True
+RW-0375,clay coasters set of 6,Set of six clay coasters with protective felt backing and cultural patterns.,home-decor,clay,Rwamagana,4500,ART-058,True
+RW-0048,Handwoven denim scarf,Soft handwoven denim scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,denim,Huye,7000,ART-028,True
+RW-0274,silver bracelet layered,"Layered silver bracelet set with adjustable clasp, great for stacking.",jewellery,silver,Nyamasheke,29000,ART-012,True
+RW-0315,beads necklace Rwandan design,Statement beads necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,beads,Bugesera,21000,ART-047,True
+RW-0370,bamboo photo frame,"Rustic bamboo photo frame with hand-carved border, fits 5×7 inch photo.",home-decor,bamboo,Gasabo,48500,ART-011,True
+RW-0321,bamboo lamp shade,"Unique bamboo lamp shade casting warm patterned light, handmade by local craftspeople.",home-decor,bamboo,Kirehe,12000,ART-020,True
+RW-0391,wood candle holder set,Set of three wood candle holders with carved geometric patterns.,home-decor,wood,Rwamagana,13000,ART-058,True
+RW-0141,vegetable tanned leather handbag artisan,Artisan-made vegetable tanned leather handbag with hand-stitched seams and brass buckle closure.,leather,vegetable-tanned-leather,Kirehe,68500,ART-020,True
+RW-0381,ceramic serving bowl,"Large ceramic serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,ceramic,Bugesera,25000,ART-047,True
+RW-0326,clay serving bowl,"Large clay serving bowl glazed with earth-toned colours, food-safe finish.",home-decor,clay,Nyamasheke,45000,ART-048,True
+RW-0101,cow leather sandals Nyamirambo style,"Open-toe cow leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,cow-leather,Karongi,67500,ART-017,True
+RW-0129,vegetable tanned leather laptop sleeve,"Protective vegetable tanned leather laptop sleeve with soft lining, fits up to 15 inches.",leather,vegetable-tanned-leather,Rusizi,18000,ART-042,True
+RW-0041,denim trousers tailored,Custom-tailored denim trousers with a comfortable fit and African-inspired details.,apparel,denim,Nyabihu,31500,ART-071,True
+RW-0146,recycled leather sandals Nyamirambo style,"Open-toe recycled leather sandals inspired by Nyamirambo street style, hand-cut soles.",leather,recycled-leather,Nyarugenge,41000,ART-001,True
+RW-0372,wood photo frame,"Rustic wood photo frame with hand-carved border, fits 5×7 inch photo.",home-decor,wood,Rusizi,8500,ART-042,True
+RW-0178,sweetgrass tray woven,"Flat woven sweetgrass tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,sweetgrass,Kayonza,10500,ART-033,True
+RW-0116,cow leather belt with brass buckle,"Classic cow leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,cow-leather,Rutsiro,80000,ART-034,True
+RW-0364,recycled glass lamp shade,"Unique recycled glass lamp shade casting warm patterned light, handmade by local craftspeople.",home-decor,recycled-glass,Gasabo,32000,ART-070,True
+RW-0166,papyrus placemat set of 4,"Set of four papyrus placemats with coordinated colour patterns, handwoven.",basketry,papyrus,Gakenke,33500,ART-031,True
+RW-0083,vegetable tanned leather belt with brass buckle,"Classic vegetable tanned leather belt featuring a locally forged brass buckle, adjustable sizing.",leather,vegetable-tanned-leather,Rutsiro,77500,ART-060,True
+RW-0085,recycled leather wallet minimalist,"Slim minimalist recycled leather wallet with card slots and coin pocket, hand-finished edges.",leather,recycled-leather,Musanze,32000,ART-063,True
+RW-0156,recycled leather laptop sleeve,"Protective recycled leather laptop sleeve with soft lining, fits up to 15 inches.",leather,recycled-leather,Kayonza,55500,ART-080,True
+RW-0079,denim baby outfit set,"Adorable denim baby clothing set with soft Rwandan-printed fabric, safe for infants.",apparel,denim,Kirehe,30500,ART-020,True
+RW-0266,cow horn anklet with charms,cow horn anklet featuring small charms inspired by Lake Kivu waves.,jewellery,cow-horn,Nyarugenge,33500,ART-030,True
+RW-0064,cotton baby outfit set,"Adorable cotton baby clothing set with soft Rwandan-printed fabric, safe for infants.",apparel,cotton,Kicukiro,37500,ART-003,True
+RW-0029,Handwoven denim scarf,Soft handwoven denim scarf with intricate patterns inspired by Rwandan hill landscapes.,apparel,denim,Gasabo,21000,ART-011,True
+RW-0258,wood necklace Rwandan design,Statement wood necklace with pendant inspired by traditional Rwandan royal jewellery.,jewellery,wood,Rutsiro,29000,ART-045,True
+RW-0222,raffia wine bottle holder,"Unique raffia wine bottle holder, a conversation starter and perfect gift.",basketry,raffia,Nyabihu,29000,ART-052,True
+RW-0067,silk dress with African print,"Elegant silk dress featuring hand-dyed African prints, perfect for formal and casual occasions.",apparel,silk,Kayonza,12500,ART-080,True
+RW-0094,recycled leather keychain set,"Set of three recycled leather keychains with hand-stamped initials, great as gifts.",leather,recycled-leather,Rwamagana,44000,ART-035,True
+RW-0301,cow horn ring geometric,"Geometric cow horn ring with clean lines, available in multiple sizes.",jewellery,cow-horn,Gicumbi,34500,ART-068,True
+RW-0328,recycled glass lamp shade,"Unique recycled glass lamp shade casting warm patterned light, handmade by local craftspeople.",home-decor,recycled-glass,Rusizi,35500,ART-065,True
+RW-0283,recycled metal anklet with charms,recycled metal anklet featuring small charms inspired by Lake Kivu waves.,jewellery,recycled-metal,Kirehe,50000,ART-020,True
+RW-0066,cotton dress with African print,"Elegant cotton dress featuring hand-dyed African prints, perfect for formal and casual occasions.",apparel,cotton,Gakenke,18500,ART-004,True
+RW-0177,sweetgrass tray woven,"Flat woven sweetgrass tray, ideal for serving or as a centrepiece, with zigzag pattern.",basketry,sweetgrass,Kirehe,16000,ART-046,True
+RW-0265,silver ring geometric,"Geometric silver ring with clean lines, available in multiple sizes.",jewellery,silver,Bugesera,9500,ART-023,True
+RW-0349,wood wall art Imigongo,"Imigongo-style wood wall art panel, traditional cow-dung painting technique.",home-decor,wood,Kayonza,29000,ART-038,True
+RW-0239,Agaseke peace basket banana leaf,"Traditional Rwandan agaseke peace basket woven from banana leaf, symbolising unity and reconciliation.",basketry,banana-leaf,Kayonza,34000,ART-074,True
+RW-0231,raffia placemat set of 4,"Set of four raffia placemats with coordinated colour patterns, handwoven.",basketry,raffia,Kicukiro,22000,ART-013,True
+RW-0392,banana bark incense burner,Artisan banana bark incense burner with ventilation slots and ash catcher tray.,home-decor,banana-bark,Nyamasheke,53500,ART-012,True
+RW-0329,clay wall art Imigongo,"Imigongo-style clay wall art panel, traditional cow-dung painting technique.",home-decor,clay,Gicumbi,53000,ART-026,True
+RW-0163,banana leaf wall hanging decorative,Decorative banana leaf wall hanging with geometric Imigongo-inspired patterns.,basketry,banana-leaf,Nyarugenge,11000,ART-056,True
+RW-0065,cotton headwrap igitenge,"Vibrant cotton headwrap (igitenge) in bold colours, a staple of Rwandan fashion.",apparel,cotton,Huye,44500,ART-029,True
+RW-0038,cotton skirt with embroidery,Flowing cotton skirt with hand-stitched embroidery from local artisans.,apparel,cotton,Gasabo,32000,ART-016,True
+RW-0295,wood anklet with charms,wood anklet featuring small charms inspired by Lake Kivu waves.,jewellery,wood,Nyagatare,30000,ART-006,True
+RW-0210,papyrus storage basket large,"Large papyrus storage basket with lid, handwoven by women's cooperative artisans.",basketry,papyrus,Nyarugenge,23000,ART-030,True
+RW-0394,ceramic photo frame,"Rustic ceramic photo frame with hand-carved border, fits 5×7 inch photo.",home-decor,ceramic,Bugesera,56000,ART-039,True
+RW-0211,sweetgrass wine bottle holder,"Unique sweetgrass wine bottle holder, a conversation starter and perfect gift.",basketry,sweetgrass,Nyagatare,2000,ART-077,True
+RW-0270,wood ring geometric,"Geometric wood ring with clean lines, available in multiple sizes.",jewellery,wood,Kayonza,27000,ART-074,True
+RW-0246,recycled metal bracelet layered,"Layered recycled metal bracelet set with adjustable clasp, great for stacking.",jewellery,recycled-metal,Rwamagana,23000,ART-040,True
+RW-0369,wood incense burner,Artisan wood incense burner with ventilation slots and ash catcher tray.,home-decor,wood,Gasabo,25500,ART-064,True
+RW-0368,clay incense burner,Artisan clay incense burner with ventilation slots and ash catcher tray.,home-decor,clay,Huye,23500,ART-050,True
+INZUKI-J001,Inzuki Designs beaded necklace handmade Rwanda,"Handmade statement beaded necklace by Inzuki Designs, crafted by a women's cooperative using traditional Rwandan weaving skills and vibrant natural-dyed beads.",jewellery,beads,Gasabo,18000,INZUKI,True
+INZUKI-J002,Inzuki Designs beaded earrings drop colourful,"Lightweight drop earrings handcrafted by Inzuki Designs artisans, featuring colourful beads and inspired by traditional Rwandan patterns. Empowers local women's cooperatives.",jewellery,beads,Gasabo,9500,INZUKI,True
+INZUKI-J003,Inzuki Designs woven bracelet accessories Rwanda,Woven bracelet accessory from Inzuki Designs combining traditional Rwandan weaving technique with vibrant colour palettes. Each piece is unique and handmade.,jewellery,beads,Gasabo,7000,INZUKI,True
+INZUKI-B001,Inzuki Designs agaseke peace basket woven,"Traditional Rwandan agaseke peace basket handwoven by Inzuki Designs cooperative artisans using sweetgrass and natural dyes. A symbol of unity, ideal as a gift.",basketry,sweetgrass,Gasabo,25000,INZUKI,True
+INZUKI-H001,Inzuki Designs woven wall hanging interior decor,"Decorative woven wall hanging by Inzuki Designs, blending traditional Rwandan geometric patterns with contemporary interior décor. Handmade by women artisans.",home-decor,banana-bark,Gasabo,32000,INZUKI,True
+UZURI-L001,UZURI K&Y eco leather sandals women Rwanda,"Eco-friendly leather sandals handmade in Rwanda by UZURI K&Y, using sustainably sourced leather. Open-toe design with adjustable straps and cushioned footbed.",leather,vegetable-tanned-leather,Nyarugenge,38000,UZURI,True
+UZURI-L002,UZURI K&Y sustainable leather boots handmade Kigali,"Sustainable leather boots crafted in Kigali by UZURI K&Y founders Kevine and Yvette. Vegetable-tanned leather, rubber sole, built to last. Rwanda-made footwear at its finest.",leather,vegetable-tanned-leather,Nyarugenge,72000,UZURI,True
+UZURI-L003,UZURI K&Y handmade leather shoes men Rwanda,"Men's leather shoes handmade in Rwanda by UZURI K&Y. Eco-conscious production, genuine leather upper, leather lining, durable rubber outsole. Smart casual style.",leather,cow-leather,Nyarugenge,58000,UZURI,True
+INZUKI-A001,Inzuki Designs kitenge headwrap African print,"Vibrant kitenge headwrap by Inzuki Designs, handcrafted in bold African prints. A staple of Rwandan fashion, made by women artisans empowered through the cooperative.",apparel,kitenge-fabric,Gasabo,6500,INZUKI,True
+SINAG-H001,Urwibutso artisanal chili sauce gift set Rwanda,"Gift set of three award-winning Rwandan chili sauces by Sina Gerard / Urwibutso Enterprise, supporting local farmers. Bold, authentic flavours — a uniquely Rwandan gift.",home-decor,banana-bark,Nyabihu,12000,SINAG,True
+SINAG-H002,Urwibutso banana wine gift Rwanda traditional,Traditionally fermented Rwandan banana wine (urwagwa) bottled by Urwibutso Enterprise. Presented in a handwoven banana-bark gift box. A true taste of Rwandan culture.,home-decor,banana-bark,Nyabihu,8500,SINAG,True
+SINAG-H003,Urwibutso fruit juice assorted gift Rwanda,"Assorted Rwandan fruit juice gift set by Urwibutso Enterprise, made from locally grown tropical fruits. Supports smallholder farmers across Rwanda. Presented in a woven tray.",home-decor,banana-bark,Nyabihu,9500,SINAG,True
+INTL-L001,Timberland cow leather boots waterproof,"Premium waterproof cow leather boots with rubber sole, built for all-day comfort and durability.",leather,cow-leather,,120000,,False
+INTL-L002,Dr Martens leather boots classic,"Iconic leather boots with air-cushioned sole and classic stitching, a wardrobe staple.",leather,cow-leather,,140000,,False
+INTL-L003,Coach leather handbag women premium,"Premium leather handbag with polished hardware, interior pockets, and signature lining.",leather,cow-leather,,250000,,False
+INTL-L004,Fossil leather wallet slim card holder,"Slim bifold leather wallet with multiple card slots, coin pocket, and hand-finished edges.",leather,cow-leather,,55000,,False
+INTL-L005,Adidas leather sandals comfort sport,"Leather sandals with cushioned footbed and adjustable straps, perfect for everyday wear.",leather,cow-leather,,75000,,False
+INTL-L006,Clarks leather sandals women cushioned,"Women's leather sandals with Clarks cushion plus technology, open-toe summer style.",leather,goat-leather,,90000,,False
+INTL-L007,Samsonite leather laptop sleeve protection,"Padded leather laptop sleeve with water-resistant lining, fits 13 to 15 inch laptops.",leather,cow-leather,,65000,,False
+INTL-L008,Moleskine leather journal cover classic,"Classic leather journal cover with elastic closure, bookmark ribbon, and inner pocket.",leather,cow-leather,,48000,,False
+INTL-A001,H&M cotton shirt men slim fit,"Men's slim-fit cotton shirt with button-down collar, available in multiple colours.",apparel,cotton,,18000,,False
+INTL-A002,Zara linen dress women summer,"Lightweight linen dress with V-neck and side pockets, ideal for warm weather.",apparel,linen,,32000,,False
+INTL-A003,Uniqlo cotton trousers ankle length,"Ankle-length cotton trousers with elastic waistband and relaxed fit, wrinkle-resistant.",apparel,cotton,,22000,,False
+INTL-A004,Gap cotton baby outfit set newborn,"Soft cotton baby outfit set including bodysuit and trousers, gentle on newborn skin.",apparel,cotton,,14000,,False
+INTL-A005,ASOS silk blouse women printed,"Flowy silk blouse with abstract print, relaxed fit and cuffed sleeves.",apparel,silk,,28000,,False
+INTL-B001,IKEA woven storage basket synthetic large,"Large synthetic woven storage basket with handles, stackable and easy to clean.",basketry,sisal,,12000,,False
+INTL-B002,Pottery Barn woven fruit bowl kitchen,"Hand-woven fruit bowl for kitchen countertop display, sturdy and decorative.",basketry,sweetgrass,,20000,,False
+INTL-B004,West Elm woven wine bottle holder,"Woven wine bottle holder in natural fibres, holds one standard bottle upright.",basketry,sisal,,11000,,False
+INTL-J001,Pandora silver necklace charm women,"Sterling silver necklace with signature charm, lobster clasp, and gift box included.",jewellery,silver,,85000,,False
+INTL-J002,Swarovski crystal earrings drop women,"Drop earrings with Swarovski crystals set in rhodium-plated brass, hypoallergenic posts.",jewellery,recycled-metal,,72000,,False
+INTL-J003,Tiffany brass ring simple band,"Simple polished brass band ring, unisex design available in all sizes.",jewellery,brass,,95000,,False
+INTL-J004,Alex and Ani silver bracelet layered,"Expandable wire silver bracelet with charm, designed for layering and stacking.",jewellery,silver,,38000,,False
+INTL-J005,Cufflinks Inc silver cufflinks formal,"Polished silver cufflinks for formal shirts, engraved geometric face, gift boxed.",jewellery,silver,,42000,,False
+INTL-J006,H Samuel silver brooch vintage floral,"Vintage-style floral brooch in sterling silver, pin fastening, gift wrapped.",jewellery,silver,,35000,,False
+INTL-H001,IKEA ceramic vase modern minimalist,"Minimalist ceramic vase in matte finish, suitable for dried or fresh flowers.",home-decor,ceramic,,8500,,False
+INTL-H002,Crate and Barrel glass serving bowl large,"Large clear glass serving bowl, dishwasher safe, elegant centrepiece for any table.",home-decor,recycled-glass,,16000,,False
+INTL-H003,Bamboo Zen coasters set 6 bamboo,"Set of 6 natural bamboo coasters with cork backing, heat and moisture resistant.",home-decor,bamboo,,7000,,False
+INTL-H004,West Elm ceramic candle holder set,"Set of three ceramic candle holders in graduated sizes, matte glazed finish.",home-decor,ceramic,,22000,,False
+INTL-H005,Umbra wood photo frame 5x7,"Modern wood photo frame for 5x7 inch prints, tabletop or wall mount, natural finish.",home-decor,wood,,11000,,False
+INTL-H006,IKEA bamboo lamp shade pendant,"Pendant lamp shade in natural bamboo weave, creates warm diffused light effect.",home-decor,bamboo,,19000,,False
