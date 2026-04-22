@@ -1,0 +1,121 @@
+query_id,query_text,language,global_best_match_sku
+Q-001,sandles leather,misspelled,RW-0160
+Q-002,cotton shirt,en,RW-0175
+Q-003,laptop sleeve leather,en,RW-0298
+Q-004,brass necklace,en,RW-0041
+Q-005,African print dress,en,RW-0071
+Q-006,wine holder basket,en,RW-0062
+Q-007,lether boots,misspelled,RW-0328
+Q-008,gift for him,en,RW-0268
+Q-009,vase en céramique,fr,RW-0183
+Q-010,panier tressé,fr,RW-0033
+Q-011,ceinture artisanale,fr,RW-0154
+Q-012,sandales en cuir,fr,RW-0256
+Q-013,urukundo necklace cadeau,code_switched,RW-0115
+Q-014,sous-verres bambou,fr,RW-0231
+Q-015,leather handbag,en,RW-0246
+Q-016,baskett woven,misspelled,RW-0100
+Q-017,bijoux traditionnels,fr,RW-0119
+Q-018,isuku ceramic vase,code_switched,RW-0147
+Q-019,ceramik vase,misspelled,RW-0313
+Q-020,leather wallet,en,RW-0154
+Q-021,jupe en tissu kitenge,fr,RW-0258
+Q-022,artisan belt,en,RW-0124
+Q-023,leater handbag,misspelled,RW-0059
+Q-024,kitenge fabric skirt,en,RW-0346
+Q-025,wedding gift Rwanda,en,RW-0175
+Q-026,porte-bougie ensemble,fr,RW-0211
+Q-027,igitenge headwrap nice,code_switched,RW-0298
+Q-028,cow horn ring,en,RW-0148
+Q-029,décoration murale africaine,fr,RW-0140
+Q-030,inkweto leather sandals,code_switched,RW-0009
+Q-031,afrikan print dress,misspelled,RW-0170
+Q-032,bamboo coasters,en,RW-0173
+Q-033,photo frame wooden,en,RW-0235
+Q-034,agaseke basket gift,code_switched,RW-0027
+Q-035,woven basket,en,RW-0245
+Q-036,umukenyero cotton dress,code_switched,RW-0385
+Q-037,baby clothes African,en,RW-0358
+Q-038,incense burner clay,en,RW-0229
+Q-039,beaded bracelet,en,RW-0324
+Q-040,cadeau en cuir pour femme,fr,RW-0383
+Q-041,candle holder set,en,RW-0067
+Q-042,bottes en cuir,fr,RW-0376
+Q-043,bracelet en perles,fr,RW-0155
+Q-044,panier de paix Rwanda,fr,RW-0389
+Q-045,Rwandan crafts,en,RW-0143
+Q-046,robe imprimé africain,fr,RW-0197
+Q-047,recycled glass lamp,en,RW-0035
+Q-048,peace basket Rwanda,en,RW-0071
+Q-049,cadre photo bois,fr,RW-0399
+Q-050,journal cover,en,RW-0108
+Q-051,handwoven scarf,en,RW-0371
+Q-052,lampe en verre recyclé,fr,RW-0227
+Q-053,leather sandals,en,RW-0202
+Q-054,wooden earrings,en,RW-0059
+Q-055,chemise coton,fr,RW-0381
+Q-056,umuhango jewellery set,code_switched,RW-0354
+Q-057,imigongo wall art décoration,code_switched,RW-0011
+Q-058,ceramic vase,en,RW-0076
+Q-059,amaboko bracelet brass,code_switched,RW-0385
+Q-060,silver cufflinks,en,RW-0223
+Q-061,écharpe tissée,fr,RW-0237
+Q-062,brooch traditional,en,RW-0231
+Q-063,gift for her,en,RW-0299
+Q-064,portefeuille cuir,fr,RW-0362
+Q-065,woven placemat set,en,RW-0331
+Q-066,artisanat rwandais,fr,RW-0216
+Q-067,headwrap African,en,RW-0385
+Q-068,collier en laiton,fr,RW-0372
+Q-069,handmade shoes,en,RW-0170
+Q-070,leather boots,en,RW-0306
+Q-071,Kigali fashion,en,RW-0318
+Q-072,Rawanda crafts,misspelled,RW-0050
+Q-073,bol en bois,fr,RW-0245
+Q-074,wall art African,en,RW-0354
+Q-075,traditional jewellery,en,RW-0324
+Q-076,fruit bowl woven,en,RW-0325
+Q-077,handmde wallet,misspelled,RW-0013
+Q-078,storage basket large,en,RW-0132
+Q-079,sac à main cuir,fr,RW-0224
+Q-080,leather boots nziza,code_switched,RW-0118
+Q-081,cadeau pour femme,fr,RW-0275
+Q-082,boucles d'oreilles bois,fr,RW-0007
+Q-083,jewlery traditional,misspelled,RW-0296
+Q-084,necklase brass,misspelled,RW-0003
+Q-085,home decoration African,en,RW-0072
+Q-086,baskett woven,misspelled,RW-0077
+Q-087,agaseke basket gift,code_switched,RW-0138
+Q-088,jupe en tissu kitenge,fr,RW-0240
+Q-089,leather sandals,en,RW-0079
+Q-090,storage basket large,en,RW-0189
+Q-091,bamboo coasters,en,RW-0397
+Q-092,ceinture artisanale,fr,RW-0054
+Q-093,robe imprimé africain,fr,RW-0335
+Q-094,lether boots,misspelled,RW-0298
+Q-095,headwrap African,en,RW-0341
+Q-096,cotton shirt,en,RW-0238
+Q-097,imigongo wall art décoration,code_switched,RW-0017
+Q-098,umuhango jewellery set,code_switched,RW-0040
+Q-099,fruit bowl woven,en,RW-0284
+Q-100,beaded bracelet,en,RW-0163
+Q-101,chemise coton,fr,RW-0377
+Q-102,leather wallet,en,RW-0079
+Q-103,inkweto leather sandals,code_switched,RW-0371
+Q-104,urukundo necklace cadeau,code_switched,RW-0026
+Q-105,umukenyero cotton dress,code_switched,RW-0115
+Q-106,sous-verres bambou,fr,RW-0271
+Q-107,isuku ceramic vase,code_switched,RW-0294
+Q-108,artisan belt,en,RW-0162
+Q-109,leather handbag,en,RW-0333
+Q-110,portefeuille cuir,fr,RW-0382
+Q-111,brooch traditional,en,RW-0184
+Q-112,leather boots,en,RW-0189
+Q-113,handmde wallet,misspelled,RW-0328
+Q-114,Kigali fashion,en,RW-0340
+Q-115,incense burner clay,en,RW-0177
+Q-116,panier de paix Rwanda,fr,RW-0231
+Q-117,baby clothes African,en,RW-0271
+Q-118,porte-bougie ensemble,fr,RW-0224
+Q-119,collier en laiton,fr,RW-0381
+Q-120,wall art African,en,RW-0341
