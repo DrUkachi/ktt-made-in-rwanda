@@ -144,7 +144,7 @@ See [`dispatcher.md`](dispatcher.md) for the full artifact:
 
 ## 4-Minute Video
 
-[VIDEO URL — insert before submission]
+[Watch my 4-minute pitch](https://drive.google.com/file/d/1zBdk06YJq82QvwClM4zNa-KO3NAauk12/view?usp=drive_link)
 
 ---
 

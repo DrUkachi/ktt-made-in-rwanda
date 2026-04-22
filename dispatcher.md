@@ -207,9 +207,9 @@ Monthly GMV per artisan: ~65,000 RWF (~$47)
 |--------|-------|
 | **Cost per artisan onboarded** | 11,781 RWF (~$8.65) |
 | **Cost per lead delivered** | ~33 RWF (~$0.02) *(7,200 lead-notifs over 12 weeks)* |
-| **Cost per sale attributed** | ~1,960 RWF (~$1.44) *(~120 sales expected over pilot)* |
-| **Break-even GMV** | 2,946,000 RWF (~$2,160) *(at 8% platform commission)* |
-| **Expected pilot GMV** | ~3,750,000 RWF (~$2755) *(20 artisans × 2.5 sales/month × 25,000 RWF × 3 months)* |
+| **Cost per sale attributed** | 1,960 RWF (~$1.44) *(~120 sales expected over pilot)* |
+| **Break-even GMV** | 2,946,000 RWF ($2,160) *(at 8% platform commission)* |
+| **Expected pilot GMV** | 3,750,000 RWF ($2755) *(20 artisans × 2.5 sales/month × 25,000 RWF × 3 months)* |
 | **Platform revenue at expected GMV** | 300,000 RWF (8% × 3,750,000)* |
 |**Surplus above break-even** | 64,320 RWF (300,000 − 235,680 =  ~$47) |
 | **Pilot GMV vs break-even** | **1.27× over break-even** |
