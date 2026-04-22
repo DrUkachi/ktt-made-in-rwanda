@@ -28,3 +28,6 @@ Thumbs.db
 # catalog.csv
 # queries.csv
 # click_log.csv
+
+# Generated embedding cache (rebuild with first run)
+.embedding_cache.npz
