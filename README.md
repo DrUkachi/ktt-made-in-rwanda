@@ -138,7 +138,7 @@ See [`dispatcher.md`](dispatcher.md) for the full artifact:
 - Weekly leads workflow for a leatherworker in Nyamirambo (no smartphone)
 - Three contact protocols: SMS digest, field-agent voice call, cooperative visit
 - SMS templates in English and Kinyarwanda (160-char, feature-phone safe)
-- 3-month pilot plan: 20 artisans, ~$173 total cost, 5.3× break-even GMV
+- 3-month pilot plan: 20 artisans, ~$173 total cost, 1.3× break-even GMV
 
 ---
 
